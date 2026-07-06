@@ -1,0 +1,6 @@
+{
+  "name": "AlluviBio UK",
+  "description": "Premium Research Peptides in the UK",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
