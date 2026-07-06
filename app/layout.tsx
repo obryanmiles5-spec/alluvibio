@@ -4,6 +4,9 @@ import { Inter } from 'next/font/google';
 import './globals.css';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import { CartProvider } from '@/context/CartContext';
+import CartDrawer from '@/components/CartDrawer';
+import WhatsAppChat from '@/components/WhatsAppChat';
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-sans' });
 
@@ -16,12 +19,17 @@ export default function RootLayout({children}: {children: ReactNode}) {
   return (
     <html lang="en" className={inter.variable}>
       <body className="font-sans min-h-screen flex flex-col bg-slate-50 text-slate-900" suppressHydrationWarning>
-        <Header />
-        <main className="flex-1 flex flex-col">
-          {children}
-        </main>
-        <Footer />
+        <CartProvider>
+          <Header />
+          <main className="flex-1 flex flex-col">
+            {children}
+          </main>
+          <Footer />
+          <CartDrawer />
+          <WhatsAppChat />
+        </CartProvider>
       </body>
     </html>
   );
 }
+

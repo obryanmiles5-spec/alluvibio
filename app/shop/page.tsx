@@ -12,6 +12,9 @@ export default function Shop() {
     { id: '7', name: 'Alluvi CJC-1295 / Ipamorelin 5mg/5mg', price: 65.00, badge: 'NEW', image: 'https://picsum.photos/seed/p7/400/400' },
     { id: '8', name: 'Alluvi Tesamorelin 2mg', price: 49.00, image: 'https://picsum.photos/seed/p8/400/400' },
     { id: '9', name: 'Alluvi Melanotan II 10mg', price: 35.00, image: 'https://picsum.photos/seed/p9/400/400' },
+    { id: '10', name: 'Alluvi MOTS-c 10mg', price: 59.00, image: 'https://picsum.photos/seed/p10/400/400' },
+    { id: '11', name: 'Alluvi Epitalon 10mg', price: 49.00, image: 'https://picsum.photos/seed/p11/400/400' },
+    { id: '12', name: 'Alluvi Tesofensine 500mcg', price: 79.00, badge: 'POPULAR', image: 'https://picsum.photos/seed/p12/400/400' },
   ];
 
   return (
@@ -79,7 +82,7 @@ export default function Shop() {
           <div className="flex flex-col sm:flex-row justify-between items-center bg-white p-4 rounded-xl shadow-sm border border-slate-200 mb-6 gap-4">
             <div className="flex items-center gap-2 text-sm text-slate-500">
               <Filter className="w-4 h-4" />
-              <span>Showing 1-9 of 24 results</span>
+              <span>Showing 1-12 of 12 results</span>
             </div>
             <div className="flex items-center gap-2 text-sm">
               <span className="text-slate-500 font-medium">Sort by:</span>
@@ -91,7 +94,7 @@ export default function Shop() {
           </div>
 
           {/* Grid */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
             {allProducts.map(product => (
               <ProductCard key={product.id} {...product} />
             ))}
