@@ -6,14 +6,14 @@ import Image from 'next/image';
 
 export default function Home() {
   const bestsellerProducts = [
-    { id: '54', name: 'Retatrutide', price: 145.00, badge: 'BEST SELLER', image: '/shop/Retatrutide.webp' },
-    { id: '66', name: 'Tirzepatide', price: 129.00, badge: '99.8% PURITY', image: '/shop/Tirzepatide.webp' },
-    { id: '57', name: 'Semaglutide', price: 65.00, stockStatus: 'Limited Stock', image: '/shop/Semaglutide.png' },
-    { id: '12', name: 'BPC 157', price: 45.00, image: '/shop/BPC 157.webp' },
-    { id: '62', name: 'TB500', price: 49.00, image: '/shop/TB500.jpg' },
-    { id: '33', name: 'Ipamorelin', price: 39.00, image: '/shop/Ipamorelin.webp' },
-    { id: '46', name: 'Melanotan II', price: 35.00, badge: 'POPULAR', image: '/shop/Melanotan II MT-2 (Melanotan 2 Acetate).webp' },
-    { id: '18', name: 'CJC 1295', price: 42.00, image: '/shop/CJC 1295 (without DAC).webp' },
+    { id: '54', name: 'Retatrutide', price: 145.00, badge: 'BEST SELLER', image: '/shop/retatrutide.webp' },
+    { id: '66', name: 'Tirzepatide', price: 129.00, badge: '99.8% PURITY', image: '/shop/tirzepatide.webp' },
+    { id: '57', name: 'Semaglutide', price: 65.00, stockStatus: 'Limited Stock', image: '/shop/semaglutide.png' },
+    { id: '12', name: 'BPC 157', price: 45.00, image: '/shop/bpc-157.webp' },
+    { id: '62', name: 'TB500', price: 49.00, image: '/shop/tb500.jpg' },
+    { id: '33', name: 'Ipamorelin', price: 39.00, image: '/shop/ipamorelin.webp' },
+    { id: '46', name: 'Melanotan II', price: 35.00, badge: 'POPULAR', image: '/shop/melanotan-ii-mt-2-melanotan-2-acetate-.webp' },
+    { id: '18', name: 'CJC 1295', price: 42.00, image: '/shop/cjc-1295-without-dac-.webp' },
   ];
 
   return (
