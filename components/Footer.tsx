@@ -56,7 +56,7 @@ export default function Footer() {
         <div className="flex items-center gap-2">
           <span className="opacity-70 uppercase tracking-widest text-blue-400 font-bold">For Research Purposes Only</span>
           <div className="h-4 w-[1px] bg-slate-700 hidden md:block"></div>
-          <span className="hidden md:inline">© {new Date().getFullYear()} Alluvi Bio UK</span>
+          <span className="hidden md:inline">© 2026 Alluvi Bio UK</span>
         </div>
         <div className="flex gap-4 items-center">
           <div className="h-4 w-8 bg-slate-800 rounded flex items-center justify-center text-[8px] font-bold tracking-tighter">VISA</div>

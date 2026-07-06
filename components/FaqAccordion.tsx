@@ -12,56 +12,106 @@ interface FaqItem {
 const QUALITY_FAQS: FaqItem[] = [
   {
     id: 1,
-    question: 'Is it legal to buy research peptides in the UK? (Top Google Search)',
-    answer: 'Yes. In the United Kingdom, it is completely legal to purchase and possess peptides for laboratory research, in-vitro testing, and scientific studies. Under the UK Medicines Act, these compounds are sold strictly for research purposes and must not be marketed or acquired for human consumption.'
+    question: 'Are peptides legal to buy in the UK?',
+    answer: 'Yes, it is perfectly legal to buy and possess peptides in the UK as long as they are strictly for in-vitro laboratory research and not intended for human consumption.'
   },
   {
     id: 2,
-    question: 'Why are peptides like Retatrutide viral on TikTok and Instagram? (Social Media Trend)',
-    answer: 'Social media platforms (especially TikTok and Instagram) have seen a viral surge in discussions surrounding novel metabolic research compounds like Retatrutide and BPC-157. However, many accounts promote unverified, low-purity sources through direct messages. Alluvi Bio strictly provides certified, 99%+ pure research compounds with fully verifiable HPLC/MS data to maintain absolute scientific integrity.'
+    question: 'Can you safely buy peptides on TikTok, Instagram, or Facebook?',
+    answer: 'While you may see peptides advertised on social media (TikTok, Instagram, Snapchat, Facebook groups), buying from unverified sellers on these platforms carries a high risk of receiving under-dosed, fake, or contaminated products. Always purchase from a verified UK laboratory supplier that provides independent HPLC and Mass Spectrometry testing.'
   },
   {
     id: 3,
-    question: 'What is the highest-searched peptide in the UK for weight research? (Google Suggestion)',
-    answer: 'Retatrutide is currently the highest-searched next-generation compound in the UK. Researchers study it as a triple receptor agonist targeting GLP-1, GIP, and glucagon receptors, exploring its unprecedented thermogenic and insulinotropic properties in comparative metabolic assays.'
+    question: 'How do I know if peptides bought online are real? (COA Checking)',
+    answer: 'The only way to verify authenticity is through a Certificate of Analysis (COA) from a third-party laboratory. You must look for an HPLC graph showing a single sharp peak (indicating purity) and a Mass Spectrometry (MS) result matching the peptide\'s theoretical molecular weight.'
   },
   {
     id: 4,
-    question: 'How do I avoid peptide scams on Snapchat, Facebook, or Reddit? (User Safety Query)',
-    answer: 'Many social media advertisements and direct-messaging groups promote counterfeit or diluted peptides. Authentic lab providers will always provide clear, batch-specific HPLC (High-Performance Liquid Chromatography) and Mass Spectrometry (MS) Certificates of Analysis (COAs). Never purchase from vendors who refuse to display or verify independent lab analysis.'
+    question: 'What is the purity level of Alluvi peptides?',
+    answer: 'We guarantee a minimum purity of 99% across all our research peptides. Every batch is rigorously tested, ensuring you never receive the low-grade compounds often found in social media marketplaces.'
   },
   {
     id: 5,
-    question: 'How do I reconstitute lyophilized peptides? (TikTok & YouTube Reconstitution Guide)',
-    answer: 'Lyophilized peptide powders must be reconstituted using a sterile diluent, such as sterile Bacteriostatic Water (0.9% Benzyl Alcohol) or physiological saline, depending on your laboratory testing protocol. Technicians use a scientific peptide reconstitution calculator to determine the precise liquid-to-powder ratio for required microgram concentrations.'
+    question: 'Is it safe to buy Retatrutide for research in the UK?',
+    answer: 'Yes, Retatrutide is available for legitimate academic and laboratory research. However, due to its popularity, it is frequently counterfeited. Always demand up-to-date batch testing and avoid peer-to-peer sellers.'
+  },
+  {
+    id: 6,
+    question: 'What does "lyophilized powder" mean?',
+    answer: 'Lyophilization is a freeze-drying process that removes moisture while preserving the biochemical structure. This is how high-quality peptides should be shipped to ensure maximum stability, unlike pre-mixed solutions often sold on social apps.'
+  },
+  {
+    id: 7,
+    question: 'What sterile diluent should be used for reconstitution?',
+    answer: 'For most laboratory assays, sterile Bacteriostatic Water (0.9% Benzyl Alcohol) is recommended. It prevents bacterial growth and extends the shelf life of the reconstituted solution up to 14-21 days in a refrigerator.'
+  },
+  {
+    id: 8,
+    question: 'Are these products intended for human or clinical consumption?',
+    answer: 'No. All Alluvi Bio products are sold strictly for in-vitro laboratory research and academic studies. They are not intended for human consumption, therapeutic, or diagnostic use.'
+  },
+  {
+    id: 9,
+    question: 'How should the peptides be stored upon receipt?',
+    answer: 'Lyophilized powders can be kept at room temperature for short transit times but should be stored at -20°C for long-term preservation. Once reconstituted, solutions must be kept refrigerated at 2°C to 8°C.'
+  },
+  {
+    id: 10,
+    question: 'What is the difference between your peptides and those on social media?',
+    answer: 'Our peptides are synthesized in ISO-certified laboratories and undergo strict third-party analysis. Social media vendors often lack quality control, proper cold-chain storage, and verifiable testing, compromising your research integrity.'
   }
 ];
 
 const LOGISTICS_FAQS: FaqItem[] = [
   {
-    id: 6,
-    question: 'How can I pay for peptides in the UK? (Google Search Query)',
-    answer: 'We support secure, hassle-free offline procurement options to accommodate research budgets: Direct Bank Transfer (BACS/CHAPS) and Accepted UK Gift Cards. No sensitive payment details are entered during online checkout. Once you submit your order draft, our sales team will send specific instructions for your preferred option.'
+    id: 11,
+    question: 'Where is the best place to buy peptides for research in the UK?',
+    answer: 'The best place is a dedicated, UK-based biochemical distributor like Alluvi Bio. Buying domestically ensures fast delivery without customs seizures or import duties that often occur when buying from overseas social media vendors.'
   },
   {
-    id: 7,
-    question: 'Is there a minimum order limit for UK peptide orders? (Procurement FAQ)',
-    answer: 'Yes, Alluvi Bio enforces a minimum order requirement of £120.00 on all laboratory purchases. This enables us to maintain wholesale pricing structures, conduct rigorous independent third-party batch testing, and provide complimentary temperature-controlled Next-Day Special Delivery.'
+    id: 12,
+    question: 'How long does UK shipping take?',
+    answer: 'We offer Free Next-Day Delivery on orders over £120. Orders processed before 1:00 PM GMT are shipped same-day via Tracked Next-Day courier services.'
   },
   {
-    id: 8,
-    question: 'How does the Bank Transfer and UK Gift Card payment process work?',
-    answer: 'After selecting your preferred payment method in your cart drawer and submitting your secure order draft, our representative will contact you via Email or WhatsApp. They will provide the BACS/CHAPS bank details or list of accepted UK gift card formats. Upon receipt and validation, your package is immediately dispatched.'
+    id: 13,
+    question: 'What payment methods do you accept?',
+    answer: 'For security and convenience, we accept Bank Transfer (BACS/CHAPS) and accepted UK Gift Cards. No payment details are captured on the website; our sales team will coordinate secure payment after checkout.'
   },
   {
-    id: 9,
-    question: 'Can I buy Retatrutide or BPC-157 with Next-Day UK Delivery?',
-    answer: 'Yes. All orders submitted and paid before 1:00 PM GMT are dispatched same-day from our UK fulfillment center. We provide free, fully tracked Royal Mail Special Delivery (or premium courier service) inside insulated thermal packaging to protect lyophilized structure.'
+    id: 14,
+    question: 'Is your shipping packaging discrete?',
+    answer: 'Yes. All shipments are packed in heavy-duty, plain unbranded cardboard boxes or padded mailers. There is no mention of peptides or medical terms on the exterior label.'
   },
   {
-    id: 10,
-    question: 'Do you accept corporate or university institutional procurement orders?',
-    answer: 'Absolutely. We regularly supply academic research departments, contract research organizations (CROs), and private analytical laboratories throughout the UK. We accommodate specialized institutional purchase orders and offer customized bulk invoicing via direct bank transfer.'
+    id: 15,
+    question: 'Why do you have a minimum order value?',
+    answer: 'To maintain our wholesale-pricing structure and ensure the highest quality logistics and cold-chain packaging, we enforce a minimum order threshold of £120.00.'
+  },
+  {
+    id: 16,
+    question: 'Do you ship internationally outside the UK?',
+    answer: 'Currently, our primary focus is supplying laboratories and research institutions directly within the United Kingdom to ensure reliable, domestic, customs-free fulfillment.'
+  },
+  {
+    id: 17,
+    question: 'How are temperature-sensitive products packaged?',
+    answer: 'We package all shipments in insulated bubbles with secondary protection to shield against extreme environmental fluctuations during transit, preserving the integrity of the peptide bonds.'
+  },
+  {
+    id: 18,
+    question: 'Can I track my shipment?',
+    answer: 'Yes. Once your order has been processed and dispatched, you will receive an automated email containing your tracking link and courier details for real-time delivery status.'
+  },
+  {
+    id: 19,
+    question: 'What is your return/refund policy?',
+    answer: 'Since our products are high-purity laboratory biochemicals, we cannot accept returns once a vial has left our secure logistics facility to ensure chain of custody. However, if a shipment is damaged in transit, we will dispatch a replacement.'
+  },
+  {
+    id: 20,
+    question: 'How do I contact customer procurement support?',
+    answer: 'You can reach our professional support team through the Contact form on our website, or by emailing us directly. We aim to respond to all technical and sales inquiries within 2 hours.'
   }
 ];
 

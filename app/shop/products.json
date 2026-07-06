@@ -1,0 +1,410 @@
+[
+  {
+    "id": "1",
+    "name": "5-AMINO-1MQ",
+    "price": 99,
+    "image": "/shop/5-AMINO-1MQ.jpg"
+  },
+  {
+    "id": "2",
+    "name": "ACE 031",
+    "price": 99,
+    "image": "/shop/ACE 031.avif"
+  },
+  {
+    "id": "3",
+    "name": "ADMAX",
+    "price": 99,
+    "image": "/shop/ADMAX.webp"
+  },
+  {
+    "id": "4",
+    "name": "AHK-CU",
+    "price": 99,
+    "image": "/shop/AHK-CU.webp"
+  },
+  {
+    "id": "5",
+    "name": "AOD9604",
+    "price": 99,
+    "image": "/shop/AOD9604.webp"
+  },
+  {
+    "id": "6",
+    "name": "ARA290 (Cibinetide)",
+    "price": 99,
+    "image": "/shop/ARA290 (Cibinetide).png"
+  },
+  {
+    "id": "7",
+    "name": "Acetic acid water",
+    "price": 99,
+    "image": "/shop/Acetic acid water.jpg"
+  },
+  {
+    "id": "8",
+    "name": "Adipotide_FTTP",
+    "price": 99,
+    "image": "/shop/Adipotide_FTTP.png"
+  },
+  {
+    "id": "9",
+    "name": "Aicar",
+    "price": 99,
+    "image": "/shop/Aicar.png"
+  },
+  {
+    "id": "10",
+    "name": "B12",
+    "price": 99,
+    "image": "/shop/B12.jpg"
+  },
+  {
+    "id": "11",
+    "name": "BPC 10mg+TB10mg",
+    "price": 99,
+    "image": "/shop/BPC 10mg+TB10mg.jpg"
+  },
+  {
+    "id": "12",
+    "name": "BPC 157",
+    "price": 99,
+    "image": "/shop/BPC 157.webp"
+  },
+  {
+    "id": "13",
+    "name": "BPC 5mg+TB5mg",
+    "price": 99,
+    "image": "/shop/BPC 5mg+TB5mg.avif"
+  },
+  {
+    "id": "14",
+    "name": "BPC-157",
+    "price": 99,
+    "image": "/shop/BPC-157.webp"
+  },
+  {
+    "id": "15",
+    "name": "Botulinum toxin",
+    "price": 99,
+    "image": "/shop/Botulinum toxin.jpg"
+  },
+  {
+    "id": "16",
+    "name": "CJC 1295 (without DAC) 10mg+IPA",
+    "price": 99,
+    "image": "/shop/CJC 1295 (without DAC) 10mg+IPA.avif"
+  },
+  {
+    "id": "17",
+    "name": "CJC 1295 (without DAC) 5mg+IPA",
+    "price": 99,
+    "image": "/shop/CJC 1295 (without DAC) 5mg+IPA.webp"
+  },
+  {
+    "id": "18",
+    "name": "CJC 1295 (without DAC)",
+    "price": 99,
+    "image": "/shop/CJC 1295 (without DAC).webp"
+  },
+  {
+    "id": "19",
+    "name": "CJC1295 with DAC",
+    "price": 99,
+    "image": "/shop/CJC1295 with DAC.webp"
+  },
+  {
+    "id": "20",
+    "name": "Cagrilintide",
+    "price": 99,
+    "image": "/shop/Cagrilintide.webp"
+  },
+  {
+    "id": "21",
+    "name": "Cartalax",
+    "price": 99,
+    "image": "/shop/Cartalax.png"
+  },
+  {
+    "id": "22",
+    "name": "DSIP",
+    "price": 99,
+    "image": "/shop/DSIP.jpg"
+  },
+  {
+    "id": "23",
+    "name": "EPO",
+    "price": 99,
+    "image": "/shop/EPO.png"
+  },
+  {
+    "id": "24",
+    "name": "Epithalon",
+    "price": 99,
+    "image": "/shop/Epithalon.webp"
+  },
+  {
+    "id": "25",
+    "name": "GHK-Cu",
+    "price": 99,
+    "image": "/shop/GHK-Cu.webp"
+  },
+  {
+    "id": "26",
+    "name": "GHRP-6",
+    "price": 99,
+    "image": "/shop/GHRP-6.webp"
+  },
+  {
+    "id": "27",
+    "name": "GLOW (BPC157 10mg+GHK-CU 50mg+TB500 10mg)",
+    "price": 99,
+    "image": "/shop/GLOW (BPC157 10mg+GHK-CU 50mg+TB500 10mg).jpg"
+  },
+  {
+    "id": "28",
+    "name": "GLOW (BPC157 5mg+GHK-CU 35mg+TB500 10mg)",
+    "price": 99,
+    "image": "/shop/GLOW (BPC157 5mg+GHK-CU 35mg+TB500 10mg).png"
+  },
+  {
+    "id": "29",
+    "name": "Glutathione",
+    "price": 99,
+    "image": "/shop/Glutathione.avif"
+  },
+  {
+    "id": "30",
+    "name": "HCG",
+    "price": 99,
+    "image": "/shop/HCG.jpg"
+  },
+  {
+    "id": "31",
+    "name": "HGH Fragment 176-191",
+    "price": 99,
+    "image": "/shop/HGH Fragment 176-191.avif"
+  },
+  {
+    "id": "32",
+    "name": "IGF-1 LR3",
+    "price": 99,
+    "image": "/shop/IGF-1 LR3.jpg"
+  },
+  {
+    "id": "33",
+    "name": "Ipamorelin",
+    "price": 99,
+    "image": "/shop/Ipamorelin.webp"
+  },
+  {
+    "id": "34",
+    "name": "KLOW (BPC157 10mg+GHK-CU 50mg+TB500 10mg+KPV 10mg)",
+    "price": 99,
+    "image": "/shop/KLOW (BPC157 10mg+GHK-CU 50mg+TB500 10mg+KPV 10mg).jpg"
+  },
+  {
+    "id": "35",
+    "name": "KPV",
+    "price": 99,
+    "image": "/shop/KPV.webp"
+  },
+  {
+    "id": "36",
+    "name": "Kisspeptin-10",
+    "price": 99,
+    "image": "/shop/Kisspeptin-10.jpg"
+  },
+  {
+    "id": "37",
+    "name": "L-carnitine",
+    "price": 99,
+    "image": "/shop/L-carnitine.webp"
+  },
+  {
+    "id": "38",
+    "name": "LL37",
+    "price": 99,
+    "image": "/shop/LL37.jpg"
+  },
+  {
+    "id": "39",
+    "name": "Lemon Bottle",
+    "price": 99,
+    "image": "/shop/Lemon Bottle.webp"
+  },
+  {
+    "id": "40",
+    "name": "Lipo-c Compound",
+    "price": 99,
+    "image": "/shop/Lipo-c Compound.webp"
+  },
+  {
+    "id": "41",
+    "name": "MIC (Lipo C with B12)",
+    "price": 99,
+    "image": "/shop/MIC (Lipo C with B12).webp"
+  },
+  {
+    "id": "42",
+    "name": "MOTS-c",
+    "price": 99,
+    "image": "/shop/MOTS-c.webp"
+  },
+  {
+    "id": "43",
+    "name": "MT-1 (Melanotan I)",
+    "price": 99,
+    "image": "/shop/MT-1 (Melanotan I).png"
+  },
+  {
+    "id": "44",
+    "name": "Matrixyl",
+    "price": 99,
+    "image": "/shop/Matrixyl.jpg"
+  },
+  {
+    "id": "45",
+    "name": "Mazdutide",
+    "price": 99,
+    "image": "/shop/Mazdutide.jpg"
+  },
+  {
+    "id": "46",
+    "name": "Melanotan II MT-2 (Melanotan 2 Acetate)",
+    "price": 99,
+    "image": "/shop/Melanotan II MT-2 (Melanotan 2 Acetate).webp"
+  },
+  {
+    "id": "47",
+    "name": "Melatonin",
+    "price": 99,
+    "image": "/shop/Melatonin.webp"
+  },
+  {
+    "id": "48",
+    "name": "NAD+",
+    "price": 99,
+    "image": "/shop/NAD+.webp"
+  },
+  {
+    "id": "49",
+    "name": "Other 2S5",
+    "price": 99,
+    "image": "/shop/Other 2S5.jpg"
+  },
+  {
+    "id": "50",
+    "name": "Other MS10",
+    "price": 99,
+    "image": "/shop/Other MS10.webp"
+  },
+  {
+    "id": "51",
+    "name": "Oxytocin Acetate",
+    "price": 99,
+    "image": "/shop/Oxytocin Acetate.png"
+  },
+  {
+    "id": "52",
+    "name": "PT141",
+    "price": 99,
+    "image": "/shop/PT141.webp"
+  },
+  {
+    "id": "53",
+    "name": "Pinealon",
+    "price": 99,
+    "image": "/shop/Pinealon.jpg"
+  },
+  {
+    "id": "54",
+    "name": "Retatrutide",
+    "price": 99,
+    "image": "/shop/Retatrutide.webp"
+  },
+  {
+    "id": "55",
+    "name": "SS-31",
+    "price": 99,
+    "image": "/shop/SS-31.jpg"
+  },
+  {
+    "id": "56",
+    "name": "Selank",
+    "price": 99,
+    "image": "/shop/Selank.jpg"
+  },
+  {
+    "id": "57",
+    "name": "Semaglutide",
+    "price": 99,
+    "image": "/shop/Semaglutide.png"
+  },
+  {
+    "id": "58",
+    "name": "Semax",
+    "price": 99,
+    "image": "/shop/Semax.webp"
+  },
+  {
+    "id": "59",
+    "name": "Sermorelin Acetate",
+    "price": 99,
+    "image": "/shop/Sermorelin Acetate.jpg"
+  },
+  {
+    "id": "60",
+    "name": "Snap8",
+    "price": 99,
+    "image": "/shop/Snap8.jpg"
+  },
+  {
+    "id": "61",
+    "name": "Survodutide",
+    "price": 99,
+    "image": "/shop/Survodutide.jpg"
+  },
+  {
+    "id": "62",
+    "name": "TB500",
+    "price": 99,
+    "image": "/shop/TB500.jpg"
+  },
+  {
+    "id": "63",
+    "name": "Tesamorelin",
+    "price": 99,
+    "image": "/shop/Tesamorelin.jpg"
+  },
+  {
+    "id": "64",
+    "name": "Thymalin_Thymulin",
+    "price": 99,
+    "image": "/shop/Thymalin_Thymulin.png"
+  },
+  {
+    "id": "65",
+    "name": "Thymosin alpha 1",
+    "price": 99,
+    "image": "/shop/Thymosin alpha 1.jpg"
+  },
+  {
+    "id": "66",
+    "name": "Tirzepatide",
+    "price": 99,
+    "image": "/shop/Tirzepatide.webp"
+  },
+  {
+    "id": "67",
+    "name": "VIP",
+    "price": 99,
+    "image": "/shop/VIP.webp"
+  },
+  {
+    "id": "68",
+    "name": "slupp332",
+    "price": 99,
+    "image": "/shop/slupp332.jpg"
+  }
+]

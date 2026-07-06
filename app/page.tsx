@@ -6,14 +6,14 @@ import Image from 'next/image';
 
 export default function Home() {
   const bestsellerProducts = [
-    { id: '1', name: 'Alluvi Retatrutide 10mg', price: 145.00, badge: 'BEST SELLER', image: 'https://picsum.photos/seed/ret/400/400' },
-    { id: '2', name: 'Alluvi Tirzepatide 10mg', price: 129.00, badge: '99.8% PURITY', image: 'https://picsum.photos/seed/tir10/400/400' },
-    { id: '3', name: 'Alluvi Semaglutide 5mg', price: 65.00, stockStatus: 'Limited Stock', image: 'https://picsum.photos/seed/sema/400/400' },
-    { id: '4', name: 'Alluvi BPC-157 5mg', price: 45.00, image: 'https://picsum.photos/seed/bpc/400/400' },
-    { id: '5', name: 'Alluvi TB-500 5mg', price: 49.00, image: 'https://picsum.photos/seed/tb500/400/400' },
-    { id: '6', name: 'Alluvi Ipamorelin 5mg', price: 39.00, image: 'https://picsum.photos/seed/ipa/400/400' },
-    { id: '7', name: 'Alluvi Melanotan II 10mg', price: 35.00, badge: 'POPULAR', image: 'https://picsum.photos/seed/mt2/400/400' },
-    { id: '8', name: 'Alluvi CJC-1295 No DAC 5mg', price: 42.00, image: 'https://picsum.photos/seed/cjc/400/400' },
+    { id: '54', name: 'Retatrutide', price: 145.00, badge: 'BEST SELLER', image: '/shop/Retatrutide.webp' },
+    { id: '66', name: 'Tirzepatide', price: 129.00, badge: '99.8% PURITY', image: '/shop/Tirzepatide.webp' },
+    { id: '57', name: 'Semaglutide', price: 65.00, stockStatus: 'Limited Stock', image: '/shop/Semaglutide.png' },
+    { id: '12', name: 'BPC 157', price: 45.00, image: '/shop/BPC 157.webp' },
+    { id: '62', name: 'TB500', price: 49.00, image: '/shop/TB500.jpg' },
+    { id: '33', name: 'Ipamorelin', price: 39.00, image: '/shop/Ipamorelin.webp' },
+    { id: '46', name: 'Melanotan II', price: 35.00, badge: 'POPULAR', image: '/shop/Melanotan II MT-2 (Melanotan 2 Acetate).webp' },
+    { id: '18', name: 'CJC 1295', price: 42.00, image: '/shop/CJC 1295 (without DAC).webp' },
   ];
 
   return (

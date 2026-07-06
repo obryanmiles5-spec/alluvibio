@@ -25,8 +25,9 @@ export default function CartDrawer() {
     phone: '',
     address: '',
     notes: '',
-    paymentMethod: 'bank' as 'bank' | 'gift'
+    paymentMethod: 'Bank Transfer'
   });
+
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [checkoutSuccess, setCheckoutSuccess] = useState(false);
 
@@ -49,8 +50,7 @@ export default function CartDrawer() {
     text += `\n=========================\n`;
     text += `*SUBTOTAL:* £${cartSubtotal.toFixed(2)}\n`;
     text += `*SHIPPING:* FREE\n`;
-    text += `*TOTAL ESTIMATE:* £${cartSubtotal.toFixed(2)}\n`;
-    text += `*PAYMENT CHOICE:* ${formData.paymentMethod === 'bank' ? 'Bank Transfer (BACS/CHAPS)' : 'Accepted UK Gift Cards'}\n\n`;
+    text += `*TOTAL ESTIMATE:* £${cartSubtotal.toFixed(2)}\n\n`;
     
     if (formData.name) {
       text += `*CUSTOMER DETAILS:*\n`;
@@ -58,6 +58,7 @@ export default function CartDrawer() {
       text += `• Email: ${formData.email}\n`;
       text += `• Phone: ${formData.phone}\n`;
       text += `• Shipping Address: ${formData.address}\n`;
+      text += `• Payment Method: ${formData.paymentMethod}\n`;
       if (formData.notes) {
         text += `• Research Notes: ${formData.notes}\n`;
       }
@@ -162,10 +163,10 @@ export default function CartDrawer() {
                   </div>
                   <h3 className="text-lg font-extrabold text-slate-800 mb-2">Order Request Submitted!</h3>
                   <p className="text-sm text-slate-500 leading-relaxed max-w-xs">
-                    Your order request of <span className="font-bold text-slate-800">£{cartSubtotal.toFixed(2)}</span> has been registered for payment via <span className="font-extrabold text-blue-600">{formData.paymentMethod === 'bank' ? 'Bank Transfer' : 'Accepted UK Gift Cards'}</span>.
+                    Your order request of <span className="font-bold text-slate-800">£{cartSubtotal.toFixed(2)}</span> has been registered. 
                     {checkoutMode === 'whatsapp' 
-                      ? ' We are waiting for you to complete the conversation on WhatsApp. Our representative will share the secure payment coordinates there.' 
-                      : ' A sales representative will email you within 1 hour with secure payment instructions and coordinates.'}
+                      ? ' We are waiting for you to complete the conversation on WhatsApp.' 
+                      : ' A sales representative will email you within 1 hour with secure payment instructions.'}
                   </p>
                   <span className="text-xs text-blue-500 font-semibold mt-6 animate-pulse">Clearing cart and closing...</span>
                 </div>
@@ -182,7 +183,9 @@ export default function CartDrawer() {
                     {checkoutMode === 'whatsapp' ? 'WhatsApp Order Details' : 'Email Order Request'}
                   </h3>
                   <p className="text-xs text-slate-500 leading-relaxed mb-4">
-                    Please provide your contact and shipping information below to submit your secure purchase draft.
+                    Please provide your contact and shipping information below to submit your secure purchase draft. <br/><br/>
+                    <strong>Payment methods:</strong> Bank Transfer, Accepted UK gift cards. <br/>
+                    <em>No payment details are integrated here. After checkout, our sales team will provide payment details based on the option you choose.</em>
                   </p>
 
                   <form onSubmit={checkoutMode === 'whatsapp' ? handleWhatsAppCheckoutSubmit : handleEmailCheckoutSubmit} className="space-y-3.5">
@@ -240,6 +243,20 @@ export default function CartDrawer() {
                     </div>
 
                     <div>
+                      <label className="block text-xs font-bold text-slate-700 uppercase tracking-wide mb-1">Payment Method</label>
+                      <select
+                        name="paymentMethod"
+                        required
+                        value={formData.paymentMethod}
+                        onChange={handleInputChange}
+                        className="w-full bg-slate-50 border border-slate-200 rounded-lg px-3.5 py-2 text-sm focus:outline-none focus:border-blue-500 text-slate-800"
+                      >
+                        <option value="Bank Transfer">Bank Transfer</option>
+                        <option value="Accepted UK Gift Cards">Accepted UK Gift Cards</option>
+                      </select>
+                    </div>
+
+                    <div>
                       <label className="block text-xs font-bold text-slate-700 uppercase tracking-wide mb-1">Research Notes (Optional)</label>
                       <textarea
                         name="notes"
@@ -249,22 +266,6 @@ export default function CartDrawer() {
                         placeholder="e.g. For in-vitro cell assay use only"
                         className="w-full bg-slate-50 border border-slate-200 rounded-lg px-3.5 py-2 text-sm focus:outline-none focus:border-blue-500 text-slate-800 resize-none"
                       />
-                    </div>
-
-                    <div>
-                      <label className="block text-xs font-bold text-slate-700 uppercase tracking-wide mb-1">Preferred Payment Method</label>
-                      <select
-                        name="paymentMethod"
-                        value={formData.paymentMethod}
-                        onChange={handleInputChange}
-                        className="w-full bg-slate-50 border border-slate-200 rounded-lg px-3.5 py-2 text-sm focus:outline-none focus:border-blue-500 text-slate-800"
-                      >
-                        <option value="bank">Bank Transfer (BACS/CHAPS)</option>
-                        <option value="gift">Accepted UK Gift Cards</option>
-                      </select>
-                      <p className="text-[10px] text-slate-500 mt-1 leading-relaxed">
-                        ℹ️ No immediate payment detail is processed on-site. Our sales team will supply custom payment details based on your chosen option after validation.
-                      </p>
                     </div>
 
                     <div className="bg-slate-50 border border-slate-100 rounded-xl p-3 flex gap-2 items-start text-[11px] text-slate-500 leading-relaxed">

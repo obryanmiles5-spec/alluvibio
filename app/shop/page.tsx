@@ -1,21 +1,25 @@
+"use client";
+
+import { useState } from 'react';
 import ProductCard from '@/components/ProductCard';
-import { Filter, ChevronDown, Search } from 'lucide-react';
+import { Filter, ChevronDown, Search, ChevronLeft, ChevronRight } from 'lucide-react';
+import products from './products.json';
 
 export default function Shop() {
-  const allProducts = [
-    { id: '1', name: 'Alluvi Retatrutide 10mg', price: 145.00, badge: 'BEST SELLER', image: 'https://picsum.photos/seed/p1/400/400' },
-    { id: '2', name: 'Alluvi Tirzepatide 5mg', price: 89.00, stockStatus: 'Limited Stock', image: 'https://picsum.photos/seed/p2/400/400' },
-    { id: '3', name: 'Alluvi Tirzepatide 10mg', price: 135.00, image: 'https://picsum.photos/seed/p3/400/400' },
-    { id: '4', name: 'Alluvi Semaglutide 5mg', price: 75.00, image: 'https://picsum.photos/seed/p4/400/400' },
-    { id: '5', name: 'Alluvi BPC-157 5mg', price: 45.00, image: 'https://picsum.photos/seed/p5/400/400' },
-    { id: '6', name: 'Alluvi TB-500 5mg', price: 55.00, image: 'https://picsum.photos/seed/p6/400/400' },
-    { id: '7', name: 'Alluvi CJC-1295 / Ipamorelin 5mg/5mg', price: 65.00, badge: 'NEW', image: 'https://picsum.photos/seed/p7/400/400' },
-    { id: '8', name: 'Alluvi Tesamorelin 2mg', price: 49.00, image: 'https://picsum.photos/seed/p8/400/400' },
-    { id: '9', name: 'Alluvi Melanotan II 10mg', price: 35.00, image: 'https://picsum.photos/seed/p9/400/400' },
-    { id: '10', name: 'Alluvi MOTS-c 10mg', price: 59.00, image: 'https://picsum.photos/seed/p10/400/400' },
-    { id: '11', name: 'Alluvi Epitalon 10mg', price: 49.00, image: 'https://picsum.photos/seed/p11/400/400' },
-    { id: '12', name: 'Alluvi Tesofensine 500mcg', price: 79.00, badge: 'POPULAR', image: 'https://picsum.photos/seed/p12/400/400' },
-  ];
+  const [currentPage, setCurrentPage] = useState(1);
+  const productsPerPage = 12;
+  
+  const allProducts = products;
+  const totalPages = Math.ceil(allProducts.length / productsPerPage);
+  
+  const startIndex = (currentPage - 1) * productsPerPage;
+  const endIndex = startIndex + productsPerPage;
+  const currentProducts = allProducts.slice(startIndex, endIndex);
+
+  const handlePageChange = (page: number) => {
+    setCurrentPage(page);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
 
   return (
     <div className="bg-slate-50 min-h-screen pb-20">
@@ -43,35 +47,9 @@ export default function Shop() {
               <ul className="space-y-2 text-sm text-slate-600">
                 <li className="flex justify-between items-center cursor-pointer hover:text-blue-600 font-bold text-blue-600">
                   <span>All Peptides</span>
-                  <span className="bg-slate-100 text-slate-500 px-2 py-0.5 rounded-full text-[10px]">24</span>
-                </li>
-                <li className="flex justify-between items-center cursor-pointer hover:text-blue-600">
-                  <span>GLP-1 Agonists</span>
-                  <span className="bg-slate-100 text-slate-500 px-2 py-0.5 rounded-full text-[10px]">8</span>
-                </li>
-                <li className="flex justify-between items-center cursor-pointer hover:text-blue-600">
-                  <span>Growth Hormone</span>
-                  <span className="bg-slate-100 text-slate-500 px-2 py-0.5 rounded-full text-[10px]">12</span>
-                </li>
-                <li className="flex justify-between items-center cursor-pointer hover:text-blue-600">
-                  <span>Healing / Recovery</span>
-                  <span className="bg-slate-100 text-slate-500 px-2 py-0.5 rounded-full text-[10px]">4</span>
+                  <span className="bg-slate-100 text-slate-500 px-2 py-0.5 rounded-full text-[10px]">{allProducts.length}</span>
                 </li>
               </ul>
-            </div>
-            
-            <div>
-              <h3 className="font-bold text-slate-800 text-sm uppercase tracking-wider mb-3">Availability</h3>
-              <div className="space-y-2 text-sm">
-                <label className="flex items-center gap-2 cursor-pointer text-slate-600">
-                  <input type="checkbox" className="rounded border-slate-300 text-blue-600 focus:ring-blue-500" defaultChecked />
-                  <span>In Stock</span>
-                </label>
-                <label className="flex items-center gap-2 cursor-pointer text-slate-600">
-                  <input type="checkbox" className="rounded border-slate-300 text-blue-600 focus:ring-blue-500" />
-                  <span>Out of Stock</span>
-                </label>
-              </div>
             </div>
           </div>
         </aside>
@@ -82,7 +60,7 @@ export default function Shop() {
           <div className="flex flex-col sm:flex-row justify-between items-center bg-white p-4 rounded-xl shadow-sm border border-slate-200 mb-6 gap-4">
             <div className="flex items-center gap-2 text-sm text-slate-500">
               <Filter className="w-4 h-4" />
-              <span>Showing 1-12 of 12 results</span>
+              <span>Showing {startIndex + 1}-{Math.min(endIndex, allProducts.length)} of {allProducts.length} results</span>
             </div>
             <div className="flex items-center gap-2 text-sm">
               <span className="text-slate-500 font-medium">Sort by:</span>
@@ -94,30 +72,46 @@ export default function Shop() {
           </div>
 
           {/* Grid */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-            {allProducts.map(product => (
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            {currentProducts.map(product => (
               <ProductCard key={product.id} {...product} />
             ))}
           </div>
 
           {/* Pagination */}
-          <div className="mt-12 flex justify-center gap-2">
-            <button className="w-10 h-10 rounded-lg border border-slate-200 flex items-center justify-center text-slate-500 hover:bg-slate-50 hover:text-blue-600 font-bold transition-colors">
-              &lt;
-            </button>
-            <button className="w-10 h-10 rounded-lg bg-blue-600 text-white flex items-center justify-center font-bold shadow-md">
-              1
-            </button>
-            <button className="w-10 h-10 rounded-lg border border-slate-200 flex items-center justify-center text-slate-500 hover:bg-slate-50 hover:text-blue-600 font-bold transition-colors">
-              2
-            </button>
-            <button className="w-10 h-10 rounded-lg border border-slate-200 flex items-center justify-center text-slate-500 hover:bg-slate-50 hover:text-blue-600 font-bold transition-colors">
-              3
-            </button>
-            <button className="w-10 h-10 rounded-lg border border-slate-200 flex items-center justify-center text-slate-500 hover:bg-slate-50 hover:text-blue-600 font-bold transition-colors">
-              &gt;
-            </button>
-          </div>
+          {totalPages > 1 && (
+            <div className="mt-12 flex justify-center gap-2">
+              <button 
+                onClick={() => handlePageChange(Math.max(1, currentPage - 1))}
+                disabled={currentPage === 1}
+                className="w-10 h-10 rounded-lg border border-slate-200 flex items-center justify-center text-slate-500 hover:bg-slate-50 hover:text-blue-600 font-bold transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+              >
+                <ChevronLeft className="w-5 h-5" />
+              </button>
+              
+              {Array.from({ length: totalPages }).map((_, i) => (
+                <button 
+                  key={i}
+                  onClick={() => handlePageChange(i + 1)}
+                  className={`w-10 h-10 rounded-lg flex items-center justify-center font-bold shadow-sm transition-colors ${
+                    currentPage === i + 1 
+                      ? 'bg-blue-600 text-white' 
+                      : 'border border-slate-200 text-slate-500 hover:bg-slate-50 hover:text-blue-600'
+                  }`}
+                >
+                  {i + 1}
+                </button>
+              ))}
+              
+              <button 
+                onClick={() => handlePageChange(Math.min(totalPages, currentPage + 1))}
+                disabled={currentPage === totalPages}
+                className="w-10 h-10 rounded-lg border border-slate-200 flex items-center justify-center text-slate-500 hover:bg-slate-50 hover:text-blue-600 font-bold transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+              >
+                <ChevronRight className="w-5 h-5" />
+              </button>
+            </div>
+          )}
         </div>
       </div>
     </div>
