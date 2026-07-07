@@ -1,7 +1,7 @@
 'use client';
-
 import { ShoppingCart } from 'lucide-react';
 import Image from 'next/image';
+import Link from 'next/link';
 import { useCart } from '@/context/CartContext';
 
 interface ProductCardProps {
@@ -31,7 +31,7 @@ export default function ProductCard({
   };
 
   return (
-    <div className="group cursor-pointer" onClick={handleAddToCart}>
+    <Link href={`/shop/${id}`} className="group cursor-pointer block">
       <div className="relative h-48 md:h-56 bg-slate-100 rounded-2xl overflow-hidden mb-3">
         {badge && (
           <div className="absolute top-3 right-3 bg-blue-600 text-white text-[9px] font-bold px-2 py-1 rounded z-10 shadow-sm">
@@ -63,6 +63,7 @@ export default function ProductCard({
             </div>
           </div>
         </div>
+
         <div className="absolute inset-0 bg-blue-900/0 group-hover:bg-blue-900/10 transition-all flex items-center justify-center opacity-0 group-hover:opacity-100 z-20 backdrop-blur-[2px]">
           <button 
             onClick={handleAddToCart}
@@ -72,11 +73,13 @@ export default function ProductCard({
           </button>
         </div>
       </div>
+
       <div className="flex flex-col px-1">
         <span className={`text-[10px] font-bold uppercase ${stockStatus === 'In Stock' ? 'text-green-500' : 'text-orange-500'}`}>
           {stockStatus}
         </span>
         <h3 className="text-sm font-bold text-slate-800 truncate mt-0.5" title={name}>{name}</h3>
+        
         <div className="flex items-center justify-between mt-1.5">
           <span className="text-blue-600 font-bold">£{price.toFixed(2)}</span>
           <button 
@@ -87,7 +90,6 @@ export default function ProductCard({
           </button>
         </div>
       </div>
-    </div>
-
+    </Link>
   );
 }

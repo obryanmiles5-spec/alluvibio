@@ -3,18 +3,48 @@
 import { useState } from 'react';
 import ProductCard from '@/components/ProductCard';
 import { Filter, ChevronDown, Search, ChevronLeft, ChevronRight } from 'lucide-react';
-import products from './products.json';
+import productsData from './products.json';
+
+interface Product {
+  id: string;
+  name: string;
+  price: number;
+  image: string;
+  badge?: string;
+  stockStatus?: string;
+  category?: string;
+}
+
+const products: Product[] = productsData as Product[];
 
 export default function Shop() {
   const [currentPage, setCurrentPage] = useState(1);
+  const [selectedCategory, setSelectedCategory] = useState<string>('All');
+  const [searchTerm, setSearchTerm] = useState('');
   const productsPerPage = 12;
   
-  const allProducts = products;
+    const categories = ['All', ...Array.from(new Set(products.map(p => p.category || 'Peptides')))];
+  const filteredProducts = products.filter(p => {
+    const matchesCategory = selectedCategory === 'All' || p.category === selectedCategory;
+    const matchesSearch = p.name.toLowerCase().includes(searchTerm.toLowerCase());
+    return matchesCategory && matchesSearch;
+  });
+  const allProducts = filteredProducts;
   const totalPages = Math.ceil(allProducts.length / productsPerPage);
   
   const startIndex = (currentPage - 1) * productsPerPage;
   const endIndex = startIndex + productsPerPage;
   const currentProducts = allProducts.slice(startIndex, endIndex);
+
+    const handleCategorySelect = (category: string) => {
+    setSelectedCategory(category);
+    setCurrentPage(1);
+  };
+
+  const handleSearchChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    setSearchTerm(e.target.value);
+    setCurrentPage(1);
+  };
 
   const handlePageChange = (page: number) => {
     setCurrentPage(page);
@@ -38,17 +68,22 @@ export default function Shop() {
         <aside className="w-full md:w-64 flex-shrink-0">
           <div className="bg-white rounded-xl shadow-sm border border-slate-200 p-5 mb-6">
             <div className="relative mb-6">
-              <input type="text" placeholder="Search peptides..." className="w-full bg-slate-50 border border-slate-200 rounded-lg pl-10 pr-4 py-2 text-sm focus:outline-none focus:border-blue-500" />
+              <input type="text" placeholder="Search peptides..." value={searchTerm} onChange={handleSearchChange} className="w-full bg-slate-50 border border-slate-200 rounded-lg pl-10 pr-4 py-2 text-sm focus:outline-none focus:border-blue-500" />
               <Search className="w-4 h-4 text-slate-400 absolute left-3 top-3" />
             </div>
 
             <div className="mb-6">
               <h3 className="font-bold text-slate-800 text-sm uppercase tracking-wider mb-3">Categories</h3>
-              <ul className="space-y-2 text-sm text-slate-600">
-                <li className="flex justify-between items-center cursor-pointer hover:text-blue-600 font-bold text-blue-600">
-                  <span>All Peptides</span>
-                  <span className="bg-slate-100 text-slate-500 px-2 py-0.5 rounded-full text-[10px]">{allProducts.length}</span>
-                </li>
+                            <ul className="space-y-2 text-sm text-slate-600">
+                {categories.map(cat => {
+                  const count = cat === 'All' ? products.length : products.filter(p => p.category === cat).length;
+                  return (
+                    <li key={cat} onClick={() => handleCategorySelect(cat)} className={`flex justify-between items-center cursor-pointer font-medium ${selectedCategory === cat ? 'text-blue-600 font-bold' : 'hover:text-blue-600'}`}>
+                      <span>{cat}</span>
+                      <span className="bg-slate-100 text-slate-500 px-2 py-0.5 rounded-full text-[10px]">{count}</span>
+                    </li>
+                  );
+                })}
               </ul>
             </div>
           </div>
