@@ -3,7 +3,7 @@
     "id": "5-amino-1mq-17833103234210",
     "name": "5-AMINO-1MQ",
     "price": 39.99,
-    "image": "/images/5-amino-1mq.jpg",
+    "image": "/images/5-AMINO-1MQ.jpg",
     "stockStatus": "In Stock",
     "category": "Longevity & Health"
   },
@@ -11,7 +11,7 @@
     "id": "ace-031-17833103234211",
     "name": "ACE 031",
     "price": 39.99,
-    "image": "/images/ace-031.avif",
+    "image": "/images/ACE 031.avif",
     "stockStatus": "In Stock",
     "category": "Peptides"
   },
@@ -19,7 +19,7 @@
     "id": "admax-17833103234212",
     "name": "ADMAX",
     "price": 39.99,
-    "image": "/images/admax.webp",
+    "image": "/images/ADMAX.webp",
     "stockStatus": "In Stock",
     "category": "Peptides"
   },
@@ -27,7 +27,7 @@
     "id": "ahk-cu-17833103234213",
     "name": "AHK-CU",
     "price": 39.99,
-    "image": "/images/ahk-cu.webp",
+    "image": "/images/AHK-CU.webp",
     "stockStatus": "In Stock",
     "category": "Cosmetics & Tanning"
   },
@@ -35,7 +35,7 @@
     "id": "aod9604-17833103234224",
     "name": "AOD9604",
     "price": 39.99,
-    "image": "/images/aod9604.webp",
+    "image": "/images/AOD9604.webp",
     "stockStatus": "In Stock",
     "category": "Weight Management"
   },
@@ -43,7 +43,7 @@
     "id": "ara290--cibinetide--17833103234225",
     "name": "ARA290 (Cibinetide)",
     "price": 39.99,
-    "image": "/images/ara290-cibinetide.png",
+    "image": "/images/ARA290 (Cibinetide).png",
     "stockStatus": "In Stock",
     "category": "Peptides"
   },
@@ -51,7 +51,7 @@
     "id": "acetic-acid-water-17833103234226",
     "name": "Acetic acid water",
     "price": 39.99,
-    "image": "/images/acetic-acid-water.jpg",
+    "image": "/images/Acetic acid water.jpg",
     "stockStatus": "In Stock",
     "category": "Peptides"
   },
@@ -59,7 +59,7 @@
     "id": "adipotide-fttp-17833103234227",
     "name": "Adipotide_FTTP",
     "price": 39.99,
-    "image": "/images/adipotide-fttp.png",
+    "image": "/images/Adipotide_FTTP.png",
     "stockStatus": "In Stock",
     "category": "Weight Management"
   },
@@ -67,7 +67,7 @@
     "id": "aicar-17833103234228",
     "name": "Aicar",
     "price": 39.99,
-    "image": "/images/aicar.png",
+    "image": "/images/Aicar.png",
     "stockStatus": "In Stock",
     "category": "Peptides"
   },
@@ -75,7 +75,7 @@
     "id": "b12-17833103234229",
     "name": "B12",
     "price": 39.99,
-    "image": "/images/b12.jpg",
+    "image": "/images/B12.jpg",
     "stockStatus": "In Stock",
     "category": "Cognition & Sleep"
   },
@@ -83,7 +83,7 @@
     "id": "bpc-10mg-tb10mg-178331032342310",
     "name": "BPC 10mg+TB10mg",
     "price": 39.99,
-    "image": "/images/bpc-10mg-tb10mg.jpg",
+    "image": "/images/BPC 10mg+TB10mg.jpg",
     "stockStatus": "In Stock",
     "category": "Healing & Repair"
   },
@@ -91,7 +91,7 @@
     "id": "bpc-157-178331032342311",
     "name": "BPC 157",
     "price": 39.99,
-    "image": "/images/bpc-157.webp",
+    "image": "/images/BPC 157.webp",
     "stockStatus": "In Stock",
     "category": "Healing & Repair"
   },
@@ -99,7 +99,7 @@
     "id": "bpc-5mg-tb5mg-178331032342312",
     "name": "BPC 5mg+TB5mg",
     "price": 39.99,
-    "image": "/images/bpc-5mg-tb5mg.avif",
+    "image": "/images/BPC 5mg+TB5mg.avif",
     "stockStatus": "In Stock",
     "category": "Healing & Repair"
   },
@@ -107,7 +107,7 @@
     "id": "bpc-157-178331032342313",
     "name": "BPC-157",
     "price": 39.99,
-    "image": "/images/bpc-157.webp",
+    "image": "/images/BPC-157.webp",
     "stockStatus": "In Stock",
     "category": "Healing & Repair"
   },
@@ -115,7 +115,7 @@
     "id": "botulinum-toxin-178331032342314",
     "name": "Botulinum toxin",
     "price": 39.99,
-    "image": "/images/botulinum-toxin.jpg",
+    "image": "/images/Botulinum toxin.jpg",
     "stockStatus": "In Stock",
     "category": "Peptides"
   },
@@ -123,7 +123,7 @@
     "id": "cjc-1295--without-dac--5mg-ipa-178331032342315",
     "name": "CJC 1295 (without DAC) 5mg+IPA",
     "price": 39.99,
-    "image": "/images/cjc-1295-without-dac-5mg-ipa.webp",
+    "image": "/images/CJC 1295 (without DAC) 5mg+IPA.webp",
     "stockStatus": "In Stock",
     "category": "Growth Hormone Secretagogues"
   },
@@ -131,7 +131,7 @@
     "id": "cagrilintide-178331032342316",
     "name": "Cagrilintide",
     "price": 39.99,
-    "image": "/images/cagrilintide.webp",
+    "image": "/images/Cagrilintide.webp",
     "stockStatus": "In Stock",
     "category": "Weight Management"
   },
@@ -139,7 +139,7 @@
     "id": "cartalax-178331032342317",
     "name": "Cartalax",
     "price": 39.99,
-    "image": "/images/cartalax.png",
+    "image": "/images/Cartalax.png",
     "stockStatus": "In Stock",
     "category": "Peptides"
   },
@@ -147,7 +147,7 @@
     "id": "cjc-1295-without-dac-10mg-ipa-1783310801164169",
     "name": "CJC 1295 (without DAC) 10mg+IPA",
     "price": 39.99,
-    "image": "/images/cjc-1295-without-dac-10mg-ipa.avif",
+    "image": "/images/CJC 1295 (without DAC) 10mg+IPA.avif",
     "stockStatus": "In Stock",
     "category": "Growth Hormone Secretagogues"
   },
@@ -155,7 +155,7 @@
     "id": "cjc-1295-without-dac--1783310801164335",
     "name": "CJC 1295 (without DAC)",
     "price": 39.99,
-    "image": "/images/cjc-1295-without-dac-.webp",
+    "image": "/images/CJC 1295 (without DAC).webp",
     "stockStatus": "In Stock",
     "category": "Growth Hormone Secretagogues"
   },
@@ -163,7 +163,7 @@
     "id": "cjc1295-with-dac-1783310801164721",
     "name": "CJC1295 with DAC",
     "price": 39.99,
-    "image": "/images/cjc1295-with-dac.webp",
+    "image": "/images/CJC1295 with DAC.webp",
     "stockStatus": "In Stock",
     "category": "Growth Hormone Secretagogues"
   },
@@ -171,7 +171,7 @@
     "id": "dsip-1783310801164964",
     "name": "DSIP",
     "price": 39.99,
-    "image": "/images/dsip.jpg",
+    "image": "/images/DSIP.jpg",
     "stockStatus": "In Stock",
     "category": "Cognition & Sleep"
   },
@@ -179,7 +179,7 @@
     "id": "epo-1783310801164713",
     "name": "EPO",
     "price": 39.99,
-    "image": "/images/epo.png",
+    "image": "/images/EPO.png",
     "stockStatus": "In Stock",
     "category": "Peptides"
   },
@@ -187,7 +187,7 @@
     "id": "epithalon-1783310801164640",
     "name": "Epithalon",
     "price": 39.99,
-    "image": "/images/epithalon.webp",
+    "image": "/images/Epithalon.webp",
     "stockStatus": "In Stock",
     "category": "Longevity & Health"
   },
@@ -195,7 +195,7 @@
     "id": "ghk-cu-1783310801165883",
     "name": "GHK-Cu",
     "price": 39.99,
-    "image": "/images/ghk-cu.webp",
+    "image": "/images/GHK-Cu.webp",
     "stockStatus": "In Stock",
     "category": "Cosmetics & Tanning"
   },
@@ -203,7 +203,7 @@
     "id": "ghrp-6-1783310801165397",
     "name": "GHRP-6",
     "price": 39.99,
-    "image": "/images/ghrp-6.webp",
+    "image": "/images/GHRP-6.webp",
     "stockStatus": "In Stock",
     "category": "Growth Hormone Secretagogues"
   },
@@ -211,7 +211,7 @@
     "id": "glow-bpc157-10mg-ghk-cu-50mg-tb500-10mg--1783310801165520",
     "name": "GLOW (BPC157 10mg+GHK-CU 50mg+TB500 10mg)",
     "price": 39.99,
-    "image": "/images/glow-bpc157-10mg-ghk-cu-50mg-tb500-10mg-.jpg",
+    "image": "/images/GLOW (BPC157 10mg+GHK-CU 50mg+TB500 10mg).jpg",
     "stockStatus": "In Stock",
     "category": "Healing & Repair"
   },
@@ -219,7 +219,7 @@
     "id": "glow-bpc157-5mg-ghk-cu-35mg-tb500-10mg--1783310801166681",
     "name": "GLOW (BPC157 5mg+GHK-CU 35mg+TB500 10mg)",
     "price": 39.99,
-    "image": "/images/glow-bpc157-5mg-ghk-cu-35mg-tb500-10mg-.png",
+    "image": "/images/GLOW (BPC157 5mg+GHK-CU 35mg+TB500 10mg).png",
     "stockStatus": "In Stock",
     "category": "Healing & Repair"
   },
@@ -227,7 +227,7 @@
     "id": "glutathione-1783310801166938",
     "name": "Glutathione",
     "price": 39.99,
-    "image": "/images/glutathione.avif",
+    "image": "/images/Glutathione.avif",
     "stockStatus": "In Stock",
     "category": "Longevity & Health"
   },
@@ -235,7 +235,7 @@
     "id": "hcg-1783310801166838",
     "name": "HCG",
     "price": 39.99,
-    "image": "/images/hcg.jpg",
+    "image": "/images/HCG.jpg",
     "stockStatus": "In Stock",
     "category": "Peptides"
   },
@@ -243,7 +243,7 @@
     "id": "hgh-fragment-176-191-1783310801166492",
     "name": "HGH Fragment 176-191",
     "price": 39.99,
-    "image": "/images/hgh-fragment-176-191.avif",
+    "image": "/images/HGH Fragment 176-191.avif",
     "stockStatus": "In Stock",
     "category": "Growth Hormone Secretagogues"
   },
@@ -251,7 +251,7 @@
     "id": "igf-1-lr3-1783310801166773",
     "name": "IGF-1 LR3",
     "price": 39.99,
-    "image": "/images/igf-1-lr3.jpg",
+    "image": "/images/IGF-1 LR3.jpg",
     "stockStatus": "In Stock",
     "category": "Growth Hormone Secretagogues"
   },
@@ -259,7 +259,7 @@
     "id": "ipamorelin-1783310801166174",
     "name": "Ipamorelin",
     "price": 39.99,
-    "image": "/images/ipamorelin.webp",
+    "image": "/images/Ipamorelin.webp",
     "stockStatus": "In Stock",
     "category": "Growth Hormone Secretagogues"
   },
@@ -267,7 +267,7 @@
     "id": "klow-bpc157-10mg-ghk-cu-50mg-tb500-10mg-kpv-10mg--1783310801166104",
     "name": "KLOW (BPC157 10mg+GHK-CU 50mg+TB500 10mg+KPV 10mg)",
     "price": 39.99,
-    "image": "/images/klow-bpc157-10mg-ghk-cu-50mg-tb500-10mg-kpv-10mg-.jpg",
+    "image": "/images/KLOW (BPC157 10mg+GHK-CU 50mg+TB500 10mg+KPV 10mg).jpg",
     "stockStatus": "In Stock",
     "category": "Healing & Repair"
   },
@@ -275,7 +275,7 @@
     "id": "kpv-1783310801166349",
     "name": "KPV",
     "price": 39.99,
-    "image": "/images/kpv.webp",
+    "image": "/images/KPV.webp",
     "stockStatus": "In Stock",
     "category": "Healing & Repair"
   },
@@ -283,7 +283,7 @@
     "id": "kisspeptin-10-1783310801166469",
     "name": "Kisspeptin-10",
     "price": 39.99,
-    "image": "/images/kisspeptin-10.jpg",
+    "image": "/images/Kisspeptin-10.jpg",
     "stockStatus": "In Stock",
     "category": "Cognition & Sleep"
   },
@@ -291,7 +291,7 @@
     "id": "l-carnitine-1783310801166454",
     "name": "L-carnitine",
     "price": 39.99,
-    "image": "/images/l-carnitine.webp",
+    "image": "/images/L-carnitine.webp",
     "stockStatus": "In Stock",
     "category": "Cognition & Sleep"
   },
@@ -299,7 +299,7 @@
     "id": "ll37-1783310801167776",
     "name": "LL37",
     "price": 39.99,
-    "image": "/images/ll37.jpg",
+    "image": "/images/LL37.jpg",
     "stockStatus": "In Stock",
     "category": "Healing & Repair"
   },
@@ -307,7 +307,7 @@
     "id": "lemon-bottle-178331080116751",
     "name": "Lemon Bottle",
     "price": 39.99,
-    "image": "/images/lemon-bottle.webp",
+    "image": "/images/Lemon Bottle.webp",
     "stockStatus": "In Stock",
     "category": "Weight Management"
   },
@@ -315,7 +315,7 @@
     "id": "lipo-c-compound-1783310801167987",
     "name": "Lipo-c Compound",
     "price": 39.99,
-    "image": "/images/lipo-c-compound.webp",
+    "image": "/images/Lipo-c Compound.webp",
     "stockStatus": "In Stock",
     "category": "Weight Management"
   },
@@ -323,7 +323,7 @@
     "id": "mic-lipo-c-with-b12--1783310801167848",
     "name": "MIC (Lipo C with B12)",
     "price": 39.99,
-    "image": "/images/mic-lipo-c-with-b12-.webp",
+    "image": "/images/MIC (Lipo C with B12).webp",
     "stockStatus": "In Stock",
     "category": "Weight Management"
   },
@@ -331,7 +331,7 @@
     "id": "mots-c-178331080116714",
     "name": "MOTS-c",
     "price": 39.99,
-    "image": "/images/mots-c.webp",
+    "image": "/images/MOTS-c.webp",
     "stockStatus": "In Stock",
     "category": "Longevity & Health"
   },
@@ -339,7 +339,7 @@
     "id": "mt-1-melanotan-i--1783310801167286",
     "name": "MT-1 (Melanotan I)",
     "price": 39.99,
-    "image": "/images/mt-1-melanotan-i-.png",
+    "image": "/images/MT-1 (Melanotan I).png",
     "stockStatus": "In Stock",
     "category": "Cosmetics & Tanning"
   },
@@ -347,7 +347,7 @@
     "id": "matrixyl-1783310801167690",
     "name": "Matrixyl",
     "price": 39.99,
-    "image": "/images/matrixyl.jpg",
+    "image": "/images/Matrixyl.jpg",
     "stockStatus": "In Stock",
     "category": "Cosmetics & Tanning"
   },
@@ -355,7 +355,7 @@
     "id": "mazdutide-1783310801167996",
     "name": "Mazdutide",
     "price": 39.99,
-    "image": "/images/mazdutide.jpg",
+    "image": "/images/Mazdutide.jpg",
     "stockStatus": "In Stock",
     "category": "Weight Management"
   },
@@ -363,7 +363,7 @@
     "id": "melanotan-ii-mt-2-melanotan-2-acetate--1783310801167842",
     "name": "Melanotan II MT-2 (Melanotan 2 Acetate)",
     "price": 39.99,
-    "image": "/images/melanotan-ii-mt-2-melanotan-2-acetate-.webp",
+    "image": "/images/Melanotan II MT-2 (Melanotan 2 Acetate).webp",
     "stockStatus": "In Stock",
     "category": "Cosmetics & Tanning"
   },
@@ -371,7 +371,7 @@
     "id": "melatonin-1783310801167657",
     "name": "Melatonin",
     "price": 39.99,
-    "image": "/images/melatonin.webp",
+    "image": "/images/Melatonin.webp",
     "stockStatus": "In Stock",
     "category": "Cognition & Sleep"
   },
@@ -379,7 +379,7 @@
     "id": "nad--1783310801167150",
     "name": "NAD+",
     "price": 39.99,
-    "image": "/images/nad-.webp",
+    "image": "/images/NAD+.webp",
     "stockStatus": "In Stock",
     "category": "Longevity & Health"
   },
@@ -387,7 +387,7 @@
     "id": "other-2s5-1783310801168628",
     "name": "Other 2S5",
     "price": 39.99,
-    "image": "/images/other-2s5.jpg",
+    "image": "/images/Other 2S5.jpg",
     "stockStatus": "In Stock",
     "category": "Peptides"
   },
@@ -395,7 +395,7 @@
     "id": "other-ms10-1783310801168240",
     "name": "Other MS10",
     "price": 39.99,
-    "image": "/images/other-ms10.webp",
+    "image": "/images/Other MS10.webp",
     "stockStatus": "In Stock",
     "category": "Peptides"
   },
@@ -403,7 +403,7 @@
     "id": "oxytocin-acetate-1783310801168799",
     "name": "Oxytocin Acetate",
     "price": 39.99,
-    "image": "/images/oxytocin-acetate.png",
+    "image": "/images/Oxytocin Acetate.png",
     "stockStatus": "In Stock",
     "category": "Cognition & Sleep"
   },
@@ -411,7 +411,7 @@
     "id": "pt141-1783310801168448",
     "name": "PT141",
     "price": 39.99,
-    "image": "/images/pt141.webp",
+    "image": "/images/PT141.webp",
     "stockStatus": "In Stock",
     "category": "Cosmetics & Tanning"
   },
@@ -419,7 +419,7 @@
     "id": "pinealon-1783310801169314",
     "name": "Pinealon",
     "price": 39.99,
-    "image": "/images/pinealon.jpg",
+    "image": "/images/Pinealon.jpg",
     "stockStatus": "In Stock",
     "category": "Longevity & Health"
   },
@@ -427,7 +427,7 @@
     "id": "retatrutide-1783310801169816",
     "name": "Retatrutide",
     "price": 39.99,
-    "image": "/images/retatrutide.webp",
+    "image": "/images/Retatrutide.webp",
     "stockStatus": "In Stock",
     "category": "Weight Management"
   },
@@ -435,7 +435,7 @@
     "id": "ss-31-1783310801169491",
     "name": "SS-31",
     "price": 39.99,
-    "image": "/images/ss-31.jpg",
+    "image": "/images/SS-31.jpg",
     "stockStatus": "In Stock",
     "category": "Longevity & Health"
   },
@@ -443,7 +443,7 @@
     "id": "selank-1783310801170174",
     "name": "Selank",
     "price": 39.99,
-    "image": "/images/selank.jpg",
+    "image": "/images/Selank.jpg",
     "stockStatus": "In Stock",
     "category": "Cognition & Sleep"
   },
@@ -451,7 +451,7 @@
     "id": "semaglutide-1783310801170841",
     "name": "Semaglutide",
     "price": 39.99,
-    "image": "/images/semaglutide.png",
+    "image": "/images/Semaglutide.png",
     "stockStatus": "In Stock",
     "category": "Weight Management"
   },
@@ -459,7 +459,7 @@
     "id": "semax-1783310801170930",
     "name": "Semax",
     "price": 39.99,
-    "image": "/images/semax.webp",
+    "image": "/images/Semax.webp",
     "stockStatus": "In Stock",
     "category": "Cognition & Sleep"
   },
@@ -467,7 +467,7 @@
     "id": "sermorelin-acetate-178331080117032",
     "name": "Sermorelin Acetate",
     "price": 39.99,
-    "image": "/images/sermorelin-acetate.jpg",
+    "image": "/images/Sermorelin Acetate.jpg",
     "stockStatus": "In Stock",
     "category": "Growth Hormone Secretagogues"
   },
@@ -475,7 +475,7 @@
     "id": "survodutide-1783310801170212",
     "name": "Survodutide",
     "price": 39.99,
-    "image": "/images/survodutide.jpg",
+    "image": "/images/Survodutide.jpg",
     "stockStatus": "In Stock",
     "category": "Weight Management"
   },
@@ -483,7 +483,7 @@
     "id": "tb500-1783310801170155",
     "name": "TB500",
     "price": 39.99,
-    "image": "/images/tb500.jpg",
+    "image": "/images/TB500.jpg",
     "stockStatus": "In Stock",
     "category": "Healing & Repair"
   },
@@ -491,7 +491,7 @@
     "id": "tesamorelin-1783310801170984",
     "name": "Tesamorelin",
     "price": 39.99,
-    "image": "/images/tesamorelin.jpg",
+    "image": "/images/Tesamorelin.jpg",
     "stockStatus": "In Stock",
     "category": "Growth Hormone Secretagogues"
   },
@@ -499,7 +499,7 @@
     "id": "tirzepatide-1783310801170395",
     "name": "Tirzepatide",
     "price": 39.99,
-    "image": "/images/tirzepatide.webp",
+    "image": "/images/Tirzepatide.webp",
     "stockStatus": "In Stock",
     "category": "Weight Management"
   },
@@ -507,7 +507,7 @@
     "id": "vip-1783310801170402",
     "name": "VIP",
     "price": 39.99,
-    "image": "/images/vip.webp",
+    "image": "/images/VIP.webp",
     "stockStatus": "In Stock",
     "category": "Peptides"
   }

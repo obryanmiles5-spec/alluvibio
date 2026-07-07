@@ -23,6 +23,7 @@ export default function ProductCard({
   stockStatus = 'In Stock' 
 }: ProductCardProps) {
   const { addToCart } = useCart();
+  
 
   const handleAddToCart = (e: React.MouseEvent) => {
     e.preventDefault();
@@ -40,7 +41,8 @@ export default function ProductCard({
         )}
         <div className="h-full w-full flex items-center justify-center opacity-90 relative bg-white">
           <Image 
-            src={image} 
+            src={image}
+            unoptimized 
             alt={name} 
             fill 
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"

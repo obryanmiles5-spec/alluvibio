@@ -1,4 +1,5 @@
 import Image from 'next/image';
+
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { ChevronRight, ArrowLeft, Check, Shield, Truck, Package } from 'lucide-react';
@@ -59,6 +60,7 @@ export default async function ProductPage({ params }: { params: Promise<{ id: st
               )}
               <div className="relative w-full max-w-md aspect-square rounded-xl overflow-hidden shadow-lg border border-slate-200 bg-white">
                 <Image
+                  unoptimized
                   src={product.image}
                   alt={product.name}
                   fill
