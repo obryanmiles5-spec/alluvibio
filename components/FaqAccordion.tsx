@@ -27,7 +27,7 @@ const QUALITY_FAQS: FaqItem[] = [
   },
   {
     id: 4,
-    question: 'What is the purity level of Alluvi peptides?',
+    question: 'What is the purity level of UK Peptides peptides?',
     answer: 'We guarantee a minimum purity of 99% across all our research peptides. Every batch is rigorously tested, ensuring you never receive the low-grade compounds often found in social media marketplaces.'
   },
   {
@@ -48,7 +48,7 @@ const QUALITY_FAQS: FaqItem[] = [
   {
     id: 8,
     question: 'Are these products intended for human or clinical consumption?',
-    answer: 'No. All Alluvi Bio products are sold strictly for in-vitro laboratory research and academic studies. They are not intended for human consumption, therapeutic, or diagnostic use.'
+    answer: 'No. All UK Peptides Bio products are sold strictly for in-vitro laboratory research and academic studies. They are not intended for human consumption, therapeutic, or diagnostic use.'
   },
   {
     id: 9,
@@ -66,7 +66,7 @@ const LOGISTICS_FAQS: FaqItem[] = [
   {
     id: 11,
     question: 'Where is the best place to buy peptides for research in the UK?',
-    answer: 'The best place is a dedicated, UK-based biochemical distributor like Alluvi Bio. Buying domestically ensures fast delivery without customs seizures or import duties that often occur when buying from overseas social media vendors.'
+    answer: 'The best place is a dedicated, UK-based biochemical distributor like UK Peptides Bio. Buying domestically ensures fast delivery without customs seizures or import duties that often occur when buying from overseas social media vendors.'
   },
   {
     id: 12,

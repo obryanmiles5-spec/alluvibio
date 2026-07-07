@@ -40,7 +40,7 @@ export default function WhatsAppChat() {
                   <span className="absolute bottom-0 right-0 w-2.5 h-2.5 bg-green-400 border-2 border-emerald-600 rounded-full"></span>
                 </div>
                 <div>
-                  <h3 className="font-extrabold text-sm tracking-wide">Alluvi Support</h3>
+                  <h3 className="font-extrabold text-sm tracking-wide">UK Peptides Support</h3>
                   <div className="flex items-center gap-1 text-[11px] text-emerald-100 font-medium">
                     <Circle className="w-1.5 h-1.5 fill-current text-green-300" />
                     <span>Online & Ready</span>
@@ -58,7 +58,7 @@ export default function WhatsAppChat() {
 
             {/* Quick Greeting */}
             <div className="p-4 bg-slate-50 border-b border-slate-100 text-xs text-slate-500 leading-relaxed">
-              Hello! 👋 Welcome to Alluvi Bio support. How can we help you with your research peptide requirements today?
+              Hello! 👋 Welcome to UK Peptides Bio support. How can we help you with your research peptide requirements today?
             </div>
 
             {/* Simulated Chat History / Box */}

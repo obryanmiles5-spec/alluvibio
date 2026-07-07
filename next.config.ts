@@ -26,6 +26,12 @@ const nextConfig: NextConfig = {
         port: '',
         pathname: '/**',
       },
+      {
+        protocol: 'https',
+        hostname: 'www.uk-peptides.com',
+        port: '',
+        pathname: '/**',
+      },
     ],
   },
   output: 'standalone',

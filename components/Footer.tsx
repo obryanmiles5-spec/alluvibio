@@ -9,7 +9,7 @@ export default function Footer() {
             <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center">
               <div className="w-4 h-4 border-2 border-white rounded-full"></div>
             </div>
-            <span className="font-bold text-xl tracking-tight text-white">ALLUVI<span className="text-blue-500 underline decoration-2 underline-offset-4">BIO</span></span>
+            <span className="font-bold text-xl tracking-tight text-white">UK PEPTIDES<span className="text-blue-500 underline decoration-2 underline-offset-4">BIO</span></span>
           </div>
           <p className="text-slate-400 text-sm leading-relaxed mb-6">
             Premium research peptides for UK laboratory and clinical studies. Precision-engineered biochemicals with 99%+ purity guaranteed through rigorous testing.
@@ -56,7 +56,7 @@ export default function Footer() {
         <div className="flex items-center gap-2">
           <span className="opacity-70 uppercase tracking-widest text-blue-400 font-bold">For Research Purposes Only</span>
           <div className="h-4 w-[1px] bg-slate-700 hidden md:block"></div>
-          <span className="hidden md:inline">© 2026 Alluvi Bio UK</span>
+          <span className="hidden md:inline">© 2026 UK Peptides Bio UK</span>
         </div>
         <div className="flex gap-4 items-center">
           <div className="h-4 w-8 bg-slate-800 rounded flex items-center justify-center text-[8px] font-bold tracking-tighter">VISA</div>

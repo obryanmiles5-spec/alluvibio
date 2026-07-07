@@ -40,7 +40,7 @@ const REVIEWS: Review[] = [
     institution: 'Edinburgh Science Centre',
     rating: 5,
     peptide: 'Semaglutide 5mg',
-    comment: 'Alluvi Bio\'s customer support was incredibly helpful when we requested detailed batch-specific COAs. The response was prompt, technical, and highly professional.'
+    comment: 'UK Peptides Bio\'s customer support was incredibly helpful when we requested detailed batch-specific COAs. The response was prompt, technical, and highly professional.'
   },
   {
     id: 4,
@@ -128,15 +128,15 @@ export default function ReviewSlider() {
 
   return (
     <div id="customer-reviews" className="relative w-full max-w-4xl mx-auto px-4 py-8">
-      {/* Premium Light Gradient Background with Alluvia Watermark */}
+      {/* Premium Light Gradient Background with UK Peptidesa Watermark */}
       <div className="absolute inset-0 bg-gradient-to-tr from-slate-50 via-blue-50/50 to-indigo-50/50 rounded-3xl -z-10 border border-slate-200/80 shadow-xl overflow-hidden">
         {/* Subtle glowing orbs */}
         <div className="absolute -top-16 -right-16 w-64 h-64 bg-blue-300/10 rounded-full blur-3xl"></div>
         <div className="absolute -bottom-16 -left-16 w-64 h-64 bg-indigo-300/10 rounded-full blur-3xl"></div>
         
-        {/* Giant premium Alluvia watermark in the background */}
+        {/* Giant premium UK Peptidesa watermark in the background */}
         <div className="absolute inset-0 flex items-center justify-center select-none pointer-events-none opacity-[0.03]">
-          <span className="text-[120px] font-black tracking-widest text-slate-900 uppercase">ALLUVIA</span>
+          <span className="text-[120px] font-black tracking-widest text-slate-900 uppercase">UK PEPTIDESA</span>
         </div>
       </div>
       

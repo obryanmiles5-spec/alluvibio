@@ -11,7 +11,7 @@ import WhatsAppChat from '@/components/WhatsAppChat';
 const inter = Inter({ subsets: ['latin'], variable: '--font-sans' });
 
 export const metadata: Metadata = {
-  title: 'AlluviBio UK | Premium Research Peptides',
+  title: 'UK Peptides | Premium Research Peptides',
   description: 'Premium research peptides for UK laboratory and clinical studies. Precision-engineered biochemicals with 99%+ purity.',
 };
 

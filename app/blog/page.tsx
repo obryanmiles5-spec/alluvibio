@@ -320,7 +320,7 @@ const BLOG_POSTS: BlogPost[] = [
 
         <p className="font-semibold text-slate-900 text-lg">Procurement Note</p>
         <p>
-          At Alluvi Bio, all peptides are packaged in heavy-walled, high-vacuum sealed borosilicate vials inside insulated thermal wrappers to guarantee structural preservation from our warehouse straight to your laboratory freezer.
+          At UK Peptides Bio, all peptides are packaged in heavy-walled, high-vacuum sealed borosilicate vials inside insulated thermal wrappers to guarantee structural preservation from our warehouse straight to your laboratory freezer.
         </p>
       </div>
     )
@@ -415,9 +415,9 @@ const BLOG_POSTS: BlogPost[] = [
           </li>
         </ol>
 
-        <p className="font-semibold text-slate-900 text-lg">Commitment to Quality at Alluvi Bio</p>
+        <p className="font-semibold text-slate-900 text-lg">Commitment to Quality at UK Peptides Bio</p>
         <p>
-          At Alluvi Bio, we remove all doubt. Every batch of peptides we distribute is individually tested and validated via rigorous HPLC and MS protocols. We provide fully accessible, unredacted COAs with clear batch numbers, establishing us as the trusted standard for peptide research in the United Kingdom.
+          At UK Peptides Bio, we remove all doubt. Every batch of peptides we distribute is individually tested and validated via rigorous HPLC and MS protocols. We provide fully accessible, unredacted COAs with clear batch numbers, establishing us as the trusted standard for peptide research in the United Kingdom.
         </p>
       </div>
     )
@@ -469,7 +469,7 @@ export default function BlogPage() {
               <div className="text-center max-w-2xl mx-auto space-y-4">
                 <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-blue-100 text-blue-700 text-xs font-bold uppercase tracking-wider">
                   <Sparkles className="w-3.5 h-3.5" />
-                  Alluvi Science Hub
+                  UK Peptides Science Hub
                 </span>
                 <h1 className="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
                   UK Peptide & Retatrutide Research Blog
@@ -688,7 +688,7 @@ export default function BlogPage() {
                 <div className="bg-gradient-to-r from-blue-50 to-indigo-50 border border-blue-100 rounded-3xl p-6 sm:p-8 mt-10 text-center space-y-4">
                   <h3 className="text-lg font-extrabold text-slate-900">Need High-Purity Compounds for Your Next Assay?</h3>
                   <p className="text-xs sm:text-sm text-slate-600 max-w-xl mx-auto leading-relaxed">
-                    Alluvi Bio provides certified 99%+ pure Retatrutide, BPC-157, and other premium research compounds to UK laboratories. Every batch is HPLC and Mass Spectrometry verified.
+                    UK Peptides Bio provides certified 99%+ pure Retatrutide, BPC-157, and other premium research compounds to UK laboratories. Every batch is HPLC and Mass Spectrometry verified.
                   </p>
                   <div className="flex flex-col sm:flex-row gap-3 justify-center pt-2">
                     <Link

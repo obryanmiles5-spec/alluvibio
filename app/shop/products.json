@@ -1,514 +1,218 @@
 [
   {
-    "id": "5-amino-1mq-17833103234210",
-    "name": "5-AMINO-1MQ",
-    "price": 39.99,
-    "image": "/images/5-AMINO-1MQ.jpg",
+    "id": "1",
+    "name": "10ml Acetic Acid 0.6%",
+    "price": 6,
+    "image": "https://www.uk-peptides.com/image/cache/catalog/products/Acetic%20Acid-600x600.png",
     "stockStatus": "In Stock",
-    "category": "Longevity & Health"
+    "badge": "Selling fast",
+    "category": "Lab Supplies"
   },
   {
-    "id": "ace-031-17833103234211",
-    "name": "ACE 031",
-    "price": 39.99,
-    "image": "/images/ACE 031.avif",
+    "id": "2",
+    "name": "10ml Bacteriostatic Mixing Water",
+    "price": 5.95,
+    "image": "https://www.uk-peptides.com/image/cache/catalog/products/bac%20water%2010ml-600x600.png",
     "stockStatus": "In Stock",
+    "badge": "Selling fast",
+    "category": "Lab Supplies"
+  },
+  {
+    "id": "3",
+    "name": "ACE-031 1mg (95% Untagged Premium)",
+    "price": 79,
+    "image": "https://www.uk-peptides.com/image/cache/catalog/products/ACE-031-600x600.png",
+    "stockStatus": "In Stock",
+    "badge": "",
     "category": "Peptides"
   },
   {
-    "id": "admax-17833103234212",
-    "name": "ADMAX",
-    "price": 39.99,
-    "image": "/images/ADMAX.webp",
+    "id": "4",
+    "name": "ACTH 1-39 5mg",
+    "price": 85,
+    "image": "https://www.uk-peptides.com/image/cache/catalog/products/ATCH1-39-small-Recovered-600x600.png",
     "stockStatus": "In Stock",
+    "badge": "",
     "category": "Peptides"
   },
   {
-    "id": "ahk-cu-17833103234213",
-    "name": "AHK-CU",
-    "price": 39.99,
-    "image": "/images/AHK-CU.webp",
+    "id": "5",
+    "name": "ADAMAX 5mg",
+    "price": 49,
+    "image": "https://www.uk-peptides.com/image/cache/catalog/adamx-new-600x600.jpg",
     "stockStatus": "In Stock",
-    "category": "Cosmetics & Tanning"
-  },
-  {
-    "id": "aod9604-17833103234224",
-    "name": "AOD9604",
-    "price": 39.99,
-    "image": "/images/AOD9604.webp",
-    "stockStatus": "In Stock",
-    "category": "Weight Management"
-  },
-  {
-    "id": "ara290--cibinetide--17833103234225",
-    "name": "ARA290 (Cibinetide)",
-    "price": 39.99,
-    "image": "/images/ARA290 (Cibinetide).png",
-    "stockStatus": "In Stock",
+    "badge": "",
     "category": "Peptides"
   },
   {
-    "id": "acetic-acid-water-17833103234226",
-    "name": "Acetic acid water",
-    "price": 39.99,
-    "image": "/images/Acetic acid water.jpg",
+    "id": "6",
+    "name": "AOD 9604 2MG",
+    "price": 27.95,
+    "image": "https://www.uk-peptides.com/image/cache/catalog/AOD-small-600x600.png",
     "stockStatus": "In Stock",
+    "badge": "",
     "category": "Peptides"
   },
   {
-    "id": "adipotide-fttp-17833103234227",
-    "name": "Adipotide_FTTP",
-    "price": 39.99,
-    "image": "/images/Adipotide_FTTP.png",
+    "id": "7",
+    "name": "AOD 9604 5MG",
+    "price": 55,
+    "image": "https://www.uk-peptides.com/image/cache/catalog/products/AOD%209604%205mg-600x600.png",
     "stockStatus": "In Stock",
-    "category": "Weight Management"
-  },
-  {
-    "id": "aicar-17833103234228",
-    "name": "Aicar",
-    "price": 39.99,
-    "image": "/images/Aicar.png",
-    "stockStatus": "In Stock",
+    "badge": "",
     "category": "Peptides"
   },
   {
-    "id": "b12-17833103234229",
-    "name": "B12",
-    "price": 39.99,
-    "image": "/images/B12.jpg",
+    "id": "8",
+    "name": "ARA-290 16mg",
+    "price": 75,
+    "image": "https://www.uk-peptides.com/image/cache/catalog/ara29-600x600.jpg",
     "stockStatus": "In Stock",
-    "category": "Cognition & Sleep"
-  },
-  {
-    "id": "bpc-10mg-tb10mg-178331032342310",
-    "name": "BPC 10mg+TB10mg",
-    "price": 39.99,
-    "image": "/images/BPC 10mg+TB10mg.jpg",
-    "stockStatus": "In Stock",
-    "category": "Healing & Repair"
-  },
-  {
-    "id": "bpc-157-178331032342311",
-    "name": "BPC 157",
-    "price": 39.99,
-    "image": "/images/BPC 157.webp",
-    "stockStatus": "In Stock",
-    "category": "Healing & Repair"
-  },
-  {
-    "id": "bpc-5mg-tb5mg-178331032342312",
-    "name": "BPC 5mg+TB5mg",
-    "price": 39.99,
-    "image": "/images/BPC 5mg+TB5mg.avif",
-    "stockStatus": "In Stock",
-    "category": "Healing & Repair"
-  },
-  {
-    "id": "bpc-157-178331032342313",
-    "name": "BPC-157",
-    "price": 39.99,
-    "image": "/images/BPC-157.webp",
-    "stockStatus": "In Stock",
-    "category": "Healing & Repair"
-  },
-  {
-    "id": "botulinum-toxin-178331032342314",
-    "name": "Botulinum toxin",
-    "price": 39.99,
-    "image": "/images/Botulinum toxin.jpg",
-    "stockStatus": "In Stock",
+    "badge": "",
     "category": "Peptides"
   },
   {
-    "id": "cjc-1295--without-dac--5mg-ipa-178331032342315",
-    "name": "CJC 1295 (without DAC) 5mg+IPA",
-    "price": 39.99,
-    "image": "/images/CJC 1295 (without DAC) 5mg+IPA.webp",
+    "id": "9",
+    "name": "B7-33 2mg",
+    "price": 22.95,
+    "image": "https://www.uk-peptides.com/image/cache/catalog/b7-33a-small-600x600.jpg",
     "stockStatus": "In Stock",
-    "category": "Growth Hormone Secretagogues"
-  },
-  {
-    "id": "cagrilintide-178331032342316",
-    "name": "Cagrilintide",
-    "price": 39.99,
-    "image": "/images/Cagrilintide.webp",
-    "stockStatus": "In Stock",
-    "category": "Weight Management"
-  },
-  {
-    "id": "cartalax-178331032342317",
-    "name": "Cartalax",
-    "price": 39.99,
-    "image": "/images/Cartalax.png",
-    "stockStatus": "In Stock",
+    "badge": "",
     "category": "Peptides"
   },
   {
-    "id": "cjc-1295-without-dac-10mg-ipa-1783310801164169",
-    "name": "CJC 1295 (without DAC) 10mg+IPA",
-    "price": 39.99,
-    "image": "/images/CJC 1295 (without DAC) 10mg+IPA.avif",
+    "id": "10",
+    "name": "BPC-157 5mg",
+    "price": 16.95,
+    "image": "https://www.uk-peptides.com/image/cache/catalog/products/BPC-157-600x600.png",
     "stockStatus": "In Stock",
-    "category": "Growth Hormone Secretagogues"
-  },
-  {
-    "id": "cjc-1295-without-dac--1783310801164335",
-    "name": "CJC 1295 (without DAC)",
-    "price": 39.99,
-    "image": "/images/CJC 1295 (without DAC).webp",
-    "stockStatus": "In Stock",
-    "category": "Growth Hormone Secretagogues"
-  },
-  {
-    "id": "cjc1295-with-dac-1783310801164721",
-    "name": "CJC1295 with DAC",
-    "price": 39.99,
-    "image": "/images/CJC1295 with DAC.webp",
-    "stockStatus": "In Stock",
-    "category": "Growth Hormone Secretagogues"
-  },
-  {
-    "id": "dsip-1783310801164964",
-    "name": "DSIP",
-    "price": 39.99,
-    "image": "/images/DSIP.jpg",
-    "stockStatus": "In Stock",
-    "category": "Cognition & Sleep"
-  },
-  {
-    "id": "epo-1783310801164713",
-    "name": "EPO",
-    "price": 39.99,
-    "image": "/images/EPO.png",
-    "stockStatus": "In Stock",
+    "badge": "Selling fast",
     "category": "Peptides"
   },
   {
-    "id": "epithalon-1783310801164640",
-    "name": "Epithalon",
-    "price": 39.99,
-    "image": "/images/Epithalon.webp",
+    "id": "11",
+    "name": "Bronchogen 20mg",
+    "price": 39,
+    "image": "https://www.uk-peptides.com/image/cache/catalog/products/Bronchogen%2020mg-600x600.png",
     "stockStatus": "In Stock",
-    "category": "Longevity & Health"
+    "badge": "",
+    "category": "Bioregulators"
   },
   {
-    "id": "ghk-cu-1783310801165883",
-    "name": "GHK-Cu",
-    "price": 39.99,
-    "image": "/images/GHK-Cu.webp",
+    "id": "12",
+    "name": "Cardiogen 20mg - Bioregulator Peptide",
+    "price": 49,
+    "image": "https://www.uk-peptides.com/image/cache/catalog/cardiogen-600x600.jpg",
     "stockStatus": "In Stock",
-    "category": "Cosmetics & Tanning"
+    "badge": "",
+    "category": "Bioregulators"
   },
   {
-    "id": "ghrp-6-1783310801165397",
-    "name": "GHRP-6",
-    "price": 39.99,
-    "image": "/images/GHRP-6.webp",
+    "id": "13",
+    "name": "Cartalax 20mg - Bioregulator",
+    "price": 49,
+    "image": "https://www.uk-peptides.com/image/cache/catalog/products/Cartalax-20mg-600x600.png",
     "stockStatus": "In Stock",
-    "category": "Growth Hormone Secretagogues"
+    "badge": "",
+    "category": "Bioregulators"
   },
   {
-    "id": "glow-bpc157-10mg-ghk-cu-50mg-tb500-10mg--1783310801165520",
-    "name": "GLOW (BPC157 10mg+GHK-CU 50mg+TB500 10mg)",
-    "price": 39.99,
-    "image": "/images/GLOW (BPC157 10mg+GHK-CU 50mg+TB500 10mg).jpg",
+    "id": "14",
+    "name": "CJC-1295 MOD GRF 1-29 / without DAC 2mg",
+    "price": 12.95,
+    "image": "https://www.uk-peptides.com/image/cache/catalog/products/CJC-MOD-GRF-600x600.png",
     "stockStatus": "In Stock",
-    "category": "Healing & Repair"
-  },
-  {
-    "id": "glow-bpc157-5mg-ghk-cu-35mg-tb500-10mg--1783310801166681",
-    "name": "GLOW (BPC157 5mg+GHK-CU 35mg+TB500 10mg)",
-    "price": 39.99,
-    "image": "/images/GLOW (BPC157 5mg+GHK-CU 35mg+TB500 10mg).png",
-    "stockStatus": "In Stock",
-    "category": "Healing & Repair"
-  },
-  {
-    "id": "glutathione-1783310801166938",
-    "name": "Glutathione",
-    "price": 39.99,
-    "image": "/images/Glutathione.avif",
-    "stockStatus": "In Stock",
-    "category": "Longevity & Health"
-  },
-  {
-    "id": "hcg-1783310801166838",
-    "name": "HCG",
-    "price": 39.99,
-    "image": "/images/HCG.jpg",
-    "stockStatus": "In Stock",
+    "badge": "Selling fast",
     "category": "Peptides"
   },
   {
-    "id": "hgh-fragment-176-191-1783310801166492",
-    "name": "HGH Fragment 176-191",
-    "price": 39.99,
-    "image": "/images/HGH Fragment 176-191.avif",
+    "id": "15",
+    "name": "CJC-1295 MOD GRF 1-29 / without DAC 5mg",
+    "price": 25.95,
+    "image": "https://www.uk-peptides.com/image/cache/catalog/CJCMODGRF%205mg-small-600x600.jpg",
     "stockStatus": "In Stock",
-    "category": "Growth Hormone Secretagogues"
-  },
-  {
-    "id": "igf-1-lr3-1783310801166773",
-    "name": "IGF-1 LR3",
-    "price": 39.99,
-    "image": "/images/IGF-1 LR3.jpg",
-    "stockStatus": "In Stock",
-    "category": "Growth Hormone Secretagogues"
-  },
-  {
-    "id": "ipamorelin-1783310801166174",
-    "name": "Ipamorelin",
-    "price": 39.99,
-    "image": "/images/Ipamorelin.webp",
-    "stockStatus": "In Stock",
-    "category": "Growth Hormone Secretagogues"
-  },
-  {
-    "id": "klow-bpc157-10mg-ghk-cu-50mg-tb500-10mg-kpv-10mg--1783310801166104",
-    "name": "KLOW (BPC157 10mg+GHK-CU 50mg+TB500 10mg+KPV 10mg)",
-    "price": 39.99,
-    "image": "/images/KLOW (BPC157 10mg+GHK-CU 50mg+TB500 10mg+KPV 10mg).jpg",
-    "stockStatus": "In Stock",
-    "category": "Healing & Repair"
-  },
-  {
-    "id": "kpv-1783310801166349",
-    "name": "KPV",
-    "price": 39.99,
-    "image": "/images/KPV.webp",
-    "stockStatus": "In Stock",
-    "category": "Healing & Repair"
-  },
-  {
-    "id": "kisspeptin-10-1783310801166469",
-    "name": "Kisspeptin-10",
-    "price": 39.99,
-    "image": "/images/Kisspeptin-10.jpg",
-    "stockStatus": "In Stock",
-    "category": "Cognition & Sleep"
-  },
-  {
-    "id": "l-carnitine-1783310801166454",
-    "name": "L-carnitine",
-    "price": 39.99,
-    "image": "/images/L-carnitine.webp",
-    "stockStatus": "In Stock",
-    "category": "Cognition & Sleep"
-  },
-  {
-    "id": "ll37-1783310801167776",
-    "name": "LL37",
-    "price": 39.99,
-    "image": "/images/LL37.jpg",
-    "stockStatus": "In Stock",
-    "category": "Healing & Repair"
-  },
-  {
-    "id": "lemon-bottle-178331080116751",
-    "name": "Lemon Bottle",
-    "price": 39.99,
-    "image": "/images/Lemon Bottle.webp",
-    "stockStatus": "In Stock",
-    "category": "Weight Management"
-  },
-  {
-    "id": "lipo-c-compound-1783310801167987",
-    "name": "Lipo-c Compound",
-    "price": 39.99,
-    "image": "/images/Lipo-c Compound.webp",
-    "stockStatus": "In Stock",
-    "category": "Weight Management"
-  },
-  {
-    "id": "mic-lipo-c-with-b12--1783310801167848",
-    "name": "MIC (Lipo C with B12)",
-    "price": 39.99,
-    "image": "/images/MIC (Lipo C with B12).webp",
-    "stockStatus": "In Stock",
-    "category": "Weight Management"
-  },
-  {
-    "id": "mots-c-178331080116714",
-    "name": "MOTS-c",
-    "price": 39.99,
-    "image": "/images/MOTS-c.webp",
-    "stockStatus": "In Stock",
-    "category": "Longevity & Health"
-  },
-  {
-    "id": "mt-1-melanotan-i--1783310801167286",
-    "name": "MT-1 (Melanotan I)",
-    "price": 39.99,
-    "image": "/images/MT-1 (Melanotan I).png",
-    "stockStatus": "In Stock",
-    "category": "Cosmetics & Tanning"
-  },
-  {
-    "id": "matrixyl-1783310801167690",
-    "name": "Matrixyl",
-    "price": 39.99,
-    "image": "/images/Matrixyl.jpg",
-    "stockStatus": "In Stock",
-    "category": "Cosmetics & Tanning"
-  },
-  {
-    "id": "mazdutide-1783310801167996",
-    "name": "Mazdutide",
-    "price": 39.99,
-    "image": "/images/Mazdutide.jpg",
-    "stockStatus": "In Stock",
-    "category": "Weight Management"
-  },
-  {
-    "id": "melanotan-ii-mt-2-melanotan-2-acetate--1783310801167842",
-    "name": "Melanotan II MT-2 (Melanotan 2 Acetate)",
-    "price": 39.99,
-    "image": "/images/Melanotan II MT-2 (Melanotan 2 Acetate).webp",
-    "stockStatus": "In Stock",
-    "category": "Cosmetics & Tanning"
-  },
-  {
-    "id": "melatonin-1783310801167657",
-    "name": "Melatonin",
-    "price": 39.99,
-    "image": "/images/Melatonin.webp",
-    "stockStatus": "In Stock",
-    "category": "Cognition & Sleep"
-  },
-  {
-    "id": "nad--1783310801167150",
-    "name": "NAD+",
-    "price": 39.99,
-    "image": "/images/NAD+.webp",
-    "stockStatus": "In Stock",
-    "category": "Longevity & Health"
-  },
-  {
-    "id": "other-2s5-1783310801168628",
-    "name": "Other 2S5",
-    "price": 39.99,
-    "image": "/images/Other 2S5.jpg",
-    "stockStatus": "In Stock",
+    "badge": "Selling fast",
     "category": "Peptides"
   },
   {
-    "id": "other-ms10-1783310801168240",
-    "name": "Other MS10",
-    "price": 39.99,
-    "image": "/images/Other MS10.webp",
+    "id": "16",
+    "name": "CJC-1295 With DAC 2mg",
+    "price": 22,
+    "image": "https://www.uk-peptides.com/image/cache/catalog/products/CJC-1295-DAC-600x600.png",
     "stockStatus": "In Stock",
+    "badge": "Selling fast",
     "category": "Peptides"
   },
   {
-    "id": "oxytocin-acetate-1783310801168799",
-    "name": "Oxytocin Acetate",
-    "price": 39.99,
-    "image": "/images/Oxytocin Acetate.png",
+    "id": "17",
+    "name": "CJC-1295 With DAC 5mg",
+    "price": 40,
+    "image": "https://www.uk-peptides.com/image/cache/catalog/products/cjc-dac-5mg-600x600.png",
     "stockStatus": "In Stock",
-    "category": "Cognition & Sleep"
+    "badge": "Selling fast",
+    "category": "Peptides"
   },
   {
-    "id": "pt141-1783310801168448",
-    "name": "PT141",
-    "price": 39.99,
-    "image": "/images/PT141.webp",
+    "id": "18",
+    "name": "Colivelin 10mg",
+    "price": 69.99,
+    "image": "https://www.uk-peptides.com/image/cache/catalog/products/colivelin-600x600.jpg",
     "stockStatus": "In Stock",
-    "category": "Cosmetics & Tanning"
+    "badge": "",
+    "category": "Peptides"
   },
   {
-    "id": "pinealon-1783310801169314",
-    "name": "Pinealon",
-    "price": 39.99,
-    "image": "/images/Pinealon.jpg",
+    "id": "19",
+    "name": "Cortagen 20mg",
+    "price": 49,
+    "image": "https://www.uk-peptides.com/image/cache/catalog/Cortagen-600x600.jpg",
     "stockStatus": "In Stock",
-    "category": "Longevity & Health"
+    "badge": "",
+    "category": "Bioregulators"
   },
   {
-    "id": "retatrutide-1783310801169816",
-    "name": "Retatrutide",
-    "price": 39.99,
-    "image": "/images/Retatrutide.webp",
+    "id": "20",
+    "name": "Crystagen 20mg",
+    "price": 59,
+    "image": "https://www.uk-peptides.com/image/cache/catalog/crystagen-600x600.jpg",
     "stockStatus": "In Stock",
-    "category": "Weight Management"
+    "badge": "",
+    "category": "Bioregulators"
   },
   {
-    "id": "ss-31-1783310801169491",
-    "name": "SS-31",
-    "price": 39.99,
-    "image": "/images/SS-31.jpg",
+    "id": "21",
+    "name": "Dermorphin 2mg",
+    "price": 29,
+    "image": "https://www.uk-peptides.com/image/cache/catalog/dermorphin-small-600x600.png",
     "stockStatus": "In Stock",
-    "category": "Longevity & Health"
+    "badge": "",
+    "category": "Peptides"
   },
   {
-    "id": "selank-1783310801170174",
-    "name": "Selank",
-    "price": 39.99,
-    "image": "/images/Selank.jpg",
+    "id": "22",
+    "name": "Dihexa 10mg",
+    "price": 59,
+    "image": "https://www.uk-peptides.com/image/cache/catalog/products/Dihexa-600x600.png",
     "stockStatus": "In Stock",
-    "category": "Cognition & Sleep"
+    "badge": "",
+    "category": "Peptides"
   },
   {
-    "id": "semaglutide-1783310801170841",
-    "name": "Semaglutide",
-    "price": 39.99,
-    "image": "/images/Semaglutide.png",
+    "id": "23",
+    "name": "DNSP 11 5mg",
+    "price": 75,
+    "image": "https://www.uk-peptides.com/image/cache/catalog/DNSP11-600x600.jpg",
     "stockStatus": "In Stock",
-    "category": "Weight Management"
+    "badge": "",
+    "category": "Peptides"
   },
   {
-    "id": "semax-1783310801170930",
-    "name": "Semax",
-    "price": 39.99,
-    "image": "/images/Semax.webp",
+    "id": "24",
+    "name": "DSIP 5mg",
+    "price": 13.95,
+    "image": "https://www.uk-peptides.com/image/cache/catalog/products/DSIP-600x600.png",
     "stockStatus": "In Stock",
-    "category": "Cognition & Sleep"
-  },
-  {
-    "id": "sermorelin-acetate-178331080117032",
-    "name": "Sermorelin Acetate",
-    "price": 39.99,
-    "image": "/images/Sermorelin Acetate.jpg",
-    "stockStatus": "In Stock",
-    "category": "Growth Hormone Secretagogues"
-  },
-  {
-    "id": "survodutide-1783310801170212",
-    "name": "Survodutide",
-    "price": 39.99,
-    "image": "/images/Survodutide.jpg",
-    "stockStatus": "In Stock",
-    "category": "Weight Management"
-  },
-  {
-    "id": "tb500-1783310801170155",
-    "name": "TB500",
-    "price": 39.99,
-    "image": "/images/TB500.jpg",
-    "stockStatus": "In Stock",
-    "category": "Healing & Repair"
-  },
-  {
-    "id": "tesamorelin-1783310801170984",
-    "name": "Tesamorelin",
-    "price": 39.99,
-    "image": "/images/Tesamorelin.jpg",
-    "stockStatus": "In Stock",
-    "category": "Growth Hormone Secretagogues"
-  },
-  {
-    "id": "tirzepatide-1783310801170395",
-    "name": "Tirzepatide",
-    "price": 39.99,
-    "image": "/images/Tirzepatide.webp",
-    "stockStatus": "In Stock",
-    "category": "Weight Management"
-  },
-  {
-    "id": "vip-1783310801170402",
-    "name": "VIP",
-    "price": 39.99,
-    "image": "/images/VIP.webp",
-    "stockStatus": "In Stock",
+    "badge": "New",
     "category": "Peptides"
   }
 ]

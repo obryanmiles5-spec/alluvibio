@@ -3,7 +3,8 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { ChevronRight, ArrowLeft, Check, Shield, Truck, Package } from 'lucide-react';
-import productsData from '../products.json';
+import rawProductsData from '../products.json';
+const productsData = rawProductsData as any[];
 import AddToCartButton from '@/components/AddToCartButton';
 
 interface Product {

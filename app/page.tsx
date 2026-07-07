@@ -3,7 +3,8 @@ import ProductCard from '@/components/ProductCard';
 import ReviewSlider from '@/components/ReviewSlider';
 import FaqAccordion from '@/components/FaqAccordion';
 import Image from 'next/image';
-import productsData from './shop/products.json';
+import rawProductsData from './shop/products.json';
+const productsData = rawProductsData as any[];
 
 export default function Home() {
   const bestsellerProducts = productsData.slice(0, 8);
@@ -16,7 +17,7 @@ export default function Home() {
         <div className="absolute inset-0">
           <Image unoptimized 
             src="/Home.png"
-            alt="Retatrutide Alluvi Cover"
+            alt="Retatrutide UK Peptides Cover"
             fill
             priority
             sizes="100vw"
@@ -32,7 +33,7 @@ export default function Home() {
             UK Laboratory Certified Purity
           </div>
           <h1 className="text-5xl md:text-7xl font-black text-white leading-tight mb-6 max-w-4xl uppercase tracking-tight">
-            Retatrutide <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-300">Alluvi</span>
+            Retatrutide <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-300">UK Peptides</span>
           </h1>
           <p className="text-slate-300 text-sm sm:text-base md:text-lg mb-8 max-w-2xl font-medium leading-relaxed">
             Precision-engineered biochemicals for clinical laboratory research. 99%+ purity guaranteed through independent third-party HPLC and Mass Spectrometry verification.
@@ -90,7 +91,7 @@ export default function Home() {
             Elite Biochemical Distribution Designed for UK Institutions
           </h2>
           <p className="text-slate-400 text-sm sm:text-base max-w-3xl mb-10 leading-relaxed">
-            Alluvi Bio is a premier partner for university laboratories, private contract research organizations (CROs), and academic investigators across the United Kingdom. We eliminate international customs friction, ensuring discrete, rapid, and fully documented peptide shipments.
+            UK Peptides Bio is a premier partner for university laboratories, private contract research organizations (CROs), and academic investigators across the United Kingdom. We eliminate international customs friction, ensuring discrete, rapid, and fully documented peptide shipments.
           </p>
           
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 w-full text-left mt-4">
@@ -116,7 +117,7 @@ export default function Home() {
           <div className="text-center max-w-2xl mx-auto mb-12">
             <span className="text-blue-600 text-xs font-extrabold uppercase tracking-widest bg-blue-50 px-3 py-1 rounded-full border border-blue-100">Reviews</span>
             <h2 className="text-3xl md:text-4xl font-extrabold text-slate-800 tracking-tight mt-4 mb-3">Researcher Testimonials</h2>
-            <p className="text-slate-500 text-sm">See how leading academic and industrial laboratories across the UK rate Alluvi Bio for compound purity and delivery.</p>
+            <p className="text-slate-500 text-sm">See how leading academic and industrial laboratories across the UK rate UK Peptides Bio for compound purity and delivery.</p>
           </div>
 
           <ReviewSlider />
@@ -128,7 +129,7 @@ export default function Home() {
         <div className="container mx-auto">
           <div className="text-center max-w-2xl mx-auto mb-16">
             <span className="text-blue-600 text-xs font-extrabold uppercase tracking-widest bg-blue-50 px-3 py-1 rounded-full border border-blue-100">Our Standards</span>
-            <h2 className="text-3xl font-bold text-slate-800 mt-4 mb-4">Why Researchers Choose AlluviBio</h2>
+            <h2 className="text-3xl font-bold text-slate-800 mt-4 mb-4">Why Researchers Choose UK Peptides</h2>
             <p className="text-slate-500 text-sm">We maintain strict quality control measures to ensure consistent, reliable results for your laboratory research.</p>
           </div>
           

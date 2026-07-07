@@ -4,14 +4,14 @@ import Link from 'next/link';
 import { FileText, Download, CheckCircle, Search, ShieldCheck } from 'lucide-react';
 
 const COAS_DATA = [
-  { id: '1', batch: 'RET-2026-04A', product: 'Alluvi Retatrutide 10mg', purity: '99.82%', date: 'April 2026', method: 'HPLC & MS' },
-  { id: '2', batch: 'TIR-2026-05B', product: 'Alluvi Tirzepatide 10mg', purity: '99.71%', date: 'May 2026', method: 'HPLC & MS' },
-  { id: '3', batch: 'TIR-2026-03C', product: 'Alluvi Tirzepatide 5mg', purity: '99.64%', date: 'March 2026', method: 'HPLC & MS' },
-  { id: '4', batch: 'SEM-2026-05A', product: 'Alluvi Semaglutide 5mg', purity: '99.58%', date: 'May 2026', method: 'HPLC & MS' },
-  { id: '5', batch: 'BPC-2026-02D', product: 'Alluvi BPC-157 5mg', purity: '99.88%', date: 'February 2026', method: 'HPLC & MS' },
-  { id: '6', batch: 'TB-2026-01B', product: 'Alluvi TB-500 5mg', purity: '99.49%', date: 'January 2026', method: 'HPLC & MS' },
-  { id: '7', batch: 'IPA-2026-04C', product: 'Alluvi Ipamorelin 5mg', purity: '99.61%', date: 'April 2026', method: 'HPLC & MS' },
-  { id: '8', batch: 'MT2-2026-05A', product: 'Alluvi Melanotan II 10mg', purity: '99.78%', date: 'May 2026', method: 'HPLC & MS' },
+  { id: '1', batch: 'RET-2026-04A', product: 'UK Peptides Retatrutide 10mg', purity: '99.82%', date: 'April 2026', method: 'HPLC & MS' },
+  { id: '2', batch: 'TIR-2026-05B', product: 'UK Peptides Tirzepatide 10mg', purity: '99.71%', date: 'May 2026', method: 'HPLC & MS' },
+  { id: '3', batch: 'TIR-2026-03C', product: 'UK Peptides Tirzepatide 5mg', purity: '99.64%', date: 'March 2026', method: 'HPLC & MS' },
+  { id: '4', batch: 'SEM-2026-05A', product: 'UK Peptides Semaglutide 5mg', purity: '99.58%', date: 'May 2026', method: 'HPLC & MS' },
+  { id: '5', batch: 'BPC-2026-02D', product: 'UK Peptides BPC-157 5mg', purity: '99.88%', date: 'February 2026', method: 'HPLC & MS' },
+  { id: '6', batch: 'TB-2026-01B', product: 'UK Peptides TB-500 5mg', purity: '99.49%', date: 'January 2026', method: 'HPLC & MS' },
+  { id: '7', batch: 'IPA-2026-04C', product: 'UK Peptides Ipamorelin 5mg', purity: '99.61%', date: 'April 2026', method: 'HPLC & MS' },
+  { id: '8', batch: 'MT2-2026-05A', product: 'UK Peptides Melanotan II 10mg', purity: '99.78%', date: 'May 2026', method: 'HPLC & MS' },
 ];
 
 export default function CoasPage() {
@@ -23,7 +23,7 @@ export default function CoasPage() {
           <span className="text-blue-600 text-xs font-bold uppercase tracking-widest bg-blue-50 px-3 py-1 rounded-full border border-blue-100">Quality Assurance</span>
           <h1 className="text-4xl font-extrabold text-slate-800 tracking-tight mt-4 mb-4">Certificates of Analysis (COAs)</h1>
           <p className="text-slate-600 text-base sm:text-lg">
-            At Alluvi Bio, third-party laboratory verification is absolute. We test every single batch synthesized via HPLC and Mass Spectrometry to guarantee 99%+ chemical purity for your studies.
+            At UK Peptides Bio, third-party laboratory verification is absolute. We test every single batch synthesized via HPLC and Mass Spectrometry to guarantee 99%+ chemical purity for your studies.
           </p>
         </div>
 

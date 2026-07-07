@@ -3,7 +3,7 @@ export default function About() {
     <div className="bg-slate-50 min-h-screen pb-20">
       {/* Hero */}
       <div className="bg-slate-900 py-20 px-6 md:px-12 text-center border-b border-slate-800">
-        <h1 className="text-4xl md:text-5xl font-extrabold text-white mb-6">About AlluviBio</h1>
+        <h1 className="text-4xl md:text-5xl font-extrabold text-white mb-6">About UK Peptides</h1>
         <p className="text-slate-400 max-w-2xl mx-auto text-lg">
           Leading the UK in high-purity research peptides for academic, clinical, and independent laboratory studies.
         </p>
@@ -18,7 +18,7 @@ export default function About() {
               Our Mission
             </h2>
             <p className="text-slate-600 leading-relaxed mb-4">
-              At AlluviBio, our mission is to provide the UK research community with the highest quality biochemicals available. We understand that the integrity of your research depends entirely on the purity of your compounds. That&apos;s why we&apos;ve partnered with world-class synthesis laboratories to bring HPLC-verified peptides directly to UK researchers without the long wait times of international shipping.
+              At UK Peptides, our mission is to provide the UK research community with the highest quality biochemicals available. We understand that the integrity of your research depends entirely on the purity of your compounds. That&apos;s why we&apos;ve partnered with world-class synthesis laboratories to bring HPLC-verified peptides directly to UK researchers without the long wait times of international shipping.
             </p>
             <p className="text-slate-600 leading-relaxed">
               We exclusively serve the research community. Our products are sold strictly for in-vitro and laboratory research purposes and are not intended for human consumption.

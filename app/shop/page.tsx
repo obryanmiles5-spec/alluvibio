@@ -3,7 +3,8 @@
 import { useState } from 'react';
 import ProductCard from '@/components/ProductCard';
 import { Filter, ChevronDown, Search, ChevronLeft, ChevronRight } from 'lucide-react';
-import productsData from './products.json';
+import rawProductsData from './products.json';
+const productsData = rawProductsData as any[];
 
 interface Product {
   id: string;

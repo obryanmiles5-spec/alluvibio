@@ -42,7 +42,7 @@ export default function Header() {
             <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center">
               <div className="w-4 h-4 border-2 border-white rounded-full"></div>
             </div>
-            <span className="font-bold text-xl tracking-tight text-slate-800">ALLUVI<span className="text-blue-600 underline decoration-2 underline-offset-4">BIO</span></span>
+            <span className="font-bold text-xl tracking-tight text-slate-800">UK PEPTIDES<span className="text-blue-600 underline decoration-2 underline-offset-4">BIO</span></span>
           </Link>
         </div>
         

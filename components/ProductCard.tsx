@@ -50,6 +50,11 @@ export default function ProductCard({
             referrerPolicy="no-referrer"
           />
           
+          {/* Obscure the original watermark in the center */}
+          <div className="absolute top-[45%] left-1/2 -translate-x-1/2 -translate-y-1/2 w-[60%] h-[15%] bg-white/80 backdrop-blur-sm flex items-center justify-center rounded-lg border border-slate-200/50 shadow-sm pointer-events-none">
+             <span className="text-slate-800 font-bold text-xs uppercase tracking-wider">UK Peptides</span>
+          </div>
+          
           {/* Authentic Lab Watermark / Product Stamp */}
           <div className="absolute bottom-2.5 left-2.5 z-10 pointer-events-none select-none">
             <div className="bg-slate-900/85 backdrop-blur-md border border-slate-700/50 rounded-full px-2 py-1 flex items-center gap-1.5 shadow-[0_4px_12px_rgba(0,0,0,0.15)] transition-transform group-hover:scale-105 duration-300">
@@ -59,8 +64,8 @@ export default function ProductCard({
                 </svg>
               </div>
               <div className="flex flex-col">
-                <span className="text-[7px] font-black text-white leading-none uppercase tracking-widest">ALLUVI BIO</span>
-                <span className="text-[5.5px] font-semibold text-blue-300 leading-none uppercase tracking-wider mt-0.5">LABS APPROVED</span>
+                <span className="text-[7px] font-black text-white leading-none uppercase tracking-widest">UK PEPTIDES</span>
+                <span className="text-[5.5px] font-semibold text-blue-300 leading-none uppercase tracking-wider mt-0.5">VERIFIED</span>
               </div>
             </div>
           </div>

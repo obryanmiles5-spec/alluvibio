@@ -42,7 +42,7 @@ export default function CartDrawer() {
   };
 
   const formatCartText = () => {
-    let text = `*ALLUVI BIO UK - NEW ORDER REQUEST*\n`;
+    let text = `*UK PEPTIDES UK - NEW ORDER REQUEST*\n`;
     text += `=========================\n\n`;
     cart.forEach((item, index) => {
       text += `${index + 1}. *${item.name}* (x${item.quantity}) - £${(item.price * item.quantity).toFixed(2)}\n`;
