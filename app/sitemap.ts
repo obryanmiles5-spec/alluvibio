@@ -4,7 +4,7 @@ import rawProductsData from './shop/products.json'
 const productsData = rawProductsData as any[];
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://www.uk-peptides.com';
+  const baseUrl = 'https://buyretat.co.uk';
 
   const productRoutes = productsData.map((product) => ({
     url: `${baseUrl}/shop/${product.id}`,

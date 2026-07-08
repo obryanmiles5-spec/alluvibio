@@ -13,7 +13,7 @@ export default function WhatsAppChat() {
     if (!message.trim()) return;
 
     const encodedText = encodeURIComponent(message);
-    const whatsappUrl = `https://wa.me/447400000000?text=${encodedText}`;
+    const whatsappUrl = `https://wa.me/447529469162?text=${encodedText}`;
     window.open(whatsappUrl, '_blank');
     setMessage('');
     setIsOpen(false);

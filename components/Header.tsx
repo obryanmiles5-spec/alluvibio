@@ -39,9 +39,7 @@ export default function Header() {
           </button>
           
           <Link href="/" className="flex items-center gap-2">
-            <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center">
-              <div className="w-4 h-4 border-2 border-white rounded-full"></div>
-            </div>
+            <img src="/logo.svg" alt="UK Peptides Logo" className="w-8 h-8" />
             <span className="font-bold text-xl tracking-tight text-slate-800">UK PEPTIDES</span>
           </Link>
         </div>

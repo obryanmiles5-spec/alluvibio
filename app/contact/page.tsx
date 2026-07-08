@@ -28,8 +28,43 @@ export default function Contact() {
     }
   };
 
+  
+  const localBusinessSchema = {
+    "@context": "https://schema.org",
+    "@type": "MedicalBusiness",
+    "name": "UK Peptides",
+    "image": "https://buyretat.co.uk/logo.svg",
+    "email": "contact@buyretat.co.uk",
+    "telephone": "+44 7529 469162",
+    "url": "https://buyretat.co.uk",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "UK"
+    },
+    "description": "Leading UK supplier of high-purity laboratory research peptides.",
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "opens": "00:00",
+      "closes": "23:59"
+    }
+  };
+
   return (
-    <div className="bg-slate-50 min-h-screen pb-20">
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
+      />
+      <div className="bg-slate-50 min-h-screen pb-20">
       <div className="bg-slate-900 py-16 px-6 md:px-12 text-center border-b border-slate-800">
         <h1 className="text-4xl md:text-5xl font-extrabold text-white mb-4">Contact Us</h1>
         <p className="text-slate-400 max-w-xl mx-auto text-sm md:text-base">
@@ -149,5 +184,6 @@ export default function Contact() {
         </div>
       </div>
     </div>
+    </>
   );
 }

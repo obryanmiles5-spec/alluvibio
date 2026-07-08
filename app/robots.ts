@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: ['/api/', '/admin/'],
     },
-    sitemap: 'https://www.uk-peptides.com/sitemap.xml',
+    sitemap: 'https://buyretat.co.uk/sitemap.xml',
   }
 }

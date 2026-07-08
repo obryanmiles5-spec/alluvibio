@@ -1,6 +1,59 @@
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'About Us | UK Peptides | Leading Research Peptide Supplier',
+  description: 'Learn about UK Peptides, the premier UK biochemical distributor. We supply high-purity (99%+) research peptides like Retatrutide, Tirzepatide, and BPC-157 to laboratories and academic institutions.',
+  alternates: {
+    canonical: '/about',
+    languages: {
+      'en-GB': '/about',
+    },
+  },
+  openGraph: {
+    title: 'About Us | UK Peptides | Leading Research Peptide Supplier',
+    description: 'Learn about UK Peptides, the premier UK biochemical distributor. We supply high-purity (99%+) research peptides directly to UK researchers.',
+    url: 'https://buyretat.co.uk/about',
+    siteName: 'UK Peptides',
+    images: [
+      {
+        url: '/Home.png',
+        width: 1200,
+        height: 630,
+        alt: 'About UK Peptides',
+      }
+    ],
+    locale: 'en_GB',
+    type: 'website',
+  },
+};
+
 export default function About() {
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://buyretat.co.uk"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "About",
+        "item": "https://buyretat.co.uk/about"
+      }
+    ]
+  };
+
   return (
-    <div className="bg-slate-50 min-h-screen pb-20">
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+      <div className="bg-slate-50 min-h-screen pb-20">
       {/* Hero */}
       <div className="bg-slate-900 py-20 px-6 md:px-12 text-center border-b border-slate-800">
         <h1 className="text-4xl md:text-5xl font-extrabold text-white mb-6">About UK Peptides</h1>
@@ -63,5 +116,6 @@ export default function About() {
         </div>
       </div>
     </div>
+    </>
   );
 }

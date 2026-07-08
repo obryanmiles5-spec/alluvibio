@@ -72,7 +72,7 @@ export default function CartDrawer() {
 
     const whatsappText = formatCartText();
     // UK support number or standard link format
-    const whatsappUrl = `https://wa.me/447400000000?text=${whatsappText}`;
+    const whatsappUrl = `https://wa.me/447529469162?text=${whatsappText}`;
     
     window.open(whatsappUrl, '_blank');
     
