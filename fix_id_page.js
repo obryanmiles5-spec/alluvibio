@@ -1,8 +1,10 @@
+const fs = require('fs');
 
+const content = `
 import Image from 'next/image';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import { ChevronRight, ArrowLeft, Check, Shield, Truck, Package, Eye, Star } from 'lucide-react';
+import { ChevronRight, ArrowLeft, Check, Shield, Truck, Package } from 'lucide-react';
 import type { Metadata } from 'next';
 import rawProductsData from '../products.json';
 const productsData = rawProductsData as any[];
@@ -28,12 +30,12 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
   }
   
   return {
-    title: `Buy ${product.name} | UK Peptides`,
-    description: `High-purity ${product.name} for laboratory research. Buy premium peptides online at UK Peptides with fast UK delivery.`,
-    keywords: `buy ${product.name} uk, ${product.name} peptides uk, buy peptides online`,
+    title: \`Buy \${product.name} | UK Peptides\`,
+    description: \`High-purity \${product.name} for laboratory research. Buy premium peptides online at UK Peptides with fast UK delivery.\`,
+    keywords: \`buy \${product.name} uk, \${product.name} peptides uk, buy peptides online\`,
     openGraph: {
-      title: `Buy ${product.name} | UK Peptides`,
-      description: `High-purity ${product.name} for laboratory research. Buy premium peptides online at UK Peptides with fast UK delivery.`,
+      title: \`Buy \${product.name} | UK Peptides\`,
+      description: \`High-purity \${product.name} for laboratory research. Buy premium peptides online at UK Peptides with fast UK delivery.\`,
       images: [
         {
           url: product.image,
@@ -130,35 +132,15 @@ export default async function ProductPage({ params }: { params: Promise<{ id: st
                 <span className="bg-blue-50 text-blue-600 px-3 py-1 rounded-full text-xs font-extrabold tracking-widest uppercase">
                   {product.category || 'Peptides'}
                 </span>
-
                 <span className="flex items-center gap-1 text-emerald-600 text-xs font-bold bg-emerald-50 px-3 py-1 rounded-full uppercase tracking-wider">
                   <Check className="w-3 h-3" />
                   {product.stockStatus || 'In Stock'}
                 </span>
-                <span className="flex items-center gap-1.5 text-orange-600 text-xs font-bold bg-orange-50 px-3 py-1 rounded-full uppercase tracking-wider animate-pulse">
-                  <Eye className="w-3 h-3" />
-                  {12 + (parseInt(product.id) % 35)} viewing right now
-                </span>
-
               </div>
               
-
-              <h1 className="text-3xl md:text-4xl font-extrabold text-slate-900 mb-2 tracking-tight">
+              <h1 className="text-3xl md:text-4xl font-extrabold text-slate-900 mb-4 tracking-tight">
                 {product.name}
               </h1>
-              
-              <div className="flex items-center gap-2 mb-4">
-                <div className="flex items-center text-amber-400">
-                  <Star className="w-4 h-4 fill-current" />
-                  <Star className="w-4 h-4 fill-current" />
-                  <Star className="w-4 h-4 fill-current" />
-                  <Star className="w-4 h-4 fill-current" />
-                  <Star className="w-4 h-4 fill-current" />
-                </div>
-                <span className="text-sm font-bold text-slate-700">{(4.8 + (parseInt(product.id) % 3) * 0.1).toFixed(1)}</span>
-                <span className="text-sm font-medium text-blue-600 underline cursor-pointer">{20 + parseInt(product.id) * 7} reviews</span>
-              </div>
-
               
               <p className="text-3xl font-extrabold text-blue-600 mb-6">
                 £{product.price.toFixed(2)}
@@ -216,3 +198,6 @@ export default async function ProductPage({ params }: { params: Promise<{ id: st
     </div>
   );
 }
+`
+
+fs.writeFileSync('app/shop/[id]/page.tsx', content);

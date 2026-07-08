@@ -48,7 +48,7 @@ const QUALITY_FAQS: FaqItem[] = [
   {
     id: 8,
     question: 'Are these products intended for human or clinical consumption?',
-    answer: 'No. All UK Peptides Bio products are sold strictly for in-vitro laboratory research and academic studies. They are not intended for human consumption, therapeutic, or diagnostic use.'
+    answer: 'No. All UK Peptides products are sold strictly for in-vitro laboratory research and academic studies. They are not intended for human consumption, therapeutic, or diagnostic use.'
   },
   {
     id: 9,
@@ -66,7 +66,7 @@ const LOGISTICS_FAQS: FaqItem[] = [
   {
     id: 11,
     question: 'Where is the best place to buy peptides for research in the UK?',
-    answer: 'The best place is a dedicated, UK-based biochemical distributor like UK Peptides Bio. Buying domestically ensures fast delivery without customs seizures or import duties that often occur when buying from overseas social media vendors.'
+    answer: 'The best place is a dedicated, UK-based biochemical distributor like UK Peptides. Buying domestically ensures fast delivery without customs seizures or import duties that often occur when buying from overseas social media vendors.'
   },
   {
     id: 12,
@@ -115,15 +115,35 @@ const LOGISTICS_FAQS: FaqItem[] = [
   }
 ];
 
+
 export default function FaqAccordion() {
   const [openId, setOpenId] = useState<number | null>(null);
-
   const toggleFaq = (id: number) => {
     setOpenId(openId === id ? null : id);
   };
+  
+  const allFaqs = [...QUALITY_FAQS, ...LOGISTICS_FAQS];
 
   return (
-    <div id="faq" className="w-full max-w-6xl mx-auto px-4 py-8">
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": allFaqs.map(faq => ({
+              "@type": "Question",
+              "name": faq.question,
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": faq.answer
+              }
+            }))
+          })
+        }}
+      />
+      <div id="faq" className="w-full max-w-6xl mx-auto px-4 py-8">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mt-8">
         {/* Section 1: Quality & Research */}
         <div className="flex flex-col">
@@ -224,5 +244,7 @@ export default function FaqAccordion() {
         </div>
       </div>
     </div>
+  
+    </>
   );
 }

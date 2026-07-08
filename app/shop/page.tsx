@@ -57,9 +57,9 @@ export default function Shop() {
       {/* Page Header */}
       <div className="bg-white border-b border-slate-200 py-12 px-6 md:px-12">
         <div className="container mx-auto">
-          <h1 className="text-3xl font-extrabold text-slate-900 mb-2">Research Peptides</h1>
+          <h1 className="text-3xl font-extrabold text-slate-900 mb-2">Buy Research Peptides UK Online</h1>
           <p className="text-slate-500 max-w-2xl text-sm">
-            Browse our complete catalog of high-purity research peptides. All products are manufactured in ISO-certified facilities and undergo rigorous third-party testing.
+            Browse our complete catalog of high-purity research peptides including Retatrutide, Tirzepatide, and BPC-157. Buy peptides online with fast UK delivery. All products are manufactured in ISO-certified facilities and undergo rigorous third-party testing.
           </p>
         </div>
       </div>

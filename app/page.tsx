@@ -33,10 +33,10 @@ export default function Home() {
             UK Laboratory Certified Purity
           </div>
           <h1 className="text-5xl md:text-7xl font-black text-white leading-tight mb-6 max-w-4xl uppercase tracking-tight">
-            Retatrutide <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-300">UK Peptides</span>
+            Buy Premium Research Peptides <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-300">UK</span>
           </h1>
           <p className="text-slate-300 text-sm sm:text-base md:text-lg mb-8 max-w-2xl font-medium leading-relaxed">
-            Precision-engineered biochemicals for clinical laboratory research. 99%+ purity guaranteed through independent third-party HPLC and Mass Spectrometry verification.
+            Precision-engineered biochemicals for clinical laboratory research. Buy Retatrutide, Tirzepatide, BPC-157, and more online. 99%+ purity guaranteed through independent third-party HPLC and Mass Spectrometry verification.
           </p>
           <div className="flex flex-col sm:flex-row items-center gap-4 justify-center w-full max-w-md mx-auto">
             <Link href="/shop" className="px-8 py-4 bg-blue-600 hover:bg-blue-500 text-white rounded-xl font-bold shadow-lg shadow-blue-900/40 transition-all text-sm md:text-base w-full sm:w-auto text-center">
@@ -55,7 +55,7 @@ export default function Home() {
           <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-4">
             <div>
               <span className="text-blue-600 text-xs font-extrabold uppercase tracking-[0.25em] bg-blue-50 px-3 py-1 rounded-full">UK Stocked</span>
-              <h2 className="text-3xl md:text-4xl font-extrabold text-slate-800 tracking-tight mt-3">Bestselling Research Peptides</h2>
+              <h2 className="text-3xl md:text-4xl font-extrabold text-slate-800 tracking-tight mt-3">Buy Bestselling Research Peptides UK</h2>
               <p className="text-slate-500 text-sm mt-1">Guaranteed 99%+ purity on our most in-demand laboratory-certified biochemical compounds.</p>
             </div>
             <Link href="/shop" className="text-blue-600 text-sm font-bold hover:text-blue-700 transition-colors uppercase tracking-wider flex items-center gap-1.5 shrink-0">
@@ -91,7 +91,7 @@ export default function Home() {
             Elite Biochemical Distribution Designed for UK Institutions
           </h2>
           <p className="text-slate-400 text-sm sm:text-base max-w-3xl mb-10 leading-relaxed">
-            UK Peptides Bio is a premier partner for university laboratories, private contract research organizations (CROs), and academic investigators across the United Kingdom. We eliminate international customs friction, ensuring discrete, rapid, and fully documented peptide shipments.
+            UK Peptides is a premier partner for university laboratories, private contract research organizations (CROs), and academic investigators across the United Kingdom. We eliminate international customs friction, ensuring discrete, rapid, and fully documented peptide shipments.
           </p>
           
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 w-full text-left mt-4">
@@ -117,7 +117,7 @@ export default function Home() {
           <div className="text-center max-w-2xl mx-auto mb-12">
             <span className="text-blue-600 text-xs font-extrabold uppercase tracking-widest bg-blue-50 px-3 py-1 rounded-full border border-blue-100">Reviews</span>
             <h2 className="text-3xl md:text-4xl font-extrabold text-slate-800 tracking-tight mt-4 mb-3">Researcher Testimonials</h2>
-            <p className="text-slate-500 text-sm">See how leading academic and industrial laboratories across the UK rate UK Peptides Bio for compound purity and delivery.</p>
+            <p className="text-slate-500 text-sm">See how leading academic and industrial laboratories across the UK rate UK Peptides for compound purity and delivery.</p>
           </div>
 
           <ReviewSlider />

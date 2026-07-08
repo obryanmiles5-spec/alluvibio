@@ -1,17 +1,8 @@
-import type {Metadata} from 'next';
-import type { ReactNode } from 'react';
-import { Inter } from 'next/font/google';
-import './globals.css';
-import Header from '@/components/Header';
-import Footer from '@/components/Footer';
-import { CartProvider } from '@/context/CartContext';
-import CartDrawer from '@/components/CartDrawer';
-import WhatsAppChat from '@/components/WhatsAppChat';
-import LiveSalesNotification from '@/components/LiveSalesNotification';
+const fs = require('fs');
 
-const inter = Inter({ subsets: ['latin'], variable: '--font-sans' });
+let content = fs.readFileSync('app/layout.tsx', 'utf8');
 
-export const metadata: Metadata = {
+const updatedMetadata = `export const metadata: Metadata = {
   title: 'UK Peptides | Buy Premium Research Peptides Online UK',
   description: 'Buy premium research peptides online in the UK. We specialize in high-purity laboratory peptides including Retatrutide, Tirzepatide, and BPC-157. Fast UK delivery.',
   keywords: 'buy retatrutide uk, research peptides uk, buy peptides online uk, BPC-157 uk, buy tirzepatide uk, premium peptides, uk peptides',
@@ -50,24 +41,9 @@ export const metadata: Metadata = {
   verification: {
     google: 'your-google-verification-code',
   },
-};
+};`;
 
-export default function RootLayout({children}: {children: ReactNode}) {
-  return (
-    <html lang="en" className={inter.variable}>
-      <body className="font-sans min-h-screen flex flex-col bg-slate-50 text-slate-900" suppressHydrationWarning>
-        <CartProvider>
-          <Header />
-          <main className="flex-1 flex flex-col">
-            {children}
-          </main>
-          <Footer />
-          <CartDrawer />
-          <WhatsAppChat />
-          <LiveSalesNotification />
-        </CartProvider>
-      </body>
-    </html>
-  );
-}
+content = content.replace(/export const metadata: Metadata = \{[\s\S]*?\};/, updatedMetadata);
 
+fs.writeFileSync('app/layout.tsx', content);
+console.log('Updated app/layout.tsx');

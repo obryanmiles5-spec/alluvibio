@@ -86,24 +86,39 @@ export default function CartDrawer() {
     }, 3000);
   };
 
-  const handleEmailCheckoutSubmit = (e: React.FormEvent) => {
+    const handleEmailCheckoutSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!isMinimumMet) return;
 
     setIsSubmitting(true);
-
-    // Simulate server request
-    setTimeout(() => {
+    try {
+      const res = await fetch('/api/checkout', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          ...formData,
+          cartItems: cart,
+          totalAmount: cartSubtotal,
+        }),
+      });
+      const data = await res.json();
+      if (data.success) {
+        setCheckoutSuccess(true);
+        setTimeout(() => {
+          clearCart();
+          setCheckoutSuccess(false);
+          setCheckoutMode('none');
+          setIsCartOpen(false);
+          setFormData({ name: '', email: '', phone: '', address: '', notes: '', paymentMethod: 'Bank Transfer' });
+        }, 3000);
+      } else {
+        alert(data.message || 'Error placing order');
+      }
+    } catch (error) {
+      alert('Network error. Please try again.');
+    } finally {
       setIsSubmitting(false);
-      setCheckoutSuccess(true);
-      
-      setTimeout(() => {
-        clearCart();
-        setCheckoutSuccess(false);
-        setCheckoutMode('none');
-        setIsCartOpen(false);
-      }, 3000);
-    }, 1500);
+    }
   };
 
   return (
