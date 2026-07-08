@@ -1,8 +1,7 @@
 
-import Image from 'next/image';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import { ChevronRight, ArrowLeft, Check, Shield, Truck, Package, Eye, Star } from 'lucide-react';
+import { ChevronRight, ArrowLeft, Check, Shield, Truck, Package, Eye, Star, FlaskConical } from 'lucide-react';
 import type { Metadata } from 'next';
 import rawProductsData from '../products.json';
 const productsData = rawProductsData as any[];
@@ -165,21 +164,21 @@ export default async function ProductPage({ params }: { params: Promise<{ id: st
                 </span>
               )}
               
-              <div className="relative w-full max-w-md aspect-square rounded-xl overflow-hidden shadow-lg border border-slate-200 bg-white">
-                <Image
-                  unoptimized
-                  src={product.image}
-                  alt={product.name}
-                  fill
-                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                  style={{ objectFit: 'cover' }}
-                  referrerPolicy="no-referrer"
-                  className="transition-transform duration-500 hover:scale-105 mix-blend-multiply p-6"
-                />
+              <div className="relative w-full max-w-md aspect-square rounded-xl overflow-hidden shadow-lg border border-slate-200 bg-white flex flex-col items-center justify-center p-8">
+                <div className="absolute inset-0 opacity-[0.04]" style={{ backgroundImage: 'radial-gradient(#2563eb 1px, transparent 1px)', backgroundSize: '20px 20px' }}></div>
                 
-                {/* Obscure the original watermark in the center */}
-                <div className="absolute top-[45%] left-1/2 -translate-x-1/2 -translate-y-1/2 w-[60%] h-[15%] bg-white/90 backdrop-blur-sm flex items-center justify-center rounded-lg border border-slate-200/50 shadow-sm pointer-events-none z-10">
-                   <span className="text-slate-800 font-bold text-lg uppercase tracking-wider">UK Peptides</span>
+                <div className="w-24 h-24 rounded-full bg-blue-50/80 flex items-center justify-center border border-blue-100 shadow-md mb-4 transition-transform duration-500 hover:scale-105">
+                  <FlaskConical className="w-12 h-12 text-blue-600 stroke-[1.5]" />
+                </div>
+                
+                <div className="text-center z-10">
+                  <h4 className="text-xs font-black text-blue-600 tracking-widest uppercase">LABORATORY COMPLIANT</h4>
+                  <p className="text-[10px] text-slate-400 font-bold uppercase tracking-wider mt-1">99.8% Certified Purity • No Image Policy</p>
+                </div>
+                
+                {/* Decorative chemical formula style layout */}
+                <div className="absolute bottom-4 right-4 text-[10px] font-mono text-slate-300 select-none pointer-events-none">
+                  C₁₄₂H₂24N₄0O₄5S₃
                 </div>
                 
                 {/* Authentic Lab Watermark / Product Stamp */}

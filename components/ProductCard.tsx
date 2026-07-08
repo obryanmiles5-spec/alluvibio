@@ -1,6 +1,5 @@
 'use client';
-import { ShoppingCart, Star } from 'lucide-react';
-import Image from 'next/image';
+import { ShoppingCart, Star, FlaskConical } from 'lucide-react';
 import Link from 'next/link';
 import { useCart } from '@/context/CartContext';
 
@@ -18,7 +17,7 @@ export default function ProductCard({
   id, 
   name, 
   price, 
-  image = 'https://picsum.photos/seed/peptide/400/400', 
+  image = '', 
   badge, 
   stockStatus = 'In Stock' 
 }: ProductCardProps) {
@@ -33,40 +32,31 @@ export default function ProductCard({
 
   return (
     <Link href={`/shop/${id}`} className="group cursor-pointer block">
-      <div className="relative h-48 md:h-56 bg-slate-100 rounded-2xl overflow-hidden mb-3">
+      <div className="relative h-48 md:h-56 bg-slate-50 rounded-2xl overflow-hidden mb-3 border border-slate-100 flex items-center justify-center">
         {badge && (
           <div className="absolute top-3 right-3 bg-blue-600 text-white text-[9px] font-bold px-2 py-1 rounded z-10 shadow-sm">
             {badge}
           </div>
         )}
-        <div className="h-full w-full flex items-center justify-center opacity-90 relative bg-white">
-          <Image 
-            src={image}
-            unoptimized 
-            alt={`Buy ${name} online UK - Research Peptide`} 
-            fill 
-            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-            className="object-cover mix-blend-multiply p-4" 
-            referrerPolicy="no-referrer"
-          />
+        
+        {/* Beautiful, scientific placeholder layout */}
+        <div className="h-full w-full flex flex-col items-center justify-center relative bg-gradient-to-br from-slate-50 to-blue-50/20 p-4">
+          <div className="absolute inset-0 opacity-[0.03]" style={{ backgroundImage: 'radial-gradient(#2563eb 1px, transparent 1px)', backgroundSize: '16px 16px' }}></div>
           
-          {/* Obscure the original watermark in the center */}
-          <div className="absolute top-[45%] left-1/2 -translate-x-1/2 -translate-y-1/2 w-[60%] h-[15%] bg-white/80 backdrop-blur-sm flex items-center justify-center rounded-lg border border-slate-200/50 shadow-sm pointer-events-none">
-             <span className="text-slate-800 font-bold text-xs uppercase tracking-wider">UK Peptides</span>
+          <div className="w-14 h-14 rounded-full bg-blue-50/80 flex items-center justify-center border border-blue-100 shadow-sm mb-2 group-hover:scale-110 transition-transform duration-300">
+            <FlaskConical className="w-6 h-6 text-blue-600 stroke-[1.5]" />
           </div>
+          <span className="text-[9px] font-extrabold text-slate-400 tracking-widest uppercase text-center">RESEARCH COMPLY</span>
           
           {/* Authentic Lab Watermark / Product Stamp */}
           <div className="absolute bottom-2.5 left-2.5 z-10 pointer-events-none select-none">
-            <div className="bg-slate-900/85 backdrop-blur-md border border-slate-700/50 rounded-full px-2 py-1 flex items-center gap-1.5 shadow-[0_4px_12px_rgba(0,0,0,0.15)] transition-transform group-hover:scale-105 duration-300">
-              <div className="w-3.5 h-3.5 rounded-full bg-blue-500/20 border border-blue-400/40 flex items-center justify-center shrink-0">
-                <svg className="w-2 h-2 text-blue-400 fill-current" viewBox="0 0 24 24">
+            <div className="bg-slate-900/85 backdrop-blur-md border border-slate-700/50 rounded-full px-2 py-1 flex items-center gap-1 shadow-[0_4px_12px_rgba(0,0,0,0.15)] transition-transform group-hover:scale-105 duration-300">
+              <div className="w-3 h-3 rounded-full bg-blue-500/20 border border-blue-400/40 flex items-center justify-center shrink-0">
+                <svg className="w-1.5 h-1.5 text-blue-400 fill-current" viewBox="0 0 24 24">
                   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
                 </svg>
               </div>
-              <div className="flex flex-col">
-                <span className="text-[7px] font-black text-white leading-none uppercase tracking-widest">UK PEPTIDES</span>
-                <span className="text-[5.5px] font-semibold text-blue-300 leading-none uppercase tracking-wider mt-0.5">VERIFIED</span>
-              </div>
+              <span className="text-[5.5px] font-black text-white leading-none uppercase tracking-widest">VERIFIED</span>
             </div>
           </div>
         </div>

@@ -63,11 +63,23 @@ export default function Home() {
             </Link>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
-            {bestsellerProducts.map(product => (
-              <ProductCard key={product.id} {...product} />
-            ))}
-          </div>
+          {bestsellerProducts.length === 0 ? (
+            <div className="bg-slate-50 border border-slate-100 rounded-2xl p-12 text-center max-w-2xl mx-auto my-8">
+              <div className="w-16 h-16 rounded-full bg-blue-50/55 flex items-center justify-center border border-blue-100 shadow-sm mx-auto mb-4">
+                <svg className="w-8 h-8 text-blue-600 stroke-[1.5]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
+                </svg>
+              </div>
+              <p className="text-slate-600 font-bold uppercase tracking-wider text-sm">Product Catalog Refresh</p>
+              <p className="text-xs text-slate-400 mt-1">Our premium laboratory-certified catalog is being updated. Please check back very soon!</p>
+            </div>
+          ) : (
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
+              {bestsellerProducts.map(product => (
+                <ProductCard key={product.id} {...product} />
+              ))}
+            </div>
+          )}
         </div>
       </section>
 
