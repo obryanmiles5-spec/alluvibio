@@ -15,6 +15,19 @@
   animation: marquee 40s linear infinite;
 }
 
+@keyframes slowZoom {
+  0%, 100% {
+    transform: scale(1) translate(0, 0);
+  }
+  50% {
+    transform: scale(1.06) translate(-1%, -0.5%);
+  }
+}
+
+.animate-slow-zoom {
+  animation: slowZoom 30s ease-in-out infinite;
+}
+
 .animate-marquee:hover {
   animation-play-state: paused;
 }

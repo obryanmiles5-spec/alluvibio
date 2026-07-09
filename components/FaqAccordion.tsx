@@ -116,13 +116,15 @@ const LOGISTICS_FAQS: FaqItem[] = [
 ];
 
 
-export default function FaqAccordion() {
+export default function FaqAccordion({ limit }: { limit?: number }) {
   const [openId, setOpenId] = useState<number | null>(null);
   const toggleFaq = (id: number) => {
     setOpenId(openId === id ? null : id);
   };
   
   const allFaqs = [...QUALITY_FAQS, ...LOGISTICS_FAQS];
+  const displayedQuality = limit ? QUALITY_FAQS.slice(0, limit) : QUALITY_FAQS;
+  const displayedLogistics = limit ? LOGISTICS_FAQS.slice(0, limit) : LOGISTICS_FAQS;
 
   return (
     <>
@@ -158,7 +160,7 @@ export default function FaqAccordion() {
           </div>
 
           <div className="flex flex-col gap-3">
-            {QUALITY_FAQS.map((faq) => {
+            {displayedQuality.map((faq) => {
               const isOpen = openId === faq.id;
               return (
                 <div 
@@ -207,7 +209,7 @@ export default function FaqAccordion() {
           </div>
 
           <div className="flex flex-col gap-3">
-            {LOGISTICS_FAQS.map((faq) => {
+            {displayedLogistics.map((faq) => {
               const isOpen = openId === faq.id;
               return (
                 <div 

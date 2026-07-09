@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import Link from 'next/link';
 import { Search, ShoppingCart, User, Menu } from 'lucide-react';
 import { useState } from 'react';
@@ -39,7 +40,7 @@ export default function Header() {
           </button>
           
           <Link href="/" className="flex items-center gap-2">
-            <img src="/logo.svg" alt="UK Peptides Logo" className="w-8 h-8" />
+            <Image src="/logo.svg" alt="UK Peptides Logo" width={32} height={32} className="w-8 h-8" />
             <span className="font-bold text-xl tracking-tight text-slate-800">UK PEPTIDES</span>
           </Link>
         </div>

@@ -93,6 +93,67 @@ const brandLogos = [
   }
 ];
 
+const homeBlogSample = {
+  left: [
+    {
+      title: 'The Science of Retatrutide: Triple Receptor Agonist Dominating Peptide Research',
+      slug: 'science-of-retatrutide-triple-agonist',
+      date: 'July 2, 2026',
+      readTime: '7 min read',
+      category: 'Metabolic',
+      summary: 'Discover the molecular mechanics of Retatrutide (LY3437943), the novel triple receptor agonist currently transforming metabolic and adiposity studies.',
+      icon: '🔬'
+    },
+    {
+      title: 'Retatrutide vs. Tirzepatide: Comparative Study on Metabolic Rate & Thermogenesis',
+      slug: 'retatrutide-vs-tirzepatide-comparison',
+      date: 'June 22, 2026',
+      readTime: '6 min read',
+      category: 'Metabolic',
+      summary: 'A detailed biochemical breakdown comparing Retatrutide and Tirzepatide. Learn how the glucagon agonist component in Retatrutide shifts the metabolic paradigm.',
+      icon: '⚖️'
+    },
+    {
+      title: 'The Rise of Melanotan II in Biochemical Research: Synthesis and Efficacy',
+      slug: 'melanotan-ii-synthesis-efficacy',
+      date: 'June 10, 2026',
+      readTime: '4 min read',
+      category: 'Longevity',
+      summary: 'Analyze the synthetic analog of alpha-melanocyte stimulating hormone (a-MSH). We review its melanogenesis action and its application in photoprotective cutaneous research.',
+      icon: '☀️'
+    }
+  ],
+  right: [
+    {
+      title: 'Why BPC-157 is Trending Globally: Cellular Healing & Tissue Repair Mechanisms',
+      slug: 'bpc-157-cellular-healing-tissue-repair',
+      date: 'June 28, 2026',
+      readTime: '5 min read',
+      category: 'Tissue Repair',
+      summary: 'Explore the biological action of Body Protection Compound 157 (BPC-157). Learn how this pentadecapeptide stimulates angiogenesis and tissue restoration.',
+      icon: '🧬'
+    },
+    {
+      title: 'Understanding Peptide Reconstitution: A Step-by-Step Laboratory Guide',
+      slug: 'peptide-reconstitution-guide',
+      date: 'June 15, 2026',
+      readTime: '5 min read',
+      category: 'Guides',
+      summary: 'A precise procedural guide for laboratory technicians on the reconstitution of lyophilized peptide powders. Includes sterilisation, diluent selection, and calculation math.',
+      icon: '📋'
+    },
+    {
+      title: 'Ipamorelin and CJC-1295: The Power of Synergistic Growth Hormone Research',
+      slug: 'ipamorelin-cjc-1295-synergistic-peptide',
+      date: 'June 5, 2026',
+      readTime: '6 min read',
+      category: 'Longevity',
+      summary: 'A scientific analysis of GHRH and GHRP synergy. Discover why combining CJC-1295 and Ipamorelin triggers a more sustainable growth hormone release than single peptide administration.',
+      icon: '⚡'
+    }
+  ]
+};
+
 export default function Home() {
   const bestsellerProducts = sortedProductsData.slice(0, 8);
 
@@ -245,8 +306,20 @@ export default function Home() {
       </section>
 
       {/* Modern Customer Testimonials Slider */}
-      <section className="bg-slate-50 py-20 px-6 md:px-12">
-        <div className="container mx-auto">
+      <section className="py-24 px-6 md:px-12 overflow-hidden relative" id="researcher-testimonials-section">
+        <div className="absolute inset-0">
+          <Image unoptimized 
+            src="https://images.unsplash.com/photo-1579165466541-74e2b490279c?auto=format&fit=crop&q=80&w=1600"
+            alt="UK Peptide Research Laboratory Sterile Bottles"
+            fill
+            sizes="100vw"
+            className="object-cover opacity-45 animate-slow-zoom"
+            referrerPolicy="no-referrer"
+          />
+          <div className="absolute inset-0 bg-gradient-to-b from-slate-50/80 via-slate-50/60 to-slate-50/80"></div>
+        </div>
+
+        <div className="container mx-auto relative z-10">
           <div className="text-center max-w-2xl mx-auto mb-12">
             <span className="text-blue-600 text-xs font-extrabold uppercase tracking-widest bg-blue-50 px-3 py-1 rounded-full border border-blue-100">Reviews</span>
             <h2 className="text-3xl md:text-4xl font-extrabold text-slate-800 tracking-tight mt-4 mb-3">Researcher Testimonials</h2>
@@ -284,6 +357,125 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Featured Research & Science Directory Blog Sampling */}
+      <section className="bg-slate-50 py-20 px-6 md:px-12 border-t border-slate-100" id="homepage-blog-sampling">
+        <div className="container mx-auto max-w-6xl">
+          <div className="text-center max-w-2xl mx-auto mb-16">
+            <span className="text-blue-600 text-xs font-extrabold uppercase tracking-[0.25em] bg-blue-50 px-3.5 py-1.5 rounded-full border border-blue-100">
+              Scientific Directory & Research Blog
+            </span>
+            <h2 className="text-3xl md:text-4xl font-extrabold text-slate-800 tracking-tight mt-4 mb-4">
+              Featured Clinical & Laboratory Publications
+            </h2>
+            <p className="text-slate-500 text-sm">
+              Read up-to-date, peer-reviewed clinical analyses, storage instructions, and step-by-step reconstitution guidelines written for UK peptide researchers.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
+            {/* Left Column (3 posts) */}
+            <div className="space-y-6">
+              <div className="border-b border-slate-200 pb-3 flex items-center justify-between">
+                <h3 className="text-sm font-bold text-slate-400 uppercase tracking-widest flex items-center gap-2">
+                  <span className="flex h-2 w-2 rounded-full bg-blue-600"></span>
+                  Metabolic & Longevity Insights
+                </h3>
+                <span className="text-[10px] bg-blue-100 text-blue-700 font-extrabold px-2 py-0.5 rounded-md uppercase">3 Articles</span>
+              </div>
+              <div className="space-y-6">
+                {homeBlogSample.left.map((post) => (
+                  <Link 
+                    key={post.slug} 
+                    href={`/blog?slug=${post.slug}`}
+                    className="block bg-white p-6 rounded-2xl border border-slate-200 hover:border-blue-400 hover:shadow-md transition-all group"
+                  >
+                    <div className="flex gap-4 items-start">
+                      <span className="text-3xl p-3 bg-slate-50 rounded-xl group-hover:bg-blue-50 transition-colors shrink-0">
+                        {post.icon}
+                      </span>
+                      <div className="space-y-2">
+                        <div className="flex items-center gap-2 text-[10px] font-bold text-slate-400 uppercase tracking-wide">
+                          <span className="text-blue-600 font-extrabold">{post.category}</span>
+                          <span>&bull;</span>
+                          <span>{post.date}</span>
+                          <span>&bull;</span>
+                          <span>{post.readTime}</span>
+                        </div>
+                        <h4 className="font-extrabold text-slate-800 group-hover:text-blue-600 transition-colors leading-snug text-base">
+                          {post.title}
+                        </h4>
+                        <p className="text-xs text-slate-500 leading-relaxed line-clamp-2">
+                          {post.summary}
+                        </p>
+                        <div className="inline-flex items-center gap-1 text-xs font-bold text-blue-600 group-hover:gap-2 transition-all pt-1">
+                          Read Research Publication &rarr;
+                        </div>
+                      </div>
+                    </div>
+                  </Link>
+                ))}
+              </div>
+            </div>
+
+            {/* Right Column (3 posts) */}
+            <div className="space-y-6">
+              <div className="border-b border-slate-200 pb-3 flex items-center justify-between">
+                <h3 className="text-sm font-bold text-slate-400 uppercase tracking-widest flex items-center gap-2">
+                  <span className="flex h-2 w-2 rounded-full bg-indigo-600"></span>
+                  Reconstitution & Healing Research
+                </h3>
+                <span className="text-[10px] bg-indigo-100 text-indigo-700 font-extrabold px-2 py-0.5 rounded-md uppercase">3 Articles</span>
+              </div>
+              <div className="space-y-6">
+                {homeBlogSample.right.map((post) => (
+                  <Link 
+                    key={post.slug} 
+                    href={`/blog?slug=${post.slug}`}
+                    className="block bg-white p-6 rounded-2xl border border-slate-200 hover:border-indigo-400 hover:shadow-md transition-all group"
+                  >
+                    <div className="flex gap-4 items-start">
+                      <span className="text-3xl p-3 bg-slate-50 rounded-xl group-hover:bg-indigo-50 transition-colors shrink-0">
+                        {post.icon}
+                      </span>
+                      <div className="space-y-2">
+                        <div className="flex items-center gap-2 text-[10px] font-bold text-slate-400 uppercase tracking-wide">
+                          <span className="text-indigo-600 font-extrabold">{post.category}</span>
+                          <span>&bull;</span>
+                          <span>{post.date}</span>
+                          <span>&bull;</span>
+                          <span>{post.readTime}</span>
+                        </div>
+                        <h4 className="font-extrabold text-slate-800 group-hover:text-indigo-600 transition-colors leading-snug text-base">
+                          {post.title}
+                        </h4>
+                        <p className="text-xs text-slate-500 leading-relaxed line-clamp-2">
+                          {post.summary}
+                        </p>
+                        <div className="inline-flex items-center gap-1 text-xs font-bold text-indigo-600 group-hover:gap-2 transition-all pt-1">
+                          Read Research Publication &rarr;
+                        </div>
+                      </div>
+                    </div>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          </div>
+
+          <div className="text-center mt-12">
+            <Link 
+              href="/blog" 
+              className="inline-flex items-center gap-2 bg-slate-800 hover:bg-slate-900 text-white font-bold text-sm px-8 py-3.5 rounded-xl shadow-lg transition-all hover:scale-105 active:scale-95"
+            >
+              Explore Full Science Hub Directory
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth="2.5" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+              </svg>
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* Interactive Accordion FAQs section */}
       <section className="bg-slate-50 py-20 px-6 md:px-12 border-t border-b border-slate-100">
         <div className="container mx-auto">
@@ -293,7 +485,19 @@ export default function Home() {
             <p className="text-slate-500 text-sm">Everything you need to know about our compound syntheses, quality control protocols, and UK courier fulfillment.</p>
           </div>
 
-          <FaqAccordion />
+          <FaqAccordion limit={3} />
+
+          <div className="text-center mt-12">
+            <Link 
+              href="/faq" 
+              className="inline-flex items-center gap-2 bg-slate-800 hover:bg-slate-900 text-white font-bold text-sm px-8 py-3.5 rounded-xl shadow-lg transition-all hover:scale-105 active:scale-95"
+            >
+              View All Frequently Asked Questions
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth="2.5" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+              </svg>
+            </Link>
+          </div>
         </div>
       </section>
 
@@ -304,7 +508,7 @@ export default function Home() {
             <summary className="list-none flex items-center justify-between p-6 cursor-pointer select-none font-extrabold text-slate-800 text-sm md:text-base hover:bg-slate-100/70 transition-colors">
               <span className="flex items-center gap-2.5">
                 <span className="p-1.5 bg-blue-100 text-blue-700 rounded-lg text-xs">🔬</span>
-                <span>Expanded Clinical Reference & SEO Research Directory (UK Market)</span>
+                <span>Expanded Clinical Reference Research Directory (UK Market)</span>
               </span>
               <span className="transition-transform duration-300 group-open:rotate-180 text-slate-400">
                 <svg className="w-5 h-5 stroke-[2.5]" fill="none" stroke="currentColor" viewBox="0 0 24 24">

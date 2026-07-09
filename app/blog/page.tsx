@@ -429,6 +429,26 @@ export default function BlogPage() {
   const [selectedCategory, setSelectedCategory] = useState<string>('All');
   const [activePost, setActivePost] = useState<BlogPost | null>(null);
 
+  React.useEffect(() => {
+    if (typeof window !== 'undefined') {
+      const params = new URLSearchParams(window.location.search);
+      const slugParam = params.get('slug');
+      const hashParam = window.location.hash.replace('#', '');
+      const targetSlug = slugParam || hashParam;
+      
+      if (targetSlug) {
+        const found = BLOG_POSTS.find(p => p.slug === targetSlug || p.id === targetSlug);
+        if (found) {
+          setTimeout(() => {
+            setActivePost(found);
+            // Scroll to top of container
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+          }, 0);
+        }
+      }
+    }
+  }, []);
+
   const categories = useMemo(() => {
     return ['All', 'Metabolic', 'Tissue Repair', 'Longevity', 'Guides', 'Quality'];
   }, []);
