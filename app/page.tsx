@@ -6,8 +6,19 @@ import Image from 'next/image';
 import rawProductsData from './shop/products.json';
 const productsData = rawProductsData as any[];
 
+const priorityIds = ['tirzepatide', 'bpc-157', 'retatrutide'];
+const sortedProductsData = [...productsData].sort((a, b) => {
+  const indexA = priorityIds.indexOf(a.id);
+  const indexB = priorityIds.indexOf(b.id);
+  
+  if (indexA !== -1 && indexB !== -1) return indexA - indexB;
+  if (indexA !== -1) return -1;
+  if (indexB !== -1) return 1;
+  return 0; // maintain original database order for others
+});
+
 export default function Home() {
-  const bestsellerProducts = productsData.slice(0, 8);
+  const bestsellerProducts = sortedProductsData.slice(0, 8);
 
   return (
     <div className="flex-1 flex flex-col">

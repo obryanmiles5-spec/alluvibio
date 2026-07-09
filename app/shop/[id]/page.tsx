@@ -1,5 +1,6 @@
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { notFound } from 'next/navigation';
 import { ChevronRight, ArrowLeft, Check, Shield, Truck, Package, Eye, Star, FlaskConical } from 'lucide-react';
 import type { Metadata } from 'next';
@@ -15,6 +16,15 @@ interface Product {
   badge?: string;
   stockStatus?: string;
   category?: string;
+  variants?: { strength: string; price: number }[];
+}
+
+function getStableIdNum(str: string): number {
+  let hash = 0;
+  for (let i = 0; i < str.length; i++) {
+    hash = str.charCodeAt(i) + ((hash << 5) - hash);
+  }
+  return Math.abs(hash);
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ id: string }> }): Promise<Metadata> {
@@ -98,8 +108,8 @@ export default async function ProductPage({ params }: { params: Promise<{ id: st
     },
     "aggregateRating": {
       "@type": "AggregateRating",
-      "ratingValue": (4.8 + (parseInt(product.id) % 3) * 0.1).toFixed(1),
-      "reviewCount": 20 + parseInt(product.id) * 7
+      "ratingValue": (4.8 + (getStableIdNum(product.id) % 3) * 0.1).toFixed(1),
+      "reviewCount": 20 + (getStableIdNum(product.id) % 80)
     }
   };
 
@@ -165,37 +175,51 @@ export default async function ProductPage({ params }: { params: Promise<{ id: st
               )}
               
               <div className="relative w-full max-w-md aspect-square rounded-xl overflow-hidden shadow-lg border border-slate-200 bg-white flex flex-col items-center justify-center p-8">
-                <div className="absolute inset-0 opacity-[0.04]" style={{ backgroundImage: 'radial-gradient(#2563eb 1px, transparent 1px)', backgroundSize: '20px 20px' }}></div>
-                
-                <div className="w-24 h-24 rounded-full bg-blue-50/80 flex items-center justify-center border border-blue-100 shadow-md mb-4 transition-transform duration-500 hover:scale-105">
-                  <FlaskConical className="w-12 h-12 text-blue-600 stroke-[1.5]" />
-                </div>
-                
-                <div className="text-center z-10">
-                  <h4 className="text-xs font-black text-blue-600 tracking-widest uppercase">LABORATORY COMPLIANT</h4>
-                  <p className="text-[10px] text-slate-400 font-bold uppercase tracking-wider mt-1">99.8% Certified Purity • No Image Policy</p>
-                </div>
-                
-                {/* Decorative chemical formula style layout */}
-                <div className="absolute bottom-4 right-4 text-[10px] font-mono text-slate-300 select-none pointer-events-none">
-                  C₁₄₂H₂24N₄0O₄5S₃
-                </div>
-                
-                {/* Authentic Lab Watermark / Product Stamp */}
-                <div className="absolute bottom-4 left-4 z-20 pointer-events-none select-none">
-                  <div className="bg-slate-900/85 backdrop-blur-md border border-slate-700/50 rounded-full px-3 py-2 flex items-center gap-2 shadow-[0_4px_12px_rgba(0,0,0,0.15)]">
-                    <div className="w-5 h-5 rounded-full bg-blue-500/20 border border-blue-400/40 flex items-center justify-center shrink-0">
-                      <svg className="w-3 h-3 text-blue-400 fill-current" viewBox="0 0 24 24">
-                        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
-                      </svg>
-                    </div>
-                    <div className="flex flex-col">
-                      <span className="text-[9px] font-black text-white leading-none uppercase tracking-widest">UK PEPTIDES</span>
-                      <span className="text-[7px] font-semibold text-blue-300 leading-none uppercase tracking-wider mt-0.5">VERIFIED</span>
-                    </div>
+                {product.image && product.image.trim() !== '' ? (
+                  <div className="absolute inset-0 w-full h-full">
+                    <Image
+                      src={product.image}
+                      alt={product.name}
+                      fill
+                      className="object-contain p-4 transition-transform duration-500 hover:scale-105"
+                      referrerPolicy="no-referrer"
+                      priority
+                    />
                   </div>
-                </div>
-                
+                ) : (
+                  <>
+                    <div className="absolute inset-0 opacity-[0.04]" style={{ backgroundImage: 'radial-gradient(#2563eb 1px, transparent 1px)', backgroundSize: '20px 20px' }}></div>
+                    
+                    <div className="w-24 h-24 rounded-full bg-blue-50/80 flex items-center justify-center border border-blue-100 shadow-md mb-4 transition-transform duration-500 hover:scale-105">
+                      <FlaskConical className="w-12 h-12 text-blue-600 stroke-[1.5]" />
+                    </div>
+                    
+                    <div className="text-center z-10">
+                      <h4 className="text-xs font-black text-blue-600 tracking-widest uppercase">LABORATORY COMPLIANT</h4>
+                      <p className="text-[10px] text-slate-400 font-bold uppercase tracking-wider mt-1">99.8% Certified Purity • No Image Policy</p>
+                    </div>
+                    
+                    {/* Decorative chemical formula style layout */}
+                    <div className="absolute bottom-4 right-4 text-[10px] font-mono text-slate-300 select-none pointer-events-none">
+                      C₁₄₂H₂24N₄0O₄5S₃
+                    </div>
+                    
+                    {/* Authentic Lab Watermark / Product Stamp */}
+                    <div className="absolute bottom-4 left-4 z-20 pointer-events-none select-none">
+                      <div className="bg-slate-900/85 backdrop-blur-md border border-slate-700/50 rounded-full px-3 py-2 flex items-center gap-2 shadow-[0_4px_12px_rgba(0,0,0,0.15)]">
+                        <div className="w-5 h-5 rounded-full bg-blue-500/20 border border-blue-400/40 flex items-center justify-center shrink-0">
+                          <svg className="w-3 h-3 text-blue-400 fill-current" viewBox="0 0 24 24">
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                          </svg>
+                        </div>
+                        <div className="flex flex-col">
+                          <span className="text-[9px] font-black text-white leading-none uppercase tracking-widest">UK PEPTIDES</span>
+                          <span className="text-[7px] font-semibold text-blue-300 leading-none uppercase tracking-wider mt-0.5">VERIFIED</span>
+                        </div>
+                      </div>
+                    </div>
+                  </>
+                )}
               </div>
             </div>
 
@@ -212,7 +236,7 @@ export default async function ProductPage({ params }: { params: Promise<{ id: st
                 </span>
                 <span className="flex items-center gap-1.5 text-orange-600 text-xs font-bold bg-orange-50 px-3 py-1 rounded-full uppercase tracking-wider animate-pulse">
                   <Eye className="w-3 h-3" />
-                  {12 + (parseInt(product.id) % 35)} viewing right now
+                  {12 + (getStableIdNum(product.id) % 35)} viewing right now
                 </span>
 
               </div>
@@ -230,14 +254,9 @@ export default async function ProductPage({ params }: { params: Promise<{ id: st
                   <Star className="w-4 h-4 fill-current" />
                   <Star className="w-4 h-4 fill-current" />
                 </div>
-                <span className="text-sm font-bold text-slate-700">{(4.8 + (parseInt(product.id) % 3) * 0.1).toFixed(1)}</span>
-                <span className="text-sm font-medium text-blue-600 underline cursor-pointer">{20 + parseInt(product.id) * 7} reviews</span>
+                <span className="text-sm font-bold text-slate-700">{(4.8 + (getStableIdNum(product.id) % 3) * 0.1).toFixed(1)}</span>
+                <span className="text-sm font-medium text-blue-600 underline cursor-pointer">{20 + (getStableIdNum(product.id) % 80)} reviews</span>
               </div>
-
-              
-              <p className="text-3xl font-extrabold text-blue-600 mb-6">
-                £{product.price.toFixed(2)}
-              </p>
               
               <div className="prose prose-slate prose-sm mb-8">
                 <p>

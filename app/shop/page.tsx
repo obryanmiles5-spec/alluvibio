@@ -4,7 +4,7 @@ import { useState } from 'react';
 import ProductCard from '@/components/ProductCard';
 import { Filter, ChevronDown, Search, ChevronLeft, ChevronRight } from 'lucide-react';
 import rawProductsData from './products.json';
-const productsData = rawProductsData as any[];
+const rawProducts = rawProductsData as any[];
 
 interface Product {
   id: string;
@@ -14,9 +14,21 @@ interface Product {
   badge?: string;
   stockStatus?: string;
   category?: string;
+  variants?: { strength: string; price: number }[];
 }
 
-const products: Product[] = productsData as Product[];
+const priorityIds = ['tirzepatide', 'bpc-157', 'retatrutide'];
+const sortedProducts = [...rawProducts].sort((a, b) => {
+  const indexA = priorityIds.indexOf(a.id);
+  const indexB = priorityIds.indexOf(b.id);
+  
+  if (indexA !== -1 && indexB !== -1) return indexA - indexB;
+  if (indexA !== -1) return -1;
+  if (indexB !== -1) return 1;
+  return 0; // maintain original database order for others
+});
+
+const products: Product[] = sortedProducts as Product[];
 
 export default function Shop() {
   const [currentPage, setCurrentPage] = useState(1);

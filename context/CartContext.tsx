@@ -4,15 +4,17 @@ import React, { createContext, useContext, useState, useEffect } from 'react';
 
 export interface CartItem {
   id: string;
+  productId?: string;
   name: string;
   price: number;
   quantity: number;
   image: string;
+  strength?: string;
 }
 
 interface CartContextType {
   cart: CartItem[];
-  addToCart: (product: { id: string; name: string; price: number; image: string }) => void;
+  addToCart: (product: { id: string; name: string; price: number; image: string; strength?: string }) => void;
   removeFromCart: (id: string) => void;
   updateQuantity: (id: string, quantity: number) => void;
   clearCart: () => void;
@@ -60,15 +62,26 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
     }
   }, [cart, isLoaded]);
 
-  const addToCart = (product: { id: string; name: string; price: number; image: string }) => {
+  const addToCart = (product: { id: string; name: string; price: number; image: string; strength?: string }) => {
+    const cartItemId = product.strength ? `${product.id}-${product.strength}` : product.id;
+    const cartItemName = product.strength ? `${product.name} (${product.strength})` : product.name;
+
     setCart((prevCart) => {
-      const existingItem = prevCart.find((item) => item.id === product.id);
+      const existingItem = prevCart.find((item) => item.id === cartItemId);
       if (existingItem) {
         return prevCart.map((item) =>
-          item.id === product.id ? { ...item, quantity: item.quantity + 1 } : item
+          item.id === cartItemId ? { ...item, quantity: item.quantity + 1 } : item
         );
       }
-      return [...prevCart, { ...product, quantity: 1 }];
+      return [...prevCart, {
+        id: cartItemId,
+        productId: product.id,
+        name: cartItemName,
+        price: product.price,
+        image: product.image,
+        strength: product.strength,
+        quantity: 1
+      }];
     });
     setIsCartOpen(true); // Open the cart side drawer automatically
   };

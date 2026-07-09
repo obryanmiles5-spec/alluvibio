@@ -1,11 +1,1649 @@
 [
   {
-    "id": "1",
-    "name": "BPC-157 5mg",
-    "price": 24.99,
-    "image": "https://ik.imagekit.io/ukpeptides/Shop%20Images/BPC-157.webp",
-    "badge": "Popular",
+    "id": "5-amino-1mq",
+    "slug": "5-amino-1mq",
+    "name": "5-Amino-1MQ",
+    "category": "Wellness",
+    "description": "5-Amino-1MQ is a specialized compound intended exclusively for laboratory research and analytical studies. Our product features a verified purity level of 99%+ to ensure consistent quality in every assay. Available for rapid UK dispatch, this substance is intended for research use only. It is strictly not for human consumption, therapeutic, or diagnostic applications. Researchers must adhere to established safety protocols when utilizing this chemical for in vitro investigations. We emphasize that this material does not possess any medical claims and must be handled only by qualified professionals in controlled environments.",
+    "badge": "",
     "stockStatus": "In Stock",
-    "category": "Peptides"
+    "image": "https://ik.imagekit.io/ukpeptides/Shop%20Images/5-AMINO-1MQ.jpg",
+    "gallery": [
+      "https://ik.imagekit.io/ukpeptides/Shop%20Images/5-AMINO-1MQ.jpg"
+    ],
+    "price": 45,
+    "variants": [
+      {
+        "strength": "50mg",
+        "price": 45
+      },
+      {
+        "strength": "100mg",
+        "price": 75
+      }
+    ]
+  },
+  {
+    "id": "ace-031",
+    "slug": "ace-031",
+    "name": "ACE-031",
+    "category": "Research Chemicals",
+    "description": "ACE-031 is provided as a high-grade reagent for advanced laboratory research, demonstrating a purity of 99%+ to satisfy rigorous experimental requirements. We prioritize quality management and offer convenient UK dispatch for all orders. This product is intended for research use only and must not be used for human consumption, therapeutic, or diagnostic applications. It serves as a tool for in vitro cellular analysis rather than medical intervention. Investigators are advised that no health claims are associated with this compound, and its use is strictly limited to authorized laboratory-based investigative procedures.",
+    "badge": "",
+    "stockStatus": "In Stock",
+    "image": "https://ik.imagekit.io/ukpeptides/Shop%20Images/ACE%20031.avif",
+    "gallery": [
+      "https://ik.imagekit.io/ukpeptides/Shop%20Images/ACE%20031.avif"
+    ],
+    "price": 39,
+    "variants": [
+      {
+        "strength": "1mg",
+        "price": 39
+      },
+      {
+        "strength": "5mg",
+        "price": 119
+      }
+    ]
+  },
+  {
+    "id": "admax",
+    "slug": "admax",
+    "name": "ADMAX",
+    "category": "Wellness",
+    "description": "ADMAX is a specialized chemical agent designed for strictly defined laboratory research purposes, maintaining a purity standard of 99%+ for optimal experimental quality. With efficient UK dispatch, researchers can readily access this material for controlled analytical studies. This compound is strictly for research use only and is not intended for human consumption, therapeutic, or diagnostic applications. No medical or health claims are attributed to this substance, which must be utilized solely by professionals conducting cell assays. Safety and compliance with standard laboratory procedures remain mandatory during all handling of this reagent.",
+    "badge": "",
+    "stockStatus": "In Stock",
+    "image": "https://ik.imagekit.io/ukpeptides/Shop%20Images/ADMAX.webp",
+    "gallery": [
+      "https://ik.imagekit.io/ukpeptides/Shop%20Images/ADMAX.webp"
+    ],
+    "price": 28,
+    "variants": [
+      {
+        "strength": "10mg",
+        "price": 28
+      },
+      {
+        "strength": "20mg",
+        "price": 48
+      }
+    ]
+  },
+  {
+    "id": "ahk-cu",
+    "slug": "ahk-cu",
+    "name": "AHK-Cu",
+    "category": "Wellness",
+    "description": "AHK-Cu is formulated as a high-purity chemical reagent (99%+) intended for professional laboratory research and biochemical analysis. We guarantee superior quality and offer rapid UK dispatch to support ongoing scientific inquiries. This product is strictly for research use only and is not for human consumption, therapeutic, or diagnostic applications. The material lacks any medical or health-related benefits and should be handled with professional caution within academic or industrial settings. Researchers must ensure that all use of this compound is directed toward controlled cell assays and established analytical methodology.",
+    "badge": "",
+    "stockStatus": "In Stock",
+    "image": "https://ik.imagekit.io/ukpeptides/Shop%20Images/AHK-CU.webp",
+    "gallery": [
+      "https://ik.imagekit.io/ukpeptides/Shop%20Images/AHK-CU.webp"
+    ],
+    "price": 29,
+    "variants": [
+      {
+        "strength": "50mg",
+        "price": 29
+      },
+      {
+        "strength": "100mg",
+        "price": 49
+      }
+    ]
+  },
+  {
+    "id": "aod-9604",
+    "slug": "aod-9604",
+    "name": "AOD-9604",
+    "category": "Weight Loss",
+    "description": "AOD-9604 is supplied for professional laboratory research, upholding a purity level of 99%+ to ensure absolute experimental quality. Available via prompt UK dispatch, this agent is intended for research use only. It is strictly not for human consumption, therapeutic, or diagnostic applications under any circumstances. We provide no medical or health claims for this substance; its utility is confined to in vitro analytical studies. Qualified personnel must maintain rigorous safety standards when utilizing this compound in laboratory cell assays, ensuring all procedures adhere to institutional ethical and experimental guidelines.",
+    "badge": "",
+    "stockStatus": "In Stock",
+    "image": "https://ik.imagekit.io/ukpeptides/Shop%20Images/AOD9604.webp",
+    "gallery": [
+      "https://ik.imagekit.io/ukpeptides/Shop%20Images/AOD9604.webp"
+    ],
+    "price": 26,
+    "variants": [
+      {
+        "strength": "2mg",
+        "price": 26
+      },
+      {
+        "strength": "5mg",
+        "price": 42
+      },
+      {
+        "strength": "10mg",
+        "price": 74
+      }
+    ]
+  },
+  {
+    "id": "ara-290",
+    "slug": "ara-290",
+    "name": "ARA-290 (Cibinetide)",
+    "category": "Wellness",
+    "description": "ARA-290 (Cibinetide) is a research-grade compound intended for in vitro laboratory research, featuring a verified purity of 99%+ for maximum scientific quality. We provide fast UK dispatch for all laboratory requirements. This product is intended for research use only and is strictly not for human consumption, therapeutic, or diagnostic applications. We do not make medical or health claims regarding this reagent, which should be used solely for controlled cell assays. Proper safety protocols must be followed during storage and handling to ensure the integrity of your experimental data and compliance.",
+    "badge": "",
+    "stockStatus": "In Stock",
+    "image": "https://ik.imagekit.io/ukpeptides/Shop%20Images/ARA290%20(Cibinetide).png",
+    "gallery": [
+      "https://ik.imagekit.io/ukpeptides/Shop%20Images/ARA290%20(Cibinetide).png"
+    ],
+    "price": 34,
+    "variants": [
+      {
+        "strength": "5mg",
+        "price": 34
+      },
+      {
+        "strength": "10mg",
+        "price": 58
+      }
+    ]
+  },
+  {
+    "id": "acetic-acid-water",
+    "slug": "acetic-acid-water",
+    "name": "Acetic Acid Water",
+    "category": "Laboratory Supplies",
+    "description": "Acetic Acid Water is a laboratory-grade solution designed for precise laboratory research and chemical dilution applications. With a guaranteed high-purity profile and consistent quality, this reagent is available for efficient UK dispatch. This product is intended for research use only and is strictly not for human consumption, therapeutic, or diagnostic applications. There are no health or medical claims associated with this solution, which must be utilized solely within authorized scientific facilities for analytical purposes. Researchers are encouraged to handle this material according to standard laboratory safety, chemical, and experimental protocols.",
+    "badge": "",
+    "stockStatus": "In Stock",
+    "image": "https://ik.imagekit.io/ukpeptides/Shop%20Images/Acetic%20acid%20water.jpg",
+    "gallery": [
+      "https://ik.imagekit.io/ukpeptides/Shop%20Images/Acetic%20acid%20water.jpg"
+    ],
+    "price": 8,
+    "variants": [
+      {
+        "strength": "10ml",
+        "price": 8
+      },
+      {
+        "strength": "30ml",
+        "price": 18
+      }
+    ]
+  },
+  {
+    "id": "adipotide",
+    "slug": "adipotide",
+    "name": "Adipotide (FTTP)",
+    "category": "Weight Loss",
+    "description": "Adipotide (FTTP) is provided as a specialized reagent for laboratory research, offering a purity level of 99%+ to support high-quality scientific inquiry. With reliable UK dispatch, researchers can utilize this compound for controlled analytical studies. This material is strictly for research use only and must not be used for human consumption, therapeutic, or diagnostic applications. We expressly state that this product has no medical or health claims. It is reserved for professional use in validated cell assays, requiring strict adherence to institutional safety standards and objective scientific methodology throughout all testing.",
+    "badge": "",
+    "stockStatus": "In Stock",
+    "image": "https://ik.imagekit.io/ukpeptides/Shop%20Images/Adipotide_FTTP.png",
+    "gallery": [
+      "https://ik.imagekit.io/ukpeptides/Shop%20Images/Adipotide_FTTP.png"
+    ],
+    "price": 32,
+    "variants": [
+      {
+        "strength": "2mg",
+        "price": 32
+      },
+      {
+        "strength": "5mg",
+        "price": 54
+      },
+      {
+        "strength": "10mg",
+        "price": 88
+      }
+    ]
+  },
+  {
+    "id": "aicar",
+    "slug": "aicar",
+    "name": "AICAR",
+    "category": "Wellness",
+    "description": "AICAR is a high-purity chemical reagent (99%+) engineered for professional laboratory research and in vitro experimentation. We maintain strict quality control and offer expedited UK dispatch for all orders. This product is designated for research use only and is strictly not for human consumption, therapeutic, or diagnostic applications. We provide no medical or health claims for this compound. Its use is limited to authorized scientific investigations and controlled cell assays performed by qualified professionals. All handling must comply with established safety protocols to maintain the accuracy and validity of the research.",
+    "badge": "",
+    "stockStatus": "In Stock",
+    "image": "https://ik.imagekit.io/ukpeptides/Shop%20Images/Aicar.png",
+    "gallery": [
+      "https://ik.imagekit.io/ukpeptides/Shop%20Images/Aicar.png"
+    ],
+    "price": 38,
+    "variants": [
+      {
+        "strength": "50mg",
+        "price": 38
+      },
+      {
+        "strength": "100mg",
+        "price": 68
+      }
+    ]
+  },
+  {
+    "id": "vitamin-b12",
+    "slug": "vitamin-b12",
+    "name": "Vitamin B12",
+    "category": "Wellness",
+    "description": "Vitamin B12 is supplied for professional laboratory research, featuring a high purity level of 99%+ to ensure superior experimental quality. We offer efficient UK dispatch to support academic and clinical investigative environments. This product is intended for research use only and is strictly not for human consumption, therapeutic, or diagnostic applications. There are no health or medical claims associated with this material, which is to be used exclusively for analytical cell assays. All users must operate within standard laboratory settings, adhering to safety regulations when utilizing this analytical-grade compound.",
+    "badge": "",
+    "stockStatus": "In Stock",
+    "image": "https://ik.imagekit.io/ukpeptides/Shop%20Images/B12.jpg",
+    "gallery": [
+      "https://ik.imagekit.io/ukpeptides/Shop%20Images/B12.jpg"
+    ],
+    "price": 15,
+    "variants": [
+      {
+        "strength": "10ml",
+        "price": 15
+      },
+      {
+        "strength": "30ml",
+        "price": 35
+      }
+    ]
+  },
+  {
+    "id": "bpc-157-tb-500-combo",
+    "slug": "bpc-157-tb-500-combo",
+    "name": "BPC-157 + TB-500 (Combo)",
+    "category": "Peptides",
+    "description": "The BPC-157 + TB-500 combo is a high-purity research reagent (99%+) designed specifically for professional laboratory research and analytical cell assays. We prioritize quality assurance and provide reliable UK dispatch for all scientific orders. This combination product is intended for research use only and is strictly not for human consumption, therapeutic, or diagnostic applications. We make no medical or health claims regarding the effects of this compound. It must be handled solely by qualified researchers in controlled, institutional settings to ensure experimental precision and safety during all authorized scientific study processes.",
+    "badge": "",
+    "stockStatus": "In Stock",
+    "image": "https://ik.imagekit.io/ukpeptides/Shop%20Images/BPC%2010mg+TB10mg.jpg",
+    "gallery": [
+      "https://ik.imagekit.io/ukpeptides/Shop%20Images/BPC%2010mg+TB10mg.jpg",
+      "https://ik.imagekit.io/ukpeptides/Shop%20Images/BPC%205mg+TB5mg.avif"
+    ],
+    "price": 48,
+    "variants": [
+      {
+        "strength": "5mg+5mg",
+        "price": 48
+      },
+      {
+        "strength": "10mg+10mg",
+        "price": 84
+      }
+    ]
+  },
+  {
+    "id": "bpc-157",
+    "slug": "bpc-157",
+    "name": "BPC-157",
+    "category": "Peptides",
+    "description": "BPC-157 is an analytical-grade chemical provided for laboratory research with a verified purity of 99%+. This high-quality reagent is available for immediate UK dispatch to support advanced investigative studies. This product is intended for research use only and is strictly not for human consumption, therapeutic, or diagnostic applications. No medical or health claims are associated with this compound, which must be utilized only for professional in vitro cell assays. Researchers are expected to follow rigorous safety guidelines and scientific best practices while handling this chemical in a strictly controlled laboratory environment.",
+    "badge": "",
+    "stockStatus": "In Stock",
+    "image": "https://ik.imagekit.io/ukpeptides/Shop%20Images/BPC-157.webp",
+    "gallery": [
+      "https://ik.imagekit.io/ukpeptides/Shop%20Images/BPC-157.webp",
+      "https://ik.imagekit.io/ukpeptides/Shop%20Images/BPC%20157.webp"
+    ],
+    "price": 26,
+    "variants": [
+      {
+        "strength": "5mg",
+        "price": 26
+      },
+      {
+        "strength": "10mg",
+        "price": 46
+      }
+    ]
+  },
+  {
+    "id": "botulinum-toxin",
+    "slug": "botulinum-toxin",
+    "name": "Botulinum Toxin",
+    "category": "Wellness",
+    "description": "Botulinum Toxin is a highly specialized reagent designed for professional laboratory research and controlled in vitro analysis. We ensure a purity level of 99%+ to maintain experimental quality and offer secure UK dispatch for authorized institutions. This product is intended for research use only and is strictly not for human consumption, therapeutic, or diagnostic applications. We do not make medical or health claims for this compound. Its use is restricted to qualified experts conducting laboratory-based assays. All handling must strictly follow safety regulations to ensure compliance within research settings.",
+    "badge": "",
+    "stockStatus": "In Stock",
+    "image": "https://ik.imagekit.io/ukpeptides/Shop%20Images/Botulinum%20toxin.jpg",
+    "gallery": [
+      "https://ik.imagekit.io/ukpeptides/Shop%20Images/Botulinum%20toxin.jpg"
+    ],
+    "price": 79,
+    "variants": [
+      {
+        "strength": "100 Units",
+        "price": 79
+      },
+      {
+        "strength": "200 Units",
+        "price": 139
+      }
+    ]
+  },
+  {
+    "id": "cjc-1295-without-dac-ipamorelin-combo",
+    "slug": "cjc-1295-without-dac-ipamorelin-combo",
+    "name": "CJC-1295 (without DAC) + Ipamorelin (Combo)",
+    "category": "Peptides",
+    "description": "This premium CJC-1295 (without DAC) and Ipamorelin combination peptide is manufactured to the highest quality standards, boasting a verified purity of 99%+. Developed strictly for laboratory research and in vitro cell assays, this compound is essential for advanced analytical studies. We guarantee prompt UK dispatch for all orders. This product is intended for research use only and is strictly not for human consumption, nor should it be utilized in therapeutic or diagnostic applications. It must be handled by trained laboratory personnel in a controlled scientific environment.",
+    "badge": "",
+    "stockStatus": "In Stock",
+    "image": "https://ik.imagekit.io/ukpeptides/Shop%20Images/CJC%201295%20(without%20DAC)%2010mg+IPA.avif",
+    "gallery": [
+      "https://ik.imagekit.io/ukpeptides/Shop%20Images/CJC%201295%20(without%20DAC)%2010mg+IPA.avif",
+      "https://ik.imagekit.io/ukpeptides/Shop%20Images/CJC%201295%20(without%20DAC)%205mg+IPA.webp"
+    ],
+    "price": 45,
+    "variants": [
+      {
+        "strength": "5mg+5mg",
+        "price": 45
+      },
+      {
+        "strength": "10mg+10mg",
+        "price": 79
+      }
+    ]
+  },
+  {
+    "id": "cjc-1295-without-dac",
+    "slug": "cjc-1295-without-dac",
+    "name": "CJC-1295 (without DAC)",
+    "category": "Peptides",
+    "description": "Our CJC-1295 (without DAC) is synthesized to ensure an exceptional quality profile, maintaining a verified purity of 99%+ for reliable experimental consistency. Engineered for laboratory research, this peptide is designed exclusively for in vitro cell assays and comparative analytical studies. Available with rapid UK dispatch, it is supplied strictly for research use only. This compound is strictly not for human consumption, therapeutic, or diagnostic applications. It must be utilized solely by qualified professionals within controlled scientific laboratories to investigate chemical properties and interactions.",
+    "badge": "",
+    "stockStatus": "In Stock",
+    "image": "https://ik.imagekit.io/ukpeptides/Shop%20Images/CJC%201295%20(without%20DAC).webp",
+    "gallery": [
+      "https://ik.imagekit.io/ukpeptides/Shop%20Images/CJC%201295%20(without%20DAC).webp"
+    ],
+    "price": 19,
+    "variants": [
+      {
+        "strength": "2mg",
+        "price": 19
+      },
+      {
+        "strength": "5mg",
+        "price": 29
+      },
+      {
+        "strength": "10mg",
+        "price": 49
+      }
+    ]
+  },
+  {
+    "id": "cjc-1295-with-dac",
+    "slug": "cjc-1295-with-dac",
+    "name": "CJC-1295 (with DAC)",
+    "category": "Peptides",
+    "description": "This CJC-1295 (with DAC) formulation is produced to the highest quality standards, delivering a verified purity of 99%+ to ensure experimental precision. Specifically formulated for laboratory research and in vitro cell assays, this product supports rigorous scientific investigation and biochemical analysis. We guarantee rapid UK dispatch for all reference standards. This peptide is for research use only and is strictly not for human consumption, therapeutic, or diagnostic applications. No clinical efficacy is implied, and its use is confined strictly to in vitro laboratory settings.",
+    "badge": "",
+    "stockStatus": "In Stock",
+    "image": "https://ik.imagekit.io/ukpeptides/Shop%20Images/CJC1295%20with%20DAC.webp",
+    "gallery": [
+      "https://ik.imagekit.io/ukpeptides/Shop%20Images/CJC1295%20with%20DAC.webp"
+    ],
+    "price": 22,
+    "variants": [
+      {
+        "strength": "2mg",
+        "price": 22
+      },
+      {
+        "strength": "5mg",
+        "price": 34
+      },
+      {
+        "strength": "10mg",
+        "price": 58
+      }
+    ]
+  },
+  {
+    "id": "cagrilintide",
+    "slug": "cagrilintide",
+    "name": "Cagrilintide",
+    "category": "Weight Loss",
+    "description": "Our Cagrilintide reference material is synthesized to meet outstanding standards of quality, ensuring a certified purity of 99%+ for reliable in vitro applications. This reagent is intended solely for laboratory research and cell assay methodologies within established scientific facilities. We provide dependable UK dispatch to support your ongoing investigational projects. This chemical is designated for research use only and is strictly not for human consumption, therapeutic, or diagnostic applications. It is not intended to treat, cure, or diagnose any medical condition, serving only as an analytical standard.",
+    "badge": "",
+    "stockStatus": "In Stock",
+    "image": "https://ik.imagekit.io/ukpeptides/Shop%20Images/Cagrilintide.webp",
+    "gallery": [
+      "https://ik.imagekit.io/ukpeptides/Shop%20Images/Cagrilintide.webp"
+    ],
+    "price": 44,
+    "variants": [
+      {
+        "strength": "5mg",
+        "price": 44
+      },
+      {
+        "strength": "10mg",
+        "price": 74
+      }
+    ]
+  },
+  {
+    "id": "cartalax",
+    "slug": "cartalax",
+    "name": "Cartalax",
+    "category": "Peptides",
+    "description": "Cartalax is a high-grade research peptide developed for rigorous in vitro modeling and laboratory research. Formulated with a guaranteed purity of 99%+, this compound meets the stringent quality requirements of scientific investigations. Available for immediate UK dispatch, it is optimized for analytical profiling and cellular assay systems. This product is for research use only and is strictly not for human consumption, therapeutic, or diagnostic applications. It must not be administered to humans or animals under any circumstances, remaining confined strictly to laboratory experimental environments.",
+    "badge": "",
+    "stockStatus": "In Stock",
+    "image": "https://ik.imagekit.io/ukpeptides/Shop%20Images/Cartalax.png",
+    "gallery": [
+      "https://ik.imagekit.io/ukpeptides/Shop%20Images/Cartalax.png"
+    ],
+    "price": 24,
+    "variants": [
+      {
+        "strength": "10mg",
+        "price": 24
+      },
+      {
+        "strength": "20mg",
+        "price": 39
+      }
+    ]
+  },
+  {
+    "id": "dsip",
+    "slug": "dsip",
+    "name": "DSIP (Delta Sleep-Inducing Peptide)",
+    "category": "Wellness",
+    "description": "Our DSIP (Delta Sleep-Inducing Peptide) is prepared under rigorous standards of quality to provide a minimum purity of 99%+ for scientific evaluation. Synthesized strictly for laboratory research, this compound is ideal for examining cell assays and in vitro physiological pathways. Every order features secure and prompt UK dispatch. This peptide is intended for research use only and is strictly not for human consumption, therapeutic, or diagnostic applications. It should only be handled by trained professionals within an authorized laboratory research environment to ensure protocol safety.",
+    "badge": "",
+    "stockStatus": "In Stock",
+    "image": "https://ik.imagekit.io/ukpeptides/Shop%20Images/DSIP.jpg",
+    "gallery": [
+      "https://ik.imagekit.io/ukpeptides/Shop%20Images/DSIP.jpg"
+    ],
+    "price": 18,
+    "variants": [
+      {
+        "strength": "2mg",
+        "price": 18
+      },
+      {
+        "strength": "5mg",
+        "price": 28
+      },
+      {
+        "strength": "10mg",
+        "price": 48
+      }
+    ]
+  },
+  {
+    "id": "epo",
+    "slug": "epo",
+    "name": "EPO (Erythropoietin)",
+    "category": "Research Chemicals",
+    "description": "Erythropoietin (EPO) is a premium chemical standard engineered for advanced laboratory research and high-precision in vitro analysis. This product meets exceptional quality specifications, ensuring a verified purity of 99%+ for reproducible assay results. We provide fast and reliable UK dispatch to facilitate timely academic and scientific projects. This product is prepared for research use only and is strictly not for human consumption, therapeutic, or diagnostic applications. It must not be utilized for clinical trials or animal testing, serving solely as a reference standard for laboratory research settings.",
+    "badge": "",
+    "stockStatus": "In Stock",
+    "image": "https://ik.imagekit.io/ukpeptides/Shop%20Images/EPO.png",
+    "gallery": [
+      "https://ik.imagekit.io/ukpeptides/Shop%20Images/EPO.png"
+    ],
+    "price": 49,
+    "variants": [
+      {
+        "strength": "3000 IU",
+        "price": 49
+      },
+      {
+        "strength": "10000 IU",
+        "price": 129
+      }
+    ]
+  },
+  {
+    "id": "epithalon",
+    "slug": "epithalon",
+    "name": "Epithalon",
+    "category": "Peptides",
+    "description": "Our Epithalon is synthesized to strict quality specifications, guaranteeing an excellent purity profile of 99%+ for consistent in vitro evaluations. Formulated strictly for laboratory research, this compound is ideal for investigating cellular aging mechanisms and assay models. All orders are processed with secure UK dispatch for rapid delivery to research institutions. This peptide is supplied for research use only and is strictly not for human consumption, therapeutic, or diagnostic applications. It should be handled by qualified personnel solely within professional laboratories to examine molecular characteristics.",
+    "badge": "",
+    "stockStatus": "In Stock",
+    "image": "https://ik.imagekit.io/ukpeptides/Shop%20Images/Epithalon.webp",
+    "gallery": [
+      "https://ik.imagekit.io/ukpeptides/Shop%20Images/Epithalon.webp"
+    ],
+    "price": 24,
+    "variants": [
+      {
+        "strength": "10mg",
+        "price": 24
+      },
+      {
+        "strength": "50mg",
+        "price": 69
+      },
+      {
+        "strength": "100mg",
+        "price": 119
+      }
+    ]
+  },
+  {
+    "id": "ghk-cu",
+    "slug": "ghk-cu",
+    "name": "GHK-Cu",
+    "category": "Wellness",
+    "description": "GHK-Cu is an analytical-grade copper peptide manufactured to meet the highest industry quality standards, boasting a verified purity of 99%+. Designed strictly for laboratory research, it is ideal for in vitro cell assays and molecular interaction profiling. We offer rapid, secure UK dispatch on all shipments to support scientific workflow efficiency. This compound is for research use only and is strictly not for human consumption, therapeutic, or diagnostic applications. It contains no therapeutic properties and must be handled in conformity with standard laboratory safety protocols.",
+    "badge": "",
+    "stockStatus": "In Stock",
+    "image": "https://ik.imagekit.io/ukpeptides/Shop%20Images/GHK-Cu.webp",
+    "gallery": [
+      "https://ik.imagekit.io/ukpeptides/Shop%20Images/GHK-Cu.webp"
+    ],
+    "price": 28,
+    "variants": [
+      {
+        "strength": "50mg",
+        "price": 28
+      },
+      {
+        "strength": "100mg",
+        "price": 48
+      }
+    ]
+  },
+  {
+    "id": "ghrp-6",
+    "slug": "ghrp-6",
+    "name": "GHRP-6",
+    "category": "Peptides",
+    "description": "GHRP-6 is a premium peptide optimized for laboratory research and in vitro biochemical modeling. Manufactured to achieve an exceptional quality benchmark, this product carries a verified purity of 99%+ for reproducible outcomes in scientific trials. We ensure fast UK dispatch for all research inquiries. This compound is intended strictly for research use only and is strictly not for human consumption, therapeutic, or diagnostic applications. Under no circumstances should this peptide be administered to living subjects, as it is reserved exclusively for laboratory study and test assay setups.",
+    "badge": "",
+    "stockStatus": "In Stock",
+    "image": "https://ik.imagekit.io/ukpeptides/Shop%20Images/GHRP-6.webp",
+    "gallery": [
+      "https://ik.imagekit.io/ukpeptides/Shop%20Images/GHRP-6.webp"
+    ],
+    "price": 18,
+    "variants": [
+      {
+        "strength": "5mg",
+        "price": 18
+      },
+      {
+        "strength": "10mg",
+        "price": 32
+      }
+    ]
+  },
+  {
+    "id": "glow",
+    "slug": "glow",
+    "name": "GLOW (BPC-157 + GHK-Cu + TB-500)",
+    "category": "Wellness",
+    "description": "The GLOW combination formulation, incorporating BPC-157, GHK-Cu, and TB-500, is engineered under the highest quality standards, yielding a compound purity of 99%+. Designed for comprehensive laboratory research, it serves as a valuable tool for comparative cell assays and molecular research projects. All orders are backed by secure UK dispatch. This multi-peptide mixture is for research use only and is strictly not for human consumption, therapeutic, or diagnostic applications. It should be used exclusively by trained scientific personnel inside a certified, fully equipped laboratory environment.",
+    "badge": "",
+    "stockStatus": "In Stock",
+    "image": "https://ik.imagekit.io/ukpeptides/Shop%20Images/GLOW%20(BPC157%2010mg+GHK-CU%2050mg+TB500%2010mg).jpg",
+    "gallery": [
+      "https://ik.imagekit.io/ukpeptides/Shop%20Images/GLOW%20(BPC157%2010mg+GHK-CU%2050mg+TB500%2010mg).jpg",
+      "https://ik.imagekit.io/ukpeptides/Shop%20Images/GLOW%20(BPC157%205mg+GHK-CU%2035mg+TB500%2010mg).jpg"
+    ],
+    "price": 59,
+    "variants": [
+      {
+        "strength": "5mg + 35mg + 10mg",
+        "price": 59
+      },
+      {
+        "strength": "10mg + 50mg + 10mg",
+        "price": 98
+      }
+    ]
+  },
+  {
+    "id": "glutathione",
+    "slug": "glutathione",
+    "name": "Glutathione",
+    "category": "Wellness",
+    "description": "Our Glutathione standard is synthesized specifically to maintain an outstanding quality profile, ensuring a verified purity of 99%+ for precise experimental modeling. Perfect for analytical laboratory research, this compound is engineered strictly for in vitro cellular assays and scientific validation. We provide efficient, trackable UK dispatch to support your academic studies. This product is intended strictly for research use only and is strictly not for human consumption, therapeutic, or diagnostic applications. It must not be used to treat or diagnose illnesses, remaining exclusively an analytical standard for laboratory settings.",
+    "badge": "",
+    "stockStatus": "In Stock",
+    "image": "https://ik.imagekit.io/ukpeptides/Shop%20Images/Glutathione.avif",
+    "gallery": [
+      "https://ik.imagekit.io/ukpeptides/Shop%20Images/Glutathione.avif"
+    ],
+    "price": 22,
+    "variants": [
+      {
+        "strength": "600mg",
+        "price": 22
+      },
+      {
+        "strength": "1200mg",
+        "price": 38
+      },
+      {
+        "strength": "2400mg",
+        "price": 68
+      }
+    ]
+  },
+  {
+    "id": "hcg",
+    "slug": "hcg",
+    "name": "HCG (Human Chorionic Gonadotropin)",
+    "category": "Wellness",
+    "description": "This HCG (Human Chorionic Gonadotropin) reference compound is produced under strict quality control protocols to ensure a guaranteed purity of 99%+. Designed strictly for laboratory research, this reagent supports standard in vitro cell assays and comparative biochemistry experiments. We offer fast, dependable UK dispatch for all authorized laboratories. This product is for research use only and is strictly not for human consumption, therapeutic, or diagnostic applications. Its purchase is limited to professional research institutions where it must be utilized solely for analytical studies within controlled scientific laboratories.",
+    "badge": "",
+    "stockStatus": "In Stock",
+    "image": "https://ik.imagekit.io/ukpeptides/Shop%20Images/HCG.jpg",
+    "gallery": [
+      "https://ik.imagekit.io/ukpeptides/Shop%20Images/HCG.jpg"
+    ],
+    "price": 28,
+    "variants": [
+      {
+        "strength": "5000 IU",
+        "price": 28
+      },
+      {
+        "strength": "10000 IU",
+        "price": 48
+      }
+    ]
+  },
+  {
+    "id": "hgh-fragment-176-191",
+    "slug": "hgh-fragment-176-191",
+    "name": "HGH Fragment 176-191",
+    "category": "Weight Loss",
+    "description": "Our premium HGH Fragment 176-191 is synthesized to meet the highest quality standards for in vitro laboratory research and analytical studies. Featuring an exceptional purity of 99%+, this compound is optimized as a reference agent for laboratory cell assays. Available with fast UK dispatch, it is provided strictly for research use only. This chemical substance is explicitly not for human consumption, therapeutic use, or diagnostic applications. Researchers must adhere to standard safety protocols during experimental evaluation of this peptide.",
+    "badge": "",
+    "stockStatus": "In Stock",
+    "image": "https://ik.imagekit.io/ukpeptides/Shop%20Images/HGH%20Fragment%20176-191.avif",
+    "gallery": [
+      "https://ik.imagekit.io/ukpeptides/Shop%20Images/HGH%20Fragment%20176-191.avif"
+    ],
+    "price": 19,
+    "variants": [
+      {
+        "strength": "2mg",
+        "price": 19
+      },
+      {
+        "strength": "5mg",
+        "price": 29
+      },
+      {
+        "strength": "10mg",
+        "price": 49
+      }
+    ]
+  },
+  {
+    "id": "igf-1-lr3",
+    "slug": "igf-1-lr3",
+    "name": "IGF-1 LR3",
+    "category": "Peptides",
+    "description": "The IGF-1 LR3 peptide is manufactured with a guaranteed purity of 99%+, ensuring reliable performance in cellular modeling. Engineered for rigorous laboratory research, this high-quality compound serves as an ideal reagent for in vitro cell assays. We offer rapid UK dispatch for all orders, strictly for research use only. Please note that this product is absolutely not for human consumption, nor is it approved for therapeutic, medical, or diagnostic applications in humans or animals.",
+    "badge": "",
+    "stockStatus": "In Stock",
+    "image": "https://ik.imagekit.io/ukpeptides/Shop%20Images/IGF-1%20LR3.jpg",
+    "gallery": [
+      "https://ik.imagekit.io/ukpeptides/Shop%20Images/IGF-1%20LR3.jpg"
+    ],
+    "price": 36,
+    "variants": [
+      {
+        "strength": "1mg",
+        "price": 36
+      }
+    ]
+  },
+  {
+    "id": "ipamorelin",
+    "slug": "ipamorelin",
+    "name": "Ipamorelin",
+    "category": "Peptides",
+    "description": "This premium-grade Ipamorelin peptide is developed specifically to support advanced laboratory research and comparative analytical assays. Boasting an ultra-high purity of 99%+, the formulation ensures consistent experimental quality across all in vitro studies. Dispatched directly from our facility with prompt UK dispatch, this item is sold strictly for research use only. It is not for human consumption, and all therapeutic, clinical, or diagnostic applications are strictly prohibited under any circumstances.",
+    "badge": "",
+    "stockStatus": "In Stock",
+    "image": "https://ik.imagekit.io/ukpeptides/Shop%20Images/Ipamorelin.webp",
+    "gallery": [
+      "https://ik.imagekit.io/ukpeptides/Shop%20Images/Ipamorelin.webp"
+    ],
+    "price": 16,
+    "variants": [
+      {
+        "strength": "2mg",
+        "price": 16
+      },
+      {
+        "strength": "5mg",
+        "price": 24
+      },
+      {
+        "strength": "10mg",
+        "price": 42
+      }
+    ]
+  },
+  {
+    "id": "klow",
+    "slug": "klow",
+    "name": "KLOW (BPC-157 + GHK-Cu + TB-500 + KPV)",
+    "category": "Wellness",
+    "description": "Our KLOW peptide blend, combining BPC-157, GHK-Cu, TB-500, and KPV, is meticulously formulated for advanced laboratory research. With each component verified at a purity of 99%+, this high-quality mixture is designed exclusively for in vitro cell assays and biochemical analysis. Available with secure UK dispatch, this complex is supplied strictly for research use only. This formulation is not for human consumption, therapeutic use, or diagnostic applications, and must be handled by trained personnel only.",
+    "badge": "",
+    "stockStatus": "In Stock",
+    "image": "https://ik.imagekit.io/ukpeptides/Shop%20Images/KLOW%20(BPC157%2010mg+GHK-CU%2050mg+TB500%2010mg+KPV%2010mg).png",
+    "gallery": [
+      "https://ik.imagekit.io/ukpeptides/Shop%20Images/KLOW%20(BPC157%2010mg+GHK-CU%2050mg+TB500%2010mg+KPV%2010mg).png"
+    ],
+    "price": 119,
+    "variants": [
+      {
+        "strength": "10mg + 50mg + 10mg + 10mg",
+        "price": 119
+      }
+    ]
+  },
+  {
+    "id": "kpv",
+    "slug": "kpv",
+    "name": "KPV",
+    "category": "Wellness",
+    "description": "This high-grade KPV peptide is synthesized to meet strict laboratory research standards, offering a certified purity of 99%+ for reliable experimental results. It serves as an essential reagent for in vitro molecular screening and laboratory cell assays where quality is paramount. Provided with fast UK dispatch, this compound is intended strictly for research use only. It is absolutely not for human consumption, therapeutic administration, or diagnostic procedures under any conditions.",
+    "badge": "",
+    "stockStatus": "In Stock",
+    "image": "https://ik.imagekit.io/ukpeptides/Shop%20Images/KPV.webp",
+    "gallery": [
+      "https://ik.imagekit.io/ukpeptides/Shop%20Images/KPV.webp"
+    ],
+    "price": 28,
+    "variants": [
+      {
+        "strength": "10mg",
+        "price": 28
+      },
+      {
+        "strength": "20mg",
+        "price": 48
+      }
+    ]
+  },
+  {
+    "id": "kisspeptin-10",
+    "slug": "kisspeptin-10",
+    "name": "Kisspeptin-10",
+    "category": "Wellness",
+    "description": "Our Kisspeptin-10 is a highly purified peptide developed exclusively for scientific inquiry and laboratory research. Engineered to deliver a purity of 99%+, this quality-tested reagent is optimized for receptor-binding studies and in vitro cell assays. Available for rapid UK dispatch, the product is distributed strictly for research use only. It must be noted that this peptide is not for human consumption, nor is it suitable for therapeutic, clinical, or diagnostic applications.",
+    "badge": "",
+    "stockStatus": "In Stock",
+    "image": "https://ik.imagekit.io/ukpeptides/Shop%20Images/Kisspeptin-10.jpg",
+    "gallery": [
+      "https://ik.imagekit.io/ukpeptides/Shop%20Images/Kisspeptin-10.jpg"
+    ],
+    "price": 24,
+    "variants": [
+      {
+        "strength": "5mg",
+        "price": 24
+      },
+      {
+        "strength": "10mg",
+        "price": 42
+      }
+    ]
+  },
+  {
+    "id": "l-carnitine",
+    "slug": "l-carnitine",
+    "name": "L-Carnitine",
+    "category": "Wellness",
+    "description": "This analytical-grade L-Carnitine compound is specifically prepared to facilitate in vitro laboratory research and metabolic cell assays. Featuring a verified purity of 99%+, the product represents the highest quality standard for scientific investigation. Shipped promptly via UK dispatch, this chemical is provided strictly for research use only. Under no circumstances is this substance intended for human consumption, nor should it be used for therapeutic, diagnostic, or medical applications.",
+    "badge": "",
+    "stockStatus": "In Stock",
+    "image": "https://ik.imagekit.io/ukpeptides/Shop%20Images/L-carnitine.webp",
+    "gallery": [
+      "https://ik.imagekit.io/ukpeptides/Shop%20Images/L-carnitine.webp"
+    ],
+    "price": 22,
+    "variants": [
+      {
+        "strength": "5g (500mg/ml, 10ml)",
+        "price": 22
+      },
+      {
+        "strength": "10g (500mg/ml, 20ml)",
+        "price": 38
+      }
+    ]
+  },
+  {
+    "id": "ll-37",
+    "slug": "ll-37",
+    "name": "LL-37",
+    "category": "Research Chemicals",
+    "description": "The LL-37 peptide is a premium research chemical synthesized with an advanced purity profile of 99%+. Designed for rigorous laboratory research, this quality-assured compound is ideal for examining cellular interactions in controlled in vitro laboratory assays. Available for direct UK dispatch, this reagent is offered strictly for research use only. This material is not for human consumption, and all therapeutic, clinical, dietary, or diagnostic applications are completely prohibited.",
+    "badge": "",
+    "stockStatus": "In Stock",
+    "image": "https://ik.imagekit.io/ukpeptides/Shop%20Images/LL37.jpg",
+    "gallery": [
+      "https://ik.imagekit.io/ukpeptides/Shop%20Images/LL37.jpg"
+    ],
+    "price": 34,
+    "variants": [
+      {
+        "strength": "2mg",
+        "price": 34
+      },
+      {
+        "strength": "5mg",
+        "price": 58
+      }
+    ]
+  },
+  {
+    "id": "lemon-bottle",
+    "slug": "lemon-bottle",
+    "name": "Lemon Bottle Lipolysis",
+    "category": "Weight Loss",
+    "description": "This Lemon Bottle Lipolysis formulation is prepared solely as a reference standard for laboratory research and analytical characterization. Synthesized to high quality standards with a verified chemical purity of 99%+, this solution is engineered for in vitro cell assays. Shipped efficiently via UK dispatch, this product is restricted strictly for research use only. It is explicitly not for human consumption, cosmetic use, or any therapeutic or diagnostic applications in vivo.",
+    "badge": "",
+    "stockStatus": "In Stock",
+    "image": "https://ik.imagekit.io/ukpeptides/Shop%20Images/Lemon%20Bottle.webp",
+    "gallery": [
+      "https://ik.imagekit.io/ukpeptides/Shop%20Images/Lemon%20Bottle.webp"
+    ],
+    "price": 24,
+    "variants": [
+      {
+        "strength": "1x10ml Vial",
+        "price": 24
+      },
+      {
+        "strength": "5x10ml Box",
+        "price": 89
+      }
+    ]
+  },
+  {
+    "id": "lipo-c-compound",
+    "slug": "lipo-c-compound",
+    "name": "Lipo-C Compound",
+    "category": "Weight Loss",
+    "description": "Our Lipo-C Compound is a high-quality chemical mixture prepared specifically for in vitro laboratory research and analytical testing. Featuring a certified purity of 99%+, this formulation is intended for baseline reference and cell assay studies. Delivered with expedited UK dispatch, this product is supplied strictly for research use only. Under no circumstances should this compound be used for human consumption, medical therapies, or diagnostic procedures of any kind.",
+    "badge": "",
+    "stockStatus": "In Stock",
+    "image": "https://ik.imagekit.io/ukpeptides/Shop%20Images/Lipo-c%20Compound.webp",
+    "gallery": [
+      "https://ik.imagekit.io/ukpeptides/Shop%20Images/Lipo-c%20Compound.webp"
+    ],
+    "price": 24,
+    "variants": [
+      {
+        "strength": "10ml",
+        "price": 24
+      },
+      {
+        "strength": "30ml",
+        "price": 54
+      }
+    ]
+  },
+  {
+    "id": "mic-lipo-c-with-b12",
+    "slug": "mic-lipo-c-with-b12",
+    "name": "MIC (Lipo C with Vitamin B12)",
+    "category": "Weight Loss",
+    "description": "This MIC (Lipo C with Vitamin B12) compound is prepared as a high-purity reference material for in vitro laboratory research. Formulated to meet rigorous quality benchmarks with a purity of 99%+, this reagent is optimized for cellular culture assays. Available with prompt UK dispatch, it is distributed strictly for research use only. This product is strictly not for human consumption, clinical injection, therapeutic intervention, or diagnostic applications under any circumstances.",
+    "badge": "",
+    "stockStatus": "In Stock",
+    "image": "https://ik.imagekit.io/ukpeptides/Shop%20Images/MIC%20(Lipo%20C%20with%20B12).webp",
+    "gallery": [
+      "https://ik.imagekit.io/ukpeptides/Shop%20Images/MIC%20(Lipo%20C%20with%20B12).webp"
+    ],
+    "price": 26,
+    "variants": [
+      {
+        "strength": "10ml",
+        "price": 26
+      },
+      {
+        "strength": "30ml",
+        "price": 58
+      }
+    ]
+  },
+  {
+    "id": "mots-c",
+    "slug": "mots-c",
+    "name": "MOTS-c",
+    "category": "Wellness",
+    "description": "Our MOTS-c peptide is synthesized under stringent laboratory conditions to guarantee an exceptional purity level of 99%+. Developed for advanced scientific inquiry and laboratory research, this high-quality compound is ideal for in vitro cell assays. Offered with prompt UK dispatch, this product is made available strictly for research use only. It is explicitly not for human consumption, nor is it approved for therapeutic, medical, or diagnostic applications.",
+    "badge": "",
+    "stockStatus": "In Stock",
+    "image": "https://ik.imagekit.io/ukpeptides/Shop%20Images/MOTS-c.webp",
+    "gallery": [
+      "https://ik.imagekit.io/ukpeptides/Shop%20Images/MOTS-c.webp"
+    ],
+    "price": 34,
+    "variants": [
+      {
+        "strength": "10mg",
+        "price": 34
+      },
+      {
+        "strength": "20mg",
+        "price": 58
+      }
+    ]
+  },
+  {
+    "id": "melanotan-i",
+    "slug": "melanotan-i",
+    "name": "Melanotan I (MT-1)",
+    "category": "Wellness",
+    "description": "The Melanotan I (MT-1) peptide is produced to meet the highest quality standards for in vitro laboratory research and biochemical assays. With a guaranteed purity of 99%+, this premium compound provides consistent baseline performance for scientific investigation. Shipped swiftly via UK dispatch, this item is sold strictly for research use only. This substance is strictly not for human consumption, therapeutic administration, cosmetic purposes, or diagnostic applications.",
+    "badge": "",
+    "stockStatus": "In Stock",
+    "image": "https://ik.imagekit.io/ukpeptides/Shop%20Images/MT-1%20(Melanotan%20I).png",
+    "gallery": [
+      "https://ik.imagekit.io/ukpeptides/Shop%20Images/MT-1%20(Melanotan%20I).png"
+    ],
+    "price": 22,
+    "variants": [
+      {
+        "strength": "10mg",
+        "price": 22
+      },
+      {
+        "strength": "20mg",
+        "price": 38
+      }
+    ]
+  },
+  {
+    "id": "matrixyl",
+    "slug": "matrixyl",
+    "name": "Matrixyl 3000",
+    "category": "Wellness",
+    "description": "This high-quality Matrixyl 3000 peptide is manufactured specifically for laboratory research and analytical studies. Boasting a certified purity of 99%+, this compound ensures consistent and reproducible results in laboratory cell assays. Available for prompt UK dispatch, our product is designed strictly for research use only. Please note that this biochemical agent is not intended for human consumption, therapeutic use, or diagnostic applications. It must be handled only by qualified professionals in controlled experimental settings. Order today to secure the highest quality reagents for your clinical research initiatives.",
+    "badge": "",
+    "stockStatus": "In Stock",
+    "image": "https://ik.imagekit.io/ukpeptides/Shop%20Images/Matrixyl.jpg",
+    "gallery": [
+      "https://ik.imagekit.io/ukpeptides/Shop%20Images/Matrixyl.jpg"
+    ],
+    "price": 18,
+    "variants": [
+      {
+        "strength": "10mg",
+        "price": 18
+      },
+      {
+        "strength": "50mg",
+        "price": 48
+      }
+    ]
+  },
+  {
+    "id": "mazdutide",
+    "slug": "mazdutide",
+    "name": "Mazdutide",
+    "category": "Weight Loss",
+    "description": "Our premium Mazdutide is synthesized to the highest industry quality standards, featuring a purity profile of 99%+ to support rigorous laboratory research and analytical testing. This product is formulated exclusively for research use only, serving as a reliable reagent in laboratory cell assays and scientific investigations. It is available for reliable UK dispatch. Under no circumstances is this compound intended for human consumption, therapeutic applications, or diagnostic use. Researchers should handle this material in accordance with established safety protocols to ensure accurate and objective experimental outcomes.",
+    "badge": "",
+    "stockStatus": "In Stock",
+    "image": "https://ik.imagekit.io/ukpeptides/Shop%20Images/Mazdutide.png",
+    "gallery": [
+      "https://ik.imagekit.io/ukpeptides/Shop%20Images/Mazdutide.png"
+    ],
+    "price": 38,
+    "variants": [
+      {
+        "strength": "5mg",
+        "price": 38
+      },
+      {
+        "strength": "10mg",
+        "price": 64
+      }
+    ]
+  },
+  {
+    "id": "melanotan-ii",
+    "slug": "melanotan-ii",
+    "name": "Melanotan II",
+    "category": "Wellness",
+    "description": "This premium Melanotan II is prepared specifically to meet the strict demands of laboratory research and standard analytical studies. Engineered with an exceptional purity of 99%+, this high-quality compound ensures optimal performance in laboratory cell assays. Available for rapid UK dispatch, our formulation is strictly for research use only. This product is not for human consumption, therapeutic therapies, or diagnostic applications. It must be utilized solely by trained laboratory staff in controlled scientific environments to ensure objective investigation and precise analytical screening.",
+    "badge": "",
+    "stockStatus": "In Stock",
+    "image": "https://ik.imagekit.io/ukpeptides/Shop%20Images/Melanotan%20II%20MT-2%20(Melanotan%202%20Acetate).webp",
+    "gallery": [
+      "https://ik.imagekit.io/ukpeptides/Shop%20Images/Melanotan%20II%20MT-2%20(Melanotan%202%20Acetate).webp",
+      "https://ik.imagekit.io/ukpeptides/Shop%20Images/Melanotan%20II%2010mg.jpg"
+    ],
+    "price": 28,
+    "variants": [
+      {
+        "strength": "10mg",
+        "price": 28
+      },
+      {
+        "strength": "20mg",
+        "price": 48
+      }
+    ]
+  },
+  {
+    "id": "melatonin",
+    "slug": "melatonin",
+    "name": "Melatonin",
+    "category": "Wellness",
+    "description": "Our laboratory-grade Melatonin compound is sourced to guarantee superior quality and an analytical purity of 99%+. Developed strictly for research use only, this product is ideal for in vitro laboratory cell assays and general laboratory research studies. It is ready for immediate UK dispatch to support your ongoing scientific experiments. Please be advised that this substance is strictly not for human consumption, therapeutic diagnostics, or clinical applications of any kind. All procedures should be conducted in compliance with professional laboratory safety guidelines.",
+    "badge": "",
+    "stockStatus": "In Stock",
+    "image": "https://ik.imagekit.io/ukpeptides/Shop%20Images/Melatonin.webp",
+    "gallery": [
+      "https://ik.imagekit.io/ukpeptides/Shop%20Images/Melatonin.webp"
+    ],
+    "price": 14,
+    "variants": [
+      {
+        "strength": "10mg",
+        "price": 14
+      },
+      {
+        "strength": "20mg",
+        "price": 24
+      }
+    ]
+  },
+  {
+    "id": "nad",
+    "slug": "nad",
+    "name": "NAD+",
+    "category": "Wellness",
+    "description": "This high-quality NAD+ reagent is engineered specifically for advanced laboratory research and diverse laboratory cell assays. Our compound features a certified purity of 99%+, ensuring maximum stability and reliability for scientific investigations. Available for prompt UK dispatch, this item is supplied strictly for research use only. It is explicitly not for human consumption, therapeutic purposes, or diagnostic applications. Ensure your facility receives the highest caliber chemical standards by utilising this premium reagent for your objective analytical studies and in vitro testing.",
+    "badge": "",
+    "stockStatus": "In Stock",
+    "image": "https://ik.imagekit.io/ukpeptides/Shop%20Images/NAD+.webp",
+    "gallery": [
+      "https://ik.imagekit.io/ukpeptides/Shop%20Images/NAD+.webp"
+    ],
+    "price": 38,
+    "variants": [
+      {
+        "strength": "500mg",
+        "price": 38
+      },
+      {
+        "strength": "1000mg",
+        "price": 68
+      }
+    ]
+  },
+  {
+    "id": "other-2s5",
+    "slug": "other-2s5",
+    "name": "Other 2S5",
+    "category": "Research Chemicals",
+    "description": "The Other 2S5 reference material is synthesized to support rigorous laboratory research and precise analytical profiling. Featuring a high purity of 99%+, this exceptional quality compound guarantees reproducible parameters during in vitro laboratory cell assays. We offer rapid UK dispatch to ensure your scientific timeline remains uninterrupted. Please note that this compound is intended strictly for research use only and is not for human consumption, therapeutic use, or any diagnostic applications. All handling must be conducted by qualified laboratory technicians.",
+    "badge": "",
+    "stockStatus": "In Stock",
+    "image": "https://ik.imagekit.io/ukpeptides/Shop%20Images/Other%202S5.jpg",
+    "gallery": [
+      "https://ik.imagekit.io/ukpeptides/Shop%20Images/Other%202S5.jpg"
+    ],
+    "price": 22,
+    "variants": [
+      {
+        "strength": "5mg",
+        "price": 22
+      },
+      {
+        "strength": "10mg",
+        "price": 38
+      }
+    ]
+  },
+  {
+    "id": "other-ms10",
+    "slug": "other-ms10",
+    "name": "Other MS10",
+    "category": "Research Chemicals",
+    "description": "Our Other MS10 chemical agent is manufactured under strict quality controls to achieve a certified purity of 99%+. Prepared exclusively for laboratory research, this compound is ideal for standardizing laboratory cell assays and related analytical trials. Available for immediate UK dispatch, our product is supplied strictly for research use only. This material is definitely not for human consumption, therapeutic use, or diagnostic applications. It should be stored and handled in a controlled environment by trained scientific professionals for objective research purposes.",
+    "badge": "",
+    "stockStatus": "In Stock",
+    "image": "https://ik.imagekit.io/ukpeptides/Shop%20Images/Other%20MS10.webp",
+    "gallery": [
+      "https://ik.imagekit.io/ukpeptides/Shop%20Images/Other%20MS10.webp"
+    ],
+    "price": 24,
+    "variants": [
+      {
+        "strength": "10mg",
+        "price": 24
+      },
+      {
+        "strength": "20mg",
+        "price": 42
+      }
+    ]
+  },
+  {
+    "id": "oxytocin-acetate",
+    "slug": "oxytocin-acetate",
+    "name": "Oxytocin Acetate",
+    "category": "Wellness",
+    "description": "This Oxytocin Acetate compound is specifically formulated to meet rigorous standards of high quality and scientific integrity. Featuring a certified purity of 99%+, this agent is ideal for laboratory research, offering reliable performance in in vitro laboratory cell assays. Ready for fast UK dispatch, this product is designed strictly for research use only. It must be explicitly understood that this compound is not for human consumption, therapeutic administration, or diagnostic applications. Please ensure all handling aligns with established institutional chemical safety protocols.",
+    "badge": "",
+    "stockStatus": "In Stock",
+    "image": "https://ik.imagekit.io/ukpeptides/Shop%20Images/Oxytocin%20Acetate.png",
+    "gallery": [
+      "https://ik.imagekit.io/ukpeptides/Shop%20Images/Oxytocin%20Acetate.png"
+    ],
+    "price": 19,
+    "variants": [
+      {
+        "strength": "5mg",
+        "price": 19
+      },
+      {
+        "strength": "10mg",
+        "price": 29
+      }
+    ]
+  },
+  {
+    "id": "pt-141",
+    "slug": "pt-141",
+    "name": "PT-141",
+    "category": "Wellness",
+    "description": "Our PT-141 peptide is produced to meet the highest industry quality benchmarks, boasting an outstanding purity profile of 99%+. This compound is intended solely for laboratory research and analytical studies, ensuring optimal stability in laboratory cell assays. Available for prompt UK dispatch, this product is intended strictly for research use only. It is not for human consumption, therapeutic treatments, or medical diagnostic applications. All experiments must be conducted by qualified personnel within a certified laboratory environment to maintain strict academic and scientific standards.",
+    "badge": "",
+    "stockStatus": "In Stock",
+    "image": "https://ik.imagekit.io/ukpeptides/Shop%20Images/PT141.webp",
+    "gallery": [
+      "https://ik.imagekit.io/ukpeptides/Shop%20Images/PT141.webp"
+    ],
+    "price": 24,
+    "variants": [
+      {
+        "strength": "10mg",
+        "price": 24
+      },
+      {
+        "strength": "20mg",
+        "price": 42
+      }
+    ]
+  },
+  {
+    "id": "pinealon",
+    "slug": "pinealon",
+    "name": "Pinealon",
+    "category": "Peptides",
+    "description": "This premium Pinealon research peptide is manufactured to rigorous quality specifications, ensuring a certified purity of 99%+. Formulated strictly for research use only, it serves as an excellent reagent for in vitro laboratory cell assays and laboratory research investigations. This product is available for immediate UK dispatch. It is critical to note that this biochemical compound is not for human consumption, therapeutic procedures, or diagnostic applications. It should only be handled by trained laboratory professionals conducting controlled, objective scientific studies.",
+    "badge": "",
+    "stockStatus": "In Stock",
+    "image": "https://ik.imagekit.io/ukpeptides/Shop%20Images/Pinealon.jpg",
+    "gallery": [
+      "https://ik.imagekit.io/ukpeptides/Shop%20Images/Pinealon.jpg"
+    ],
+    "price": 24,
+    "variants": [
+      {
+        "strength": "10mg",
+        "price": 24
+      },
+      {
+        "strength": "20mg",
+        "price": 42
+      }
+    ]
+  },
+  {
+    "id": "retatrutide",
+    "slug": "retatrutide",
+    "name": "Retatrutide",
+    "category": "Weight Loss",
+    "description": "Our high-quality Retatrutide peptide is synthesized with a verified purity of 99%+ to support robust and precise scientific experimentation. This biochemical reagent is prepared exclusively for laboratory research and analytical testing, ensuring reliable outcomes in laboratory cell assays. Available for immediate UK dispatch, this compound is provided strictly for research use only. Under no circumstances should this product be used for human consumption, therapeutic procedures, or diagnostic applications. It must be stored and evaluated only within a certified research facility.",
+    "badge": "BEST SELLER",
+    "stockStatus": "In Stock",
+    "image": "https://ik.imagekit.io/ukpeptides/Shop%20Images/Retatrutide.webp",
+    "gallery": [
+      "https://ik.imagekit.io/ukpeptides/Shop%20Images/Retatrutide.webp"
+    ],
+    "price": 54,
+    "variants": [
+      {
+        "strength": "5mg",
+        "price": 54
+      },
+      {
+        "strength": "10mg",
+        "price": 88
+      },
+      {
+        "strength": "15mg",
+        "price": 118
+      },
+      {
+        "strength": "20mg",
+        "price": 138
+      },
+      {
+        "strength": "30mg",
+        "price": 168
+      },
+      {
+        "strength": "40mg",
+        "price": 213
+      },
+      {
+        "strength": "50mg",
+        "price": 260
+      },
+      {
+        "strength": "60mg",
+        "price": 330
+      }
+    ]
+  },
+  {
+    "id": "ss-31",
+    "slug": "ss-31",
+    "name": "SS-31",
+    "category": "Wellness",
+    "description": "This SS-31 research peptide is produced to the highest quality standards, featuring a certified purity of 99%+ for reproducible experimental assays. Specially formulated for laboratory research, it is ideal for evaluating cellular pathways during in vitro laboratory cell assays. Our compound is ready for fast UK dispatch and is supplied strictly for research use only. This material is not for human consumption, therapeutic treatments, or diagnostic applications. Researchers must handle this compound strictly in accordance with laboratory safety protocols.",
+    "badge": "",
+    "stockStatus": "In Stock",
+    "image": "https://ik.imagekit.io/ukpeptides/Shop%20Images/SS-31.jpg",
+    "gallery": [
+      "https://ik.imagekit.io/ukpeptides/Shop%20Images/SS-31.jpg"
+    ],
+    "price": 34,
+    "variants": [
+      {
+        "strength": "10mg",
+        "price": 34
+      },
+      {
+        "strength": "50mg",
+        "price": 98
+      }
+    ]
+  },
+  {
+    "id": "selank",
+    "slug": "selank",
+    "name": "Selank",
+    "category": "Wellness",
+    "description": "Our high-quality Selank peptide is prepared with a verified purity level of 99%+ to ensure consistent experimental baselines. Intended solely for laboratory research and in vitro laboratory cell assays, this compound offers exceptional stability and clinical grade reliability. It is prepared for rapid UK dispatch and is intended strictly for research use only. This product must not be used for human consumption, therapeutic use, or diagnostic applications. Ensure your research outcomes remain highly objective by utilising this premium chemical standard.",
+    "badge": "",
+    "stockStatus": "In Stock",
+    "image": "https://ik.imagekit.io/ukpeptides/Shop%20Images/Selank.jpg",
+    "gallery": [
+      "https://ik.imagekit.io/ukpeptides/Shop%20Images/Selank.jpg"
+    ],
+    "price": 22,
+    "variants": [
+      {
+        "strength": "5mg",
+        "price": 22
+      },
+      {
+        "strength": "10mg",
+        "price": 38
+      }
+    ]
+  },
+  {
+    "id": "semaglutide",
+    "slug": "semaglutide",
+    "name": "Semaglutide",
+    "category": "Weight Loss",
+    "description": "Semaglutide is supplied as a high-grade peptide reagent designed exclusively for in vitro laboratory research and comparative analytical studies. Synthesized to an exceptional quality standard with a guaranteed purity of 99%+, this compound serves as a reliable reference standard in cellular assay profiling. This product is strictly for research use only and is not intended for human consumption, therapeutic, or diagnostic applications. All orders are fulfilled via prompt UK dispatch to support consistent experimental timelines. Discover superior material consistency for your scientific investigations and metabolic pathway mapping today.",
+    "badge": "POPULAR",
+    "stockStatus": "In Stock",
+    "image": "https://ik.imagekit.io/ukpeptides/Shop%20Images/Semaglutide.png",
+    "gallery": [
+      "https://ik.imagekit.io/ukpeptides/Shop%20Images/Semaglutide.png"
+    ],
+    "price": 24,
+    "variants": [
+      {
+        "strength": "2mg",
+        "price": 24
+      },
+      {
+        "strength": "5mg",
+        "price": 38
+      },
+      {
+        "strength": "10mg",
+        "price": 68
+      }
+    ]
+  },
+  {
+    "id": "semax",
+    "slug": "semax",
+    "name": "Semax",
+    "category": "Wellness",
+    "description": "Semax is a highly purified research peptide optimized for diverse laboratory research applications, including analytical biochemistry and neurological cell culture assays. Produced to meet rigorous quality benchmarks, it features an outstanding purity profile exceeding 99%. This product is provided strictly for research use only and must not be used for human consumption, or any therapeutic or diagnostic applications. Facilitated by rapid UK dispatch, our Semax reagent ensures optimal stability and reproducibility for your investigational methodologies. Secure this premium biochemical agent to maintain the integrity of your controlled laboratory protocols.",
+    "badge": "",
+    "stockStatus": "In Stock",
+    "image": "https://ik.imagekit.io/ukpeptides/Shop%20Images/Semax.webp",
+    "gallery": [
+      "https://ik.imagekit.io/ukpeptides/Shop%20Images/Semax.webp"
+    ],
+    "price": 22,
+    "variants": [
+      {
+        "strength": "5mg",
+        "price": 22
+      },
+      {
+        "strength": "10mg",
+        "price": 38
+      }
+    ]
+  },
+  {
+    "id": "sermorelin-acetate",
+    "slug": "sermorelin-acetate",
+    "name": "Sermorelin Acetate",
+    "category": "Peptides",
+    "description": "Sermorelin Acetate is a synthesized peptide manufactured for advanced laboratory research and comparative in vitro assays. Engineered with an uncompromising focus on quality, each batch offers an exceptional purity level of 99%+ to ensure precise, reproducible experimental data. This agent is designated strictly for research use only; it is not for human consumption, nor is it suitable for therapeutic or diagnostic applications of any kind. Benefit from dependable, expedited UK dispatch on all orders. Perfect your experimental controls and analytical testing protocols with this industry-standard research reagent.",
+    "badge": "",
+    "stockStatus": "In Stock",
+    "image": "https://ik.imagekit.io/ukpeptides/Shop%20Images/Sermorelin%20Acetate.jpg",
+    "gallery": [
+      "https://ik.imagekit.io/ukpeptides/Shop%20Images/Sermorelin%20Acetate.jpg"
+    ],
+    "price": 18,
+    "variants": [
+      {
+        "strength": "2mg",
+        "price": 18
+      },
+      {
+        "strength": "5mg",
+        "price": 26
+      },
+      {
+        "strength": "10mg",
+        "price": 44
+      }
+    ]
+  },
+  {
+    "id": "snap-8",
+    "slug": "snap-8",
+    "name": "Snap-8",
+    "category": "Wellness",
+    "description": "Snap-8 is a high-grade octapeptide developed specifically for scientific laboratory research and in vitro cosmetic formulation analysis. Manufactured under strict quality control standards, it features a verified purity of 99%+ to guarantee scientific accuracy in cellular and biochemical assays. This compound is offered strictly for research use only and is absolutely not for human consumption, therapeutic, or diagnostic applications. Secure high-quality reagents with fast UK dispatch to prevent disruptions in your project workflows. This product is ideal for academic, clinical, and industrial research laboratories seeking consistent experimental benchmarks.",
+    "badge": "",
+    "stockStatus": "In Stock",
+    "image": "https://ik.imagekit.io/ukpeptides/Shop%20Images/Snap8.jpg",
+    "gallery": [
+      "https://ik.imagekit.io/ukpeptides/Shop%20Images/Snap8.jpg"
+    ],
+    "price": 22,
+    "variants": [
+      {
+        "strength": "10mg",
+        "price": 22
+      },
+      {
+        "strength": "50mg",
+        "price": 68
+      }
+    ]
+  },
+  {
+    "id": "survodutide",
+    "slug": "survodutide",
+    "name": "Survodutide",
+    "category": "Weight Loss",
+    "description": "Survodutide is a premium peptide conjugate synthesized for rigorous in vitro laboratory research and receptor binding studies. This research compound meets the highest industry quality guidelines, featuring a guaranteed chemical purity of 99%+ for reliable molecular screening. This product is intended strictly for research use only; it is explicitly not for human consumption, therapeutic, or diagnostic applications under any circumstances. Ensure the continuity of your scientific projects with our prompt UK dispatch service. Trust in this highly refined peptide for all your analytical chemistry and cell-based assay requirements.",
+    "badge": "",
+    "stockStatus": "In Stock",
+    "image": "https://ik.imagekit.io/ukpeptides/Shop%20Images/Survodutide.png",
+    "gallery": [
+      "https://ik.imagekit.io/ukpeptides/Shop%20Images/Survodutide.png"
+    ],
+    "price": 38,
+    "variants": [
+      {
+        "strength": "5mg",
+        "price": 38
+      },
+      {
+        "strength": "10mg",
+        "price": 64
+      }
+    ]
+  },
+  {
+    "id": "tb-500",
+    "slug": "tb-500",
+    "name": "TB-500",
+    "category": "Peptides",
+    "description": "TB-500 is a synthetic peptide variant designed exclusively for in vitro laboratory research and cellular migration studies. Our formulation is produced to the highest specifications of quality, possessing a certified purity of 99%+ to prevent cross-contamination and ensure assay reliability. This reagent is supplied strictly for research use only and is not for human consumption, therapeutic, or diagnostic applications of any type. Benefit from swift, secure UK dispatch to keep your research facility fully stocked. Optimize your analytical methodology and baseline scientific testing with this premier laboratory standard.",
+    "badge": "",
+    "stockStatus": "In Stock",
+    "image": "https://ik.imagekit.io/ukpeptides/Shop%20Images/TB-500%205mg.jpg",
+    "gallery": [
+      "https://ik.imagekit.io/ukpeptides/Shop%20Images/TB-500%205mg.jpg"
+    ],
+    "price": 18,
+    "variants": [
+      {
+        "strength": "2mg",
+        "price": 18
+      },
+      {
+        "strength": "5mg",
+        "price": 28
+      },
+      {
+        "strength": "10mg",
+        "price": 48
+      }
+    ]
+  },
+  {
+    "id": "tesamorelin",
+    "slug": "tesamorelin",
+    "name": "Tesamorelin",
+    "category": "Peptides",
+    "description": "Tesamorelin is a highly stable synthetic peptide optimized for comparative laboratory research and endocrine pathway mapping. Engineered to maximize quality and consistency, it boasts a guaranteed analytical purity of 99%+ to support precise scientific evaluation. This product is distributed strictly for research use only and is not suitable for human consumption, therapeutic, or diagnostic applications. Our streamlined UK dispatch ensures that high-quality reagents reach your laboratory efficiently. Utilize this premium-grade peptide to maintain the accuracy, reproducibility, and rigorous standards of your scientific and biochemical investigations.",
+    "badge": "",
+    "stockStatus": "In Stock",
+    "image": "https://ik.imagekit.io/ukpeptides/Shop%20Images/Tesamorelin.jpg",
+    "gallery": [
+      "https://ik.imagekit.io/ukpeptides/Shop%20Images/Tesamorelin.jpg"
+    ],
+    "price": 24,
+    "variants": [
+      {
+        "strength": "2mg",
+        "price": 24
+      },
+      {
+        "strength": "5mg",
+        "price": 38
+      },
+      {
+        "strength": "10mg",
+        "price": 64
+      }
+    ]
+  },
+  {
+    "id": "thymalin-thymulin",
+    "slug": "thymalin-thymulin",
+    "name": "Thymalin / Thymulin",
+    "category": "Peptides",
+    "description": "Thymalin / Thymulin is a high-grade peptide complex synthesized for systematic laboratory research and immunological assay modeling. Developed under stringent quality assurance protocols, this research agent exhibits a verified chemical purity of 99%+ for reliable quantitative analysis. It is designed strictly for research use only and is not for human consumption, nor is it permitted for therapeutic or diagnostic applications. Available with reliable UK dispatch, this compound ensures consistent baseline values in your in vitro experiments. Trust this superior reagent for your analytical investigations and chemical profiling needs.",
+    "badge": "",
+    "stockStatus": "In Stock",
+    "image": "https://ik.imagekit.io/ukpeptides/Shop%20Images/Thymalin_Thymulin.jpg",
+    "gallery": [
+      "https://ik.imagekit.io/ukpeptides/Shop%20Images/Thymalin_Thymulin.jpg"
+    ],
+    "price": 22,
+    "variants": [
+      {
+        "strength": "10mg",
+        "price": 22
+      },
+      {
+        "strength": "20mg",
+        "price": 38
+      }
+    ]
+  },
+  {
+    "id": "thymosin-alpha-1",
+    "slug": "thymosin-alpha-1",
+    "name": "Thymosin Alpha-1",
+    "category": "Peptides",
+    "description": "Thymosin Alpha-1 is a highly purified synthetic peptide intended for advanced laboratory research and cell culture profiling. Produced with an unyielding commitment to quality, this product offers an exceptional purity level of 99%+, ensuring minimal experimental interference. It is formulated strictly for research use only and is absolutely not intended for human consumption, therapeutic use, or diagnostic applications. With guaranteed fast UK dispatch, you can maintain seamless project timelines. Elevate your analytical screening and academic studies with this premium, scientifically validated laboratory reagent.",
+    "badge": "",
+    "stockStatus": "In Stock",
+    "image": "https://ik.imagekit.io/ukpeptides/Shop%20Images/Thymosin%20alpha%201.webp",
+    "gallery": [
+      "https://ik.imagekit.io/ukpeptides/Shop%20Images/Thymosin%20alpha%201.webp"
+    ],
+    "price": 24,
+    "variants": [
+      {
+        "strength": "5mg",
+        "price": 24
+      },
+      {
+        "strength": "10mg",
+        "price": 42
+      }
+    ]
+  },
+  {
+    "id": "tirzepatide",
+    "slug": "tirzepatide",
+    "name": "Tirzepatide",
+    "category": "Weight Loss",
+    "description": "Tirzepatide is a premier co-agonist peptide developed exclusively for scientific laboratory research and comparative molecular weight profiling. Manufactured to the highest international quality standards, it features a confirmed chemical purity of 99%+ to ensure outstanding analytical resolution. This reagent is strictly for research use only and is not for human consumption, therapeutic, or diagnostic applications. Secure prompt delivery to your research facility with our reliable UK dispatch. Integrate this pristine compound into your in vitro testing, assay development, and metabolic pathway studies.",
+    "badge": "HOT",
+    "stockStatus": "In Stock",
+    "image": "https://ik.imagekit.io/ukpeptides/Shop%20Images/Tirzepatide.webp",
+    "gallery": [
+      "https://ik.imagekit.io/ukpeptides/Shop%20Images/Tirzepatide.webp"
+    ],
+    "price": 32,
+    "variants": [
+      {
+        "strength": "5mg",
+        "price": 32
+      },
+      {
+        "strength": "10mg",
+        "price": 52
+      },
+      {
+        "strength": "15mg",
+        "price": 72
+      },
+      {
+        "strength": "20mg",
+        "price": 92
+      },
+      {
+        "strength": "30mg",
+        "price": 128
+      }
+    ]
+  },
+  {
+    "id": "vip",
+    "slug": "vip",
+    "name": "VIP (Vasoactive Intestinal Peptide)",
+    "category": "Wellness",
+    "description": "VIP (Vasoactive Intestinal Peptide) is synthesized to premium specifications for advanced laboratory research, cellular signaling assays, and analytical studies. Engineered under rigorous quality control guidelines, this peptide provides an outstanding purity profile of 99%+ to support precise scientific results. This product is strictly for research use only and must not be used for human consumption, therapeutic, or diagnostic applications. Take advantage of our swift UK dispatch to keep your laboratory fully equipped with high-grade reagents. Ensure optimal experimental outcomes in your scientific studies with this exceptional compound.",
+    "badge": "",
+    "stockStatus": "In Stock",
+    "image": "https://ik.imagekit.io/ukpeptides/Shop%20Images/VIP.webp",
+    "gallery": [
+      "https://ik.imagekit.io/ukpeptides/Shop%20Images/VIP.webp"
+    ],
+    "price": 22,
+    "variants": [
+      {
+        "strength": "2mg",
+        "price": 22
+      },
+      {
+        "strength": "5mg",
+        "price": 38
+      }
+    ]
+  },
+  {
+    "id": "slu-pp-332",
+    "slug": "slu-pp-332",
+    "name": "SLU-PP-332",
+    "category": "Weight Loss",
+    "description": "SLU-PP-332 is a novel chemical compound designed specifically for in vitro laboratory research and mitochondrial activity profiling. Produced to strict scientific quality standards, each batch is verified to have a purity of 99%+, ensuring maximum stability for analytical assays. This research reagent is intended strictly for research use only and is not for human consumption, therapeutic, or diagnostic applications. With rapid UK dispatch, our services support uninterrupted testing schedules in your facility. Buy with confidence to secure highly consistent, premium-grade chemicals for your scientific and experimental protocols.",
+    "badge": "",
+    "stockStatus": "In Stock",
+    "image": "https://ik.imagekit.io/ukpeptides/Shop%20Images/slupp332.jpg",
+    "gallery": [
+      "https://ik.imagekit.io/ukpeptides/Shop%20Images/slupp332.jpg"
+    ],
+    "price": 28,
+    "variants": [
+      {
+        "strength": "10mg",
+        "price": 28
+      },
+      {
+        "strength": "20mg",
+        "price": 48
+      },
+      {
+        "strength": "50mg",
+        "price": 88
+      }
+    ]
+  },
+  {
+    "id": "bacteriostatic-water",
+    "slug": "bacteriostatic-water",
+    "name": "Bacteriostatic Water",
+    "category": "Laboratory Supplies",
+    "description": "Bacteriostatic Water is a sterile-filtered laboratory reagent optimized for reconstituting peptides in controlled laboratory research applications. Manufactured to the highest quality standards, this solvent features an exceptional purity of 99%+ to prevent contamination of sensitive analytical assays. It is provided strictly for research use only and is not for human consumption, therapeutic injection, or diagnostic applications. Available with prompt UK dispatch, this essential laboratory reagent ensures consistent, reliable results in your scientific trials. Maintain rigorous experimental standards and assay integrity with this premium, research-grade solvent.",
+    "badge": "",
+    "stockStatus": "In Stock",
+    "image": "",
+    "gallery": [],
+    "price": 8,
+    "variants": [
+      {
+        "strength": "10ml",
+        "price": 8
+      },
+      {
+        "strength": "20ml",
+        "price": 14
+      }
+    ]
   }
 ]

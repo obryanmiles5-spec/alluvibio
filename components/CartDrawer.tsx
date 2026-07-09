@@ -4,6 +4,7 @@ import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { X, Plus, Minus, Trash2, Mail, MessageSquare, ShoppingBag, ArrowRight, ShieldCheck, FlaskConical } from 'lucide-react';
 import { useCart } from '@/context/CartContext';
+import Image from 'next/image';
 
 export default function CartDrawer() {
   const {
@@ -325,7 +326,20 @@ export default function CartDrawer() {
                   {cart.map((item) => (
                     <div key={item.id} className="flex gap-4 p-3 bg-slate-50 border border-slate-100 rounded-xl items-center relative overflow-hidden group">
                       <div className="relative w-16 h-16 bg-blue-50/50 border border-slate-200 rounded-lg overflow-hidden flex items-center justify-center shrink-0">
-                        <FlaskConical className="w-6 h-6 text-blue-600 stroke-[1.5]" />
+                        {item.image && item.image.trim() !== '' ? (
+                          <div className="absolute inset-0 w-full h-full bg-white">
+                            <Image
+                              src={item.image}
+                              alt={item.name}
+                              fill
+                              sizes="64px"
+                              className="object-contain p-2"
+                              referrerPolicy="no-referrer"
+                            />
+                          </div>
+                        ) : (
+                          <FlaskConical className="w-6 h-6 text-blue-600 stroke-[1.5]" />
+                        )}
                       </div>
                       <div className="flex-1 min-w-0">
                         <h4 className="text-xs font-extrabold text-slate-800 truncate" title={item.name}>{item.name}</h4>
