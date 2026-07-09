@@ -82,6 +82,43 @@ export default async function ProductPage({ params }: { params: Promise<{ id: st
   }
 
   
+  const offersSchema = product.variants && product.variants.length > 0
+    ? {
+        "@type": "AggregateOffer",
+        "url": `https://buyretat.co.uk/shop/${product.id}`,
+        "priceCurrency": "GBP",
+        "lowPrice": Math.min(...product.variants.map((v: any) => v.price)).toFixed(2),
+        "highPrice": Math.max(...product.variants.map((v: any) => v.price)).toFixed(2),
+        "offerCount": product.variants.length,
+        "priceValidUntil": "2027-12-31",
+        "itemCondition": "https://schema.org/NewCondition",
+        "availability": product.stockStatus === 'Out of Stock' ? "https://schema.org/OutOfStock" : "https://schema.org/InStock",
+        "seller": {
+          "@type": "Organization",
+          "name": "UK Peptides"
+        },
+        "offers": product.variants.map((variant: any) => ({
+          "@type": "Offer",
+          "name": `${product.name} - ${variant.strength}`,
+          "price": variant.price.toFixed(2),
+          "priceCurrency": "GBP",
+          "availability": product.stockStatus === 'Out of Stock' ? "https://schema.org/OutOfStock" : "https://schema.org/InStock"
+        }))
+      }
+    : {
+        "@type": "Offer",
+        "url": `https://buyretat.co.uk/shop/${product.id}`,
+        "priceCurrency": "GBP",
+        "price": product.price.toFixed(2),
+        "priceValidUntil": "2027-12-31",
+        "itemCondition": "https://schema.org/NewCondition",
+        "availability": product.stockStatus === 'Out of Stock' ? "https://schema.org/OutOfStock" : "https://schema.org/InStock",
+        "seller": {
+          "@type": "Organization",
+          "name": "UK Peptides"
+        }
+      };
+
   const productSchema = {
     "@context": "https://schema.org",
     "@type": "Product",
@@ -93,19 +130,7 @@ export default async function ProductPage({ params }: { params: Promise<{ id: st
       "@type": "Brand",
       "name": "UK Peptides"
     },
-    "offers": {
-      "@type": "Offer",
-      "url": `https://buyretat.co.uk/shop/${product.id}`,
-      "priceCurrency": "GBP",
-      "price": product.price.toFixed(2),
-      "priceValidUntil": "2027-12-31",
-      "itemCondition": "https://schema.org/NewCondition",
-      "availability": product.stockStatus === 'Out of Stock' ? "https://schema.org/OutOfStock" : "https://schema.org/InStock",
-      "seller": {
-        "@type": "Organization",
-        "name": "UK Peptides"
-      }
-    },
+    "offers": offersSchema,
     "aggregateRating": {
       "@type": "AggregateRating",
       "ratingValue": (4.8 + (getStableIdNum(product.id) % 3) * 0.1).toFixed(1),
