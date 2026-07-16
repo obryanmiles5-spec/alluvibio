@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import rawProductsData from './products.json';
 
 export const metadata: Metadata = {
   title: 'Shop Research Peptides | UK Peptides | Buy Retatrutide UK',
@@ -33,5 +34,23 @@ export default function ShopLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return <>{children}</>;
+  const itemListSchema = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "itemListElement": rawProductsData.map((product: any, index: number) => ({
+      "@type": "ListItem",
+      "position": index + 1,
+      "url": `https://buyretat.co.uk/shop/${product.id}`
+    }))
+  };
+
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }}
+      />
+      {children}
+    </>
+  );
 }

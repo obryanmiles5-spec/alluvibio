@@ -35,6 +35,8 @@ export default function Header() {
           <button 
             className="md:hidden text-slate-600"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+            aria-label="Toggle mobile menu"
+            aria-expanded={isMobileMenuOpen}
           >
             <Menu className="w-6 h-6" />
           </button>
@@ -55,7 +57,9 @@ export default function Header() {
         </nav>
 
         <div className="flex items-center gap-4 md:gap-5 text-slate-500">
-          <Search className="w-5 h-5 cursor-pointer hover:text-blue-600 transition-colors" />
+          <button aria-label="Search" className="focus:outline-none">
+            <Search className="w-5 h-5 cursor-pointer hover:text-blue-600 transition-colors" />
+          </button>
           <button 
             onClick={() => setIsCartOpen(true)}
             className="relative p-1 text-slate-500 hover:text-blue-600 transition-colors focus:outline-none cursor-pointer"
@@ -68,21 +72,23 @@ export default function Header() {
               </span>
             )}
           </button>
-          <User className="w-5 h-5 cursor-pointer hover:text-blue-600 transition-colors" />
+          <button aria-label="User Account" className="focus:outline-none">
+            <User className="w-5 h-5 cursor-pointer hover:text-blue-600 transition-colors" />
+          </button>
         </div>
-      </header>
 
-      {/* Mobile Menu */}
-      {isMobileMenuOpen && (
-        <div className="md:hidden bg-white border-b border-slate-200 px-4 py-4 flex flex-col gap-4 text-sm font-bold text-slate-700 uppercase tracking-widest absolute w-full z-40 shadow-lg">
-          <Link href="/" onClick={() => setIsMobileMenuOpen(false)}>Home</Link>
-          <Link href="/shop" onClick={() => setIsMobileMenuOpen(false)}>Shop</Link>
-          <Link href="/blog" onClick={() => setIsMobileMenuOpen(false)}>Blog</Link>
-          <Link href="/about" onClick={() => setIsMobileMenuOpen(false)}>About</Link>
-          <Link href="/contact" onClick={() => setIsMobileMenuOpen(false)}>Contact</Link>
-          <Link href="/coas" onClick={() => setIsMobileMenuOpen(false)}>COAs</Link>
-        </div>
-      )}
+        {/* Mobile Menu */}
+        {isMobileMenuOpen && (
+          <div className="md:hidden absolute top-16 left-0 bg-white border-b border-slate-200 px-4 py-4 flex flex-col gap-4 text-sm font-bold text-slate-700 uppercase tracking-widest w-full shadow-lg">
+            <Link href="/" onClick={() => setIsMobileMenuOpen(false)}>Home</Link>
+            <Link href="/shop" onClick={() => setIsMobileMenuOpen(false)}>Shop</Link>
+            <Link href="/blog" onClick={() => setIsMobileMenuOpen(false)}>Blog</Link>
+            <Link href="/about" onClick={() => setIsMobileMenuOpen(false)}>About</Link>
+            <Link href="/contact" onClick={() => setIsMobileMenuOpen(false)}>Contact</Link>
+            <Link href="/coas" onClick={() => setIsMobileMenuOpen(false)}>COAs</Link>
+          </div>
+        )}
+      </header>
     </>
   );
 }

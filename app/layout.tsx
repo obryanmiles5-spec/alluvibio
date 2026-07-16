@@ -12,6 +12,12 @@ import LiveSalesNotification from '@/components/LiveSalesNotification';
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-sans' });
 
+export const viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 1,
+};
+
 export const metadata: Metadata = {
   title: 'UK Peptides | Buy Premium Research Peptides Online UK',
   description: 'Buy premium research peptides online in the UK. We specialize in high-purity laboratory peptides including Retatrutide, Tirzepatide, and BPC-157. Fast UK delivery.',

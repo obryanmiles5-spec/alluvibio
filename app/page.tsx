@@ -163,7 +163,7 @@ export default function Home() {
       <section className="relative h-[550px] md:h-[650px] bg-slate-950 overflow-hidden flex items-center justify-center text-center">
         {/* Cover Image */}
         <div className="absolute inset-0">
-          <Image unoptimized 
+          <Image  
             src="/Home.png"
             alt="Retatrutide UK Peptides Cover"
             fill
@@ -234,7 +234,7 @@ export default function Home() {
       {/* Trust & Service Showcase Banner */}
       <section className="bg-slate-950 text-white py-20 px-6 md:px-12 overflow-hidden relative" id="trust-service-showcase">
         <div className="absolute inset-0">
-          <Image unoptimized 
+          <Image  
             src="https://images.unsplash.com/photo-1532187643603-ba119ca4109e?auto=format&fit=crop&q=80&w=1600"
             alt="UK Peptide Research Laboratory"
             fill
@@ -308,7 +308,7 @@ export default function Home() {
       {/* Modern Customer Testimonials Slider */}
       <section className="py-24 px-6 md:px-12 overflow-hidden relative" id="researcher-testimonials-section">
         <div className="absolute inset-0">
-          <Image unoptimized 
+          <Image  
             src="https://images.unsplash.com/photo-1579165466541-74e2b490279c?auto=format&fit=crop&q=80&w=1600"
             alt="UK Peptide Research Laboratory Sterile Bottles"
             fill
